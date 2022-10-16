@@ -1,0 +1,25 @@
+{
+    "name": "Fuzz Face",
+    "author": "Arbaiter Electronics Ltd.",
+    "url": {
+        "schematic, pcb, analysis": "https://www.electrosmash.com/fuzz-face",
+        "stripboard": "",
+        "perfboard": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "2u2",
+        "C2": "10n",
+        "C3": "20u",
+        "P1": "500k",
+        "P2": "1k",
+        "R1": "33k",
+        "R2": "470",
+        "R3": "8k2",
+        "R4": "100k",
+        "T1": ["NKT275", "AC128", "Ge PNP"],
+        "T2": ["NKT275", "AC128", "Ge PNP"],
+        "U1": "9"
+    }
+}

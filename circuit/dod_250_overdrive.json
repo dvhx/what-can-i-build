@@ -1,0 +1,36 @@
+{
+    "name": "DOD 250 Overdrive",
+    "author": "David Oreste DiFrancesco",
+    "url": {
+        "schematic": "http://beavisaudio.com/schematics/DOD-250-Overdrive-Schematic.htm",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "10n",
+        "C3": "4n7",
+        "C4": "4u7",
+        "C5": "22p",
+        "C6": "1n",
+        "D1": ["1N4148", "1N914"],
+        "D2": ["1N4148", "1N914"],
+        "D3": ["1N4148", "1N914"],
+        "P1_GAIN": "500k",
+        "P2_VOLUME": "100k",
+        "Q1": "LM741",
+        "R1": "100",
+        "R2": "22k",
+        "R3": "22k",
+        "R4": "470k",
+        "R5": "2M2",
+        "R6": "10k",
+        "R7": "4k7",
+        "R8": "1M",
+        "R9": "10k",
+        "U1": "9"
+    }
+}

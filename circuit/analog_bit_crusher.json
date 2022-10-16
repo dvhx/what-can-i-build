@@ -1,0 +1,37 @@
+{
+    "name": "Analog Bit Crusher",
+    "author": "Colin Raffel",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/10/analog-bit-crusher.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "100n",
+        "C3": "1n",
+        "C4": "3n3",
+        "C5": "100n",
+        "C6": "100u",
+        "D1": ["1N914", "1N4148"],
+        "D2": ["1N914", "1N4148"],
+        "P1_Freq": "2M",
+        "Q1": "TL072",
+        "Q2": "TL072",
+        "R1": "100k",
+        "R2": "22k",
+        "R3": "1M",
+        "R4": "100k",
+        "R5": "100k",
+        "R6": "1M",
+        "R7": "1M",
+        "R8": "100",
+        "R9": "100k",
+        "R10": "1M",
+        "T1": ["J201", "2N5457"],
+        "U1": "9"
+    }
+}

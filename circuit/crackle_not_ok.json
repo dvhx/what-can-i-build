@@ -1,0 +1,26 @@
+{
+    "name": "Crackle Not OK",
+    "author": "Neve",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/crackle-not-ok.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "10u",
+        "C3": "47u",
+        "D1": "1N5819",
+        "D2": "12V ZENER",
+        "P1": "1M",
+        "R1": "100k",
+        "R2": "2M2",
+        "R3": "2M2",
+        "R4": "5k1",
+        "T1": ["BS170", "MOSFET_N"],
+        "U1": "9"
+    }
+}

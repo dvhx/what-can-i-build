@@ -1,0 +1,38 @@
+{
+    "name": "Wobbletron",
+    "author": "Escobedo",
+    "url": {
+        "article": "https://forrestwhitesides.com/tim-escobedos-folk-urban-diy-circuits/#:~:text=Wobbletron",
+        "schematic": "https://forrestwhitesides.com/wp-content/uploads/FolkUrban/Wobbletron.gif",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "R1": "2k2",
+        "R2": "22k",
+        "R3": "2M2",
+        "R4": "2M2",
+        "R5": "10k",
+        "R6": "10k",
+        "R7": "10k",
+        "R8": "220k",
+        "R9": "100k",
+        "P1_Freq": "25k",
+        "P2_Depth": "500k",
+        "T1": ["MPSA18", "2N5088"],
+        "T2": ["MPSA18", "2N5088"],
+        "T3": ["J201", "JFET_N"],
+        "C1": "1u",
+        "C2": "1u",
+        "C3": "1u",
+        "C4": "100n",
+        "C5": "100n",
+        "C6": "100n",
+        "C7": "100n",
+        "D1": "LED",
+        "U1": "9"
+    }
+}

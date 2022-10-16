@@ -1,0 +1,33 @@
+{
+    "name": "Buzztone",
+    "author": "Hofner",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2016/03/hofner-buzztone.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47u",
+        "C2": "47u",
+        "C3": "25u",
+        "C4": "25u",
+        "P1_Volume": "100k",
+        "P2_Depth": "25k",
+        "R1": "22k",
+        "R2": "8k2",
+        "R3": "8k2",
+        "R4": "56k",
+        "R5": "1k",
+        "R6": "3k3",
+        "R7": "22k",
+        "R8": "3k3",
+        "R9": "22k",
+        "T1": ["BC108B", "BC172B"],
+        "T2": ["BC108B", "BC172B"],
+        "T3": ["BC108B", "BC172B"],
+        "U1": "9"
+    }
+}

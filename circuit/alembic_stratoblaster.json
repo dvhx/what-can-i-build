@@ -1,0 +1,23 @@
+{
+    "name": "Stratoblaster",
+    "author": "Alembic",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/alembic-stratoblaster.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "1u5",
+        "C2": "10u",
+        "P1": "50k",
+        "R1": "68k",
+        "R2": "12k",
+        "R3": "22k",
+        "R4": "100k",
+        "T1": ["J201", "2N5457", "JFET_N"],
+        "U1": "9"
+    }
+}

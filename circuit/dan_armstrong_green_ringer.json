@@ -1,0 +1,40 @@
+{
+    "name": "Green Ringer",
+    "author": "Dan Armstrong",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/12/dan-armstrong-green-ringer.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47n",
+        "C2": "47n",
+        "C3": "47n",
+        "C4": "100u",
+        "C5": "100n",
+        "D1": "Diode",
+        "D2": "Diode",
+        "D3": "LED",
+        "R1": "2k2",
+        "R2": "560k",
+        "R3": "6k2",
+        "R4": "18k",
+        "R5": "160k",
+        "R6": "10k",
+        "R7": "10k",
+        "R8": "10k",
+        "R9": "1M5",
+        "R10": "22k",
+        "R11": "22k",
+        "R12": "68k",
+        "R13": "68k",
+        "R14": "47k",
+        "T1": ["2N5088", "2N5089"],
+        "T2": ["2N5088", "2N5089"],
+        "T3": "2N3906",
+        "U1": "9"
+    }
+}

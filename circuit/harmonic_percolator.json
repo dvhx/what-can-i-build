@@ -1,0 +1,32 @@
+{
+    "name": "Harmonic Percolator",
+    "author": "Ed Giese",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/07/harmonic-percolator.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47n",
+        "C2": "100p",
+        "C3": "47u",
+        "C4": "100n",
+        "C5": "100n",
+        "D1": "1N34A",
+        "D2": "1N34A",
+        "P1_Harmonics": "100k",
+        "P2_Balance": "50k",
+        "R1": "220k",
+        "R2": "20k",
+        "R3": "4k7",
+        "R4": "750k",
+        "R5": "91k",
+        "S1": "SPST",
+        "T1": "2N404A",
+        "T2": "2N3565",
+        "U1": "9"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Naga Viper",
+    "author": "Catalinbread",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/08/catalinbread-naga-viper.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47p",
+        "C2": "3n3",
+        "C3": "68n",
+        "C4": "10n",
+        "C5": "1n",
+        "C6": "40u",
+        "C7": "47u",
+        "P1_Range": "500k",
+        "P2_Heat": "1k",
+        "P3_Boost": "10k",
+        "R1": "8k2",
+        "R2": "68k",
+        "R3": "220k",
+        "T1": ["2N2222A", "2N2222", "NPN"],
+        "U1": "9"
+    }
+}

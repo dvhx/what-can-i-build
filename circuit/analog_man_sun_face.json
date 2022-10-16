@@ -1,0 +1,29 @@
+{
+    "name": "Sun Face (Germanium)",
+    "author": "Analog Man",
+    "url": {
+        "schematic": "",
+        "stripboard": "http://dirtboxlayouts.blogspot.com/2021/08/analogman-sun-face.html",
+        "perfboard": "",
+        "pcb": "",
+        "pedal": "https://www.analogman.com/fuzzface.htm"
+    },
+    "parts": {
+        "C1": "1u",
+        "C2": "22u",
+        "C3": "100n",
+        "C4": "100u",
+        "D1": ["1N5817", "1N5819", "Schottky"],
+        "PT1_Bias": "10k",
+        "PT2_Pre Gain": "50k",
+        "P3_Sundial": "5k",
+        "P4_Fuzz": "1k",
+        "P5_Volume": "250k",
+        "T1": ["NKT275", "AC128"],
+        "T2": ["NKT275", "AC128"],
+        "R1": "33k",
+        "R2": "470",
+        "R3": "100k",
+        "U1": "9"
+    }
+}

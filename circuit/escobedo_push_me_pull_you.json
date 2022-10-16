@@ -1,0 +1,35 @@
+{
+    "name": "Push-Me Pull-You",
+    "author": "Tim Escobedo",
+    "url": {
+        "schematic": "https://www.diystompboxes.com/smfforum/index.php?topic=114341.0",
+        "stripboard": "",
+        "perfboard": "",
+        "tagboard": "",
+        "pcb": "",
+        "pedal": ""
+    },
+    "parts": {
+        "R1": "470",
+        "R2": "10k",
+        "R3": "10k",
+        "R4": "500k",
+        "R5": "1M",
+        "R6": "10k",
+        "R7": "500k",
+        "P1_Gain": "1k",
+        "P2_Volume": "100k",
+        "C1": "10u",
+        "C2": "100n",
+        "C3": "10u",
+        "C4": "100n",
+        "C5": "100n",
+        "C6": "100n",
+        "T1": ["2N3904", "NPN"],
+        "T2": ["2N3904", "NPN"],
+        "T3": ["2N3906", "PNP"],
+        "U1": "9"
+    }
+}
+
+

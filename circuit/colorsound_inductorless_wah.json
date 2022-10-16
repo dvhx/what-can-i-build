@@ -1,0 +1,37 @@
+{
+    "name": "Inductorless Wah",
+    "author": "Colorsound",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/03/colorsound-wah.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "2n2",
+        "C2": "100u",
+        "C3": "10n",
+        "C4": "10n",
+        "C5": "15n",
+        "C6": "2n2",
+        "C7": "6n8",
+        "C8": "100n",
+        "P1_Volume": "100k",
+        "P2_Wah": "100k",
+        "R1": "10k",
+        "R2": "4M7",
+        "R3": "1M",
+        "R4": "1M",
+        "R5": "330k",
+        "R6": "33k",
+        "R7": "100k",
+        "R8": "180k",
+        "R9": "180k",
+        "R10": "470",
+        "R11": "47k",
+        "T1": ["2N5088", "NPN"],
+        "U1": "9"
+    }
+}

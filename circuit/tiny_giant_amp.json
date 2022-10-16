@@ -1,0 +1,38 @@
+{
+    "name": "Tiny Giant Amp",
+    "author": "Taylor Livingston",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/06/tiny-giant-amp.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22u",
+        "C2": "220n",
+        "C3": "1u",
+        "C4": "100n",
+        "C5": "22u",
+        "C6": "470u",
+        "C7": "100n",
+        "C8": "220n",
+        "C9": "1u",
+        "C10": "100n",
+        "C11": "10u",
+        "P1_Volume": "10k",
+        "Q1": "LM338T",
+        "R1": "2.2",
+        "R2": "1k",
+        "R3": "120",
+        "R4": "2.2",
+        "R5": "1M",
+        "R6": "100k",
+        "R7": "1M",
+        "R8": "220k",
+        "S1_Standby": "SPST",
+        "U1": "19.5",
+        "Q2": "TDA7240A"
+    }
+}

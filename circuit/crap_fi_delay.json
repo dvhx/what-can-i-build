@@ -1,0 +1,36 @@
+{
+    "name": "Crap-Fi Delay",
+    "author": "allesz",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/02/i-thought-delay-freaks-may-like-this.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "100u",
+        "C5": "22n",
+        "C6": "100n",
+        "C7": "100n",
+        "C8": "100u",
+        "C9": "100n",
+        "P1_Time": "50k",
+        "P2_Repeat": "470k",
+        "P3_Mix": "100k",
+        "Q1": "PT2399",
+        "R1": "1k",
+        "R2": "47k",
+        "R3": "68k",
+        "R4": "15k",
+        "R5": "15k",
+        "R6": "15k",
+        "R7": "15k",
+        "S1": "SPDT",
+        "U1": "9"
+    }
+}

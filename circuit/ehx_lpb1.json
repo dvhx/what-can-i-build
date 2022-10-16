@@ -1,0 +1,24 @@
+{
+    "name": "LPB1 Turret",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/ehx-lpb1.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "150n",
+        "C2": "150n",
+        "P1_Volume": "100k",
+        "R1": "360",
+        "R2": "100k",
+        "R3": "1M",
+        "R4": "830k",
+        "R5": "10k",
+        "T1": "2N5088",
+        "U1": "9"
+    }
+}

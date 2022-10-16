@@ -1,0 +1,33 @@
+{
+    "name": "Wooly Mammoth",
+    "author": "ZVEX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2011/02/zvex-woolly-mammoth-vero.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "220n",
+        "C2": "10n",
+        "C3": "100u",
+        "C4": "220n",
+        "C5": "100u",
+        "C6": "10n",
+        "P1_Wool": "2k",
+        "P2_Pinch": "500k",
+        "P3_Eq": "10k",
+        "P4_Output": "10k",
+        "R1": "51k",
+        "R2": "20k",
+        "R3": "100k",
+        "R4": "2k2",
+        "R5": "4k7",
+        "R6": "10k",
+        "T1": "2N3904",
+        "T2": "2N3904",
+        "U1": "9"
+    }
+}

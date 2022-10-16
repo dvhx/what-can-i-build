@@ -1,0 +1,32 @@
+{
+    "name": "Fuzz '72",
+    "author": "Schaller",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/12/schaller-fuzz-72.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "25u",
+        "C3": "100u",
+        "C4": "1n",
+        "C5": "47p",
+        "C6": "10u",
+        "D1": "Si Diode",
+        "P1_Volume": "100k",
+        "P2_Fuzz": "1k",
+        "R1": "1M",
+        "R2": "47k",
+        "R3": "15k",
+        "R4": "470",
+        "R5": "100k",
+        "R6": "3k3",
+        "T1": ["BC239B", "BC109B"],
+        "T2": ["BC239B", "BC109B"],
+        "U1": "9"
+    }
+}

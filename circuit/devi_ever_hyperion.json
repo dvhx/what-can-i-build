@@ -1,0 +1,31 @@
+{
+    "name": "Hyperion",
+    "author": "Devi Ever",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://www.diystompboxes.com/smfforum/index.php?topic=118380.0",
+        "stripboard2": "http://tagboardeffects.blogspot.com/2012/03/devi-ever-hyperion.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "100n",
+        "C5": "100n",
+        "P1": "100k",
+        "P2": "100k",
+        "T1": ["MPSA18", "2N5088", "NPN"],
+        "T2": ["MPSA18", "2N5088", "BC550", "NPN"],
+        "T3": ["2N2907", "PNP"],
+        "R1": "1k",
+        "R2": "2M2",
+        "R3": "10k",
+        "R4": "2M2",
+        "R5": "10k",
+        "U1": "9"
+    }
+}

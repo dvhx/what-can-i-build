@@ -1,0 +1,43 @@
+{
+    "name": "The Crank",
+    "author": "Mark Hammer",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/02/the-crank.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "470n",
+        "C3": "470n",
+        "C4": "680p",
+        "C5": "100n",
+        "C6": "10u",
+        "C7": "100u",
+        "C8": "1n",
+        "C9": "10u",
+        "D1": ["1N4148", "1N914"],
+        "D2": ["1N4148", "1N914"],
+        "D3": ["1N4148", "1N914"],
+        "D4": ["1N4148", "1N914"],
+        "D5": ["1N4148", "1N914"],
+        "D6": ["1N4148", "1N914"],
+        "D7": "1N5817",
+        "P1_Gain": "10k Stereo",
+        "P2_Volume": "10k",
+        "Q1": ["NE5532", "Opamp Dual"],
+        "R1": "4k7",
+        "R2": "30k",
+        "R3": "22k",
+        "R4": "220k",
+        "R5": "1M",
+        "R6": "6k8",
+        "R7": "220k",
+        "R8": "22k",
+        "R9": "22k",
+        "U1": "9"
+    }
+}

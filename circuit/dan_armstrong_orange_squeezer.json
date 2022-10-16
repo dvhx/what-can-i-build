@@ -1,0 +1,39 @@
+{
+    "name": "Orange Squeezer (compressor)",
+    "author": "Dan Armstrong",
+    "url": {
+        "schematic": "http://beavisaudio.com/schematics/Dan-Armstrong-Orange-Squeezer-Schematic.htm",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47n",
+        "C2": "2n2",
+        "C3": "4u7",
+        "C4": "47n",
+        "C5": "4u7",
+        "C6": "4u7",
+        "C7": "4u7",
+        "D1": ["1N100", "1N34A", "1N60P", "Ge Diode"],
+        "P1": "10k",
+        "P2": "10k",
+        "Q1": "JRC4558",
+        "R1": "1M",
+        "R2": "82k",
+        "R3": "470k",
+        "R4": "2k4",
+        "R5": "470k",
+        "R6": "390k",
+        "R7": "470k",
+        "R8": "10k",
+        "R9": "220k",
+        "R10": "1k5",
+        "R11": "100k",
+        "T1": "2N5457",
+        "T2": "2N5457",
+        "U1": "9"
+    }
+}

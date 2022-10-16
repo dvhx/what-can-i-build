@@ -1,0 +1,42 @@
+{
+    "name": "DOD 280 Compressor",
+    "author": "David Oreste DiFrancesco",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/12/dod-280-compressor.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "47n",
+        "C3": "47n",
+        "C4": "10u",
+        "C5": "47n",
+        "C6": "47n",
+        "C7": "47u",
+        "D1": "1N5817",
+        "D2": "LED",
+        "LDR1": ["VTL5C2", "LDR"],
+        "P1_Comp": "500k",
+        "P2_Level": "100k",
+        "Q1": "LM358",
+        "R1": "470k",
+        "R2": "1M",
+        "R3": "10k",
+        "R4": "22k",
+        "R5": "1M",
+        "R6": "220k",
+        "R7": "22k",
+        "R8": "4k7",
+        "R9": "22k",
+        "R10": "100k",
+        "R11": "100k",
+        "R12": "220k",
+        "T1": ["NP4121", "2N3904"],
+        "T2": ["NP4121", "2N3904"],
+        "U1": "9"
+    }
+}

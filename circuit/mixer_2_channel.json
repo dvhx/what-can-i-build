@@ -1,0 +1,32 @@
+{
+    "name": "2-channel mixer",
+    "author": "mirosol",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/2-channel-mixer.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22u",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "2u2",
+        "C5": "2u2",
+        "D1": "Si Diode",
+        "Q1": ["TL072", "Opamp Dual"],
+        "P1_Channel 1": "10k",
+        "P2_Channel 2": "10k",
+        "R1": "100k",
+        "R2": "100k",
+        "R3": "1M",
+        "R4": "100k",
+        "R5": "100k",
+        "R6": "100k",
+        "R7": "100k",
+        "R8": "100k",
+        "U1": "9"
+    }
+}

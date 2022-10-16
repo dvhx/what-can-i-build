@@ -1,0 +1,39 @@
+{
+    "name": "Weeper Wah",
+    "author": "Bespeco",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/07/bespeco-weeper-wahvolume.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "4n7",
+        "C2": "4n7",
+        "C3": "100u",
+        "C4": "22p",
+        "C5": "150n",
+        "C6": "1u",
+        "C7": "100n",
+        "C8": "4n7",
+        "C9": "1u",
+        "D1": "1N4001",
+        "P1_Wah": "100k",
+        "R1": "100k",
+        "R2": "100k",
+        "R3": "100k",
+        "R4": "47k",
+        "R5": "1M",
+        "R6": "10k",
+        "R7": "220k",
+        "R8": "100k",
+        "R9": "560",
+        "R10": "3M3",
+        "R11": "100k",
+        "R12": "68k",
+        "T1": ["BC547B", "BC547"],
+        "U1": "9"
+    }
+}

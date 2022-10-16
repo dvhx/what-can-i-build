@@ -1,0 +1,24 @@
+{
+    "name": "Paramount Overdrive",
+    "author": "Emerson",
+    "url": {
+        "schematic, stripboard": "http://tagboardeffects.blogspot.com/2014/02/emerson-custom-guitars-paramount.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "220n",
+        "C3": "2n2",
+        "C4": "47u",
+        "P1": "250k",
+        "P2": "250k",
+        "P3": "250k",
+        "T1": ["MPSA13", "MPSA12", "NPN_DARLINGTON"],
+        "R1": "2M",
+        "R2": "4k7",
+        "U1": "9"
+    }
+}

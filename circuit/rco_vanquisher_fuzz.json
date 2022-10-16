@@ -1,0 +1,40 @@
+{
+    "name": "Vanquisher Fuzz",
+    "author": "RCO Pedals",
+    "url": {
+        "schematic": "https://docs.pedalpcb.com/project/VanquisherFuzz.pdf",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47n",
+        "C2": "220p",
+        "C3": "100n",
+        "C4": "100n",
+        "C5": "10u",
+        "C6": "22n",
+        "C7": "68n",
+        "C8": "100n",
+        "D1": "1N4001",
+        "P1_FUZZ": "500k",
+        "P2_TONE": "100k",
+        "P3_VOLUME": "50k",
+        "R1": "1M",
+        "R2": "47k",
+        "R3": "220k",
+        "R4": "10k",
+        "R5": "2k",
+        "R6": "10k",
+        "R7": "1k",
+        "R8": "20k",
+        "R9": "5k1",
+        "R10": "6k2",
+        "T1": ["2N3906", "PNP"],
+        "T2": ["2N3906", "PNP"],
+        "T3": ["MJE210", "BD136", "PNP"],
+        "U1": "9"
+    }
+}

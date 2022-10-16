@@ -1,0 +1,27 @@
+{
+    "name": "Ruby Amp",
+    "author": "IvIark",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/ruby-amp.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100u",
+        "C2": "47n",
+        "C3": "100n",
+        "C4": "220u",
+        "C5": "47n",
+        "Q1": "LM386",
+        "P1_Volume": "10k",
+        "P2_Gain": "1k",
+        "R1": "3k9",
+        "R2": "1M5",
+        "R3": "10",
+        "T1": ["MPF102", "J201", "2N5457", "JFET_N"],
+        "U1": "9"
+    }
+}

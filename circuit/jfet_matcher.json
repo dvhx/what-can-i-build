@@ -1,0 +1,20 @@
+{
+    "name": "JFET Matcher",
+    "author": "IvIark",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/07/jfet-matcher.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47u",
+        "Q1": ["TL071", "Opamp Single"],
+        "R1": "10k",
+        "R2": "10k",
+        "R3": "10k",
+        "U1": "9"
+    }
+}

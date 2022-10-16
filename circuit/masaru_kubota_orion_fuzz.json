@@ -1,0 +1,34 @@
+{
+    "name": "Orion Fuzz",
+    "author": "Masaru Kubota",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/orion-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "10n",
+        "C3": "100u",
+        "C4": "100u",
+        "C5": "10n",
+        "C6": "100u",
+        "D1": ["1N4001", "Si Diode"],
+        "P1_Fuzz": "500",
+        "P2_Volume": "100k",
+        "R1": "10k",
+        "R2": "10k",
+        "R3": "1M",
+        "R4": "470k",
+        "R5": "10k",
+        "R6": "1k",
+        "R7": "10k",
+        "R8": "100k",
+        "T1": ["2N3906", "2N2907", "PNP"],
+        "T2": ["2N3904", "2N2222", "NPN"],
+        "U1": "9"
+    }
+}

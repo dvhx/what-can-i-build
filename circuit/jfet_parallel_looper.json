@@ -1,0 +1,42 @@
+{
+    "name": "JFET parallel looper",
+    "author": "IvIark",
+    "url": {
+        "schematic+stripboard": "https://tagboardeffects.blogspot.com/2010/11/jfet-parallel-looper.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "1u",
+        "C3": "1u",
+        "C4": "1u",
+        "C5": "1u",
+        "C6": "100n",
+        "C7": "100n",
+        "C8": "100n",
+        "P1_Channel_1": "100k",
+        "P2_Channel_2": "100k",
+        "P3_Channel_3": "100k",
+        "R1": "2M2",
+        "R2": "100k",
+        "R3": "10k",
+        "R4": "10M",
+        "R5": "100k",
+        "R6": "10k",
+        "R7": "6k8",
+        "R8": "100k",
+        "R9": "10k",
+        "R10": "1M",
+        "R11": "1M",
+        "R12": "1M",
+        "R13": "2M2",
+        "T1": ["J201", "2N5457", "JFET_N"],
+        "T2": ["J201", "2N5457", "JFET_N"],
+        "T3": ["J201", "2N5457", "JFET_N"],
+        "T4": ["J201", "2N5457", "JFET_N"],
+        "U1": "9"
+    }
+}

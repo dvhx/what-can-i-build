@@ -1,0 +1,28 @@
+{
+    "name": "Anta Fuzz",
+    "author": "Rocket88",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2019/03/anta-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "10u",
+        "C3": "20u",
+        "P1_Fuzz": "1k",
+        "P2_Volume": "10k",
+        "R1": "15k",
+        "R2": "6k8",
+        "R3": "470k",
+        "R4": "470k",
+        "R5": "30k",
+        "R6": "1k",
+        "T1": ["KT349", "Ge PNP"],
+        "T2": ["KT349", "Ge PNP"],
+        "U1": "9"
+    }
+}

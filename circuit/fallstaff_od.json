@@ -1,0 +1,36 @@
+{
+    "name": "Fallstaff OD",
+    "author": "mirosol",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/falstaff-od.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "22n",
+        "C3": "47n",
+        "C4": "47u",
+        "C5": "1u",
+        "C6": "22n",
+        "C7": "47u",
+        "D1": ["1N914", "1N4148"],
+        "D2": "1N270",
+        "P1_Boost": "10k",
+        "P2_Color": "500k",
+        "R1": "10M",
+        "R2": "330k",
+        "R3": "8k2",
+        "R4": "220k",
+        "R5": "470k",
+        "R6": "22k",
+        "R7": "1k",
+        "T1": ["2N2925", "2N3904"],
+        "T2": ["AC176", "Ge NPN"],
+        "PT1": "20k",
+        "U1": "9"
+    }
+}

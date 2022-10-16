@@ -1,0 +1,31 @@
+{
+    "name": "Sagrado Poblano Picoso",
+    "author": "Catalinbread",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/catalinbread-sagrado-poblano-picoso.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "220n",
+        "C2": "47p",
+        "C3": "10n",
+        "C4": "470u",
+        "C5": "10u",
+        "D1": ["1N4739", "9V1 ZENER"],
+        "D2": "LED",
+        "P1_Boost": "5k",
+        "R1": "10M",
+        "R2": "2k7",
+        "R3": "62k",
+        "R4": "2k7",
+        "R5": "1M",
+        "R6": "100k",
+        "R7": "2k2",
+        "T1": "BS170",
+        "U1": "9"
+    }
+}

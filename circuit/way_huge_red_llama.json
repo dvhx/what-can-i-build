@@ -1,0 +1,29 @@
+{
+    "name": "Red Llama",
+    "author": "Way Huge",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/06/way-huge-red-llama.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "51p",
+        "C2": "100p",
+        "C3": "68n",
+        "C4": "33n",
+        "C5": "10u",
+        "C6": "330u",
+        "P1_Drive": "1M",
+        "P2_Volume": "10k",
+        "R1": "1M5",
+        "R2": "100k",
+        "R3": "100k",
+        "R4": "1M",
+        "R5": "1k",
+        "Q1": ["CD4049", "CD4049UBE", "MC14049UBCP"],
+        "U1": "9"
+    }
+}

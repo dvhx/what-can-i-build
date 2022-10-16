@@ -1,0 +1,32 @@
+{
+    "name": "Idiot Wah",
+    "author": "Escobedo",
+    "url": {
+        "article": "https://forrestwhitesides.com/tim-escobedos-folk-urban-diy-circuits/#:~:text=Idiot Wah",
+        "schematic": "https://forrestwhitesides.com/wp-content/uploads/FolkUrban/Idiot_Wah.gif",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "R1": "1M",
+        "R2": "1M",
+        "R3": "500k",
+        "R4": "500k",
+        "R5": "10k",
+        "R6": "10k",
+        "R7": "100k",
+        "C1": "100n",
+        "C2": "220p",
+        "C3": "680p",
+        "C4": "5n",
+        "C5": "22u",
+        "C6": "100n",
+        "LDR1": "50k",
+        "S1": "SPST",
+        "T1": ["MPSA13", "NPN_DARLINGTON"],
+        "U1": "9"
+    }
+}

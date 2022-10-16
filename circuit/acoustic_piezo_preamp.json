@@ -1,0 +1,27 @@
+{
+    "name": "Acoustic Piezo Preamp",
+    "author": "Apichet Garaipoom",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/04/acoustic-piezo-preamp.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100u",
+        "C3": "100u",
+        "C4": "10u",
+        "D1": "LED",
+        "P1_Volume": "10k",
+        "Q1": "TL071",
+        "R1": "2M2",
+        "R2": "100k",
+        "R3": "2M2",
+        "R4": "220k",
+        "R5": "1k",
+        "U1": "9"
+    }
+}

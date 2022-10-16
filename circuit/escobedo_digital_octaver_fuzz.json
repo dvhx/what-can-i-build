@@ -1,0 +1,35 @@
+{
+    "name": "Digital Octaver Fuzz",
+    "author": "Escobedo",
+    "url": {
+        "article": "https://forrestwhitesides.com/tim-escobedos-folk-urban-diy-circuits/#:~:text=Digital Octaver",
+        "schematic": "https://forrestwhitesides.com/wp-content/uploads/FolkUrban/Digital_Octaver_Fuzz.gif",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "R1": "500k",
+        "R2": "100k",
+        "R3": "10k",
+        "R4": "10k",
+        "R5": "100k",
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "22u",
+        "C5": "2n",
+        "C6": "10n",
+        "C7": "100n",
+        "D1": ["1N4148", "1N914"],
+        "D2": ["1N4148", "1N914"],
+        "T1": "2N5088",
+        "P1_Octave": "10k",
+        "P2_Tone": "50k",
+        "P3_Volume": "100k",
+        "Q1": "CD4070",
+        "U1": "9"
+    }
+}

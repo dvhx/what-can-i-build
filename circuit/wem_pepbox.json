@@ -1,0 +1,29 @@
+{
+    "name": "Pepbox",
+    "author": "WEM",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/02/wem-pepbox.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "25u",
+        "C2": "25u",
+        "C3": "3n3",
+        "P1_Level": "500k",
+        "P2_Effects": "10k",
+        "R1": "1k5",
+        "R2": "16k",
+        "R3": "470k",
+        "R4": "820k",
+        "R5": "10k",
+        "R6": "56k",
+        "R7": "100",
+        "T1": ["ACY41", "Ge PNP"],
+        "T2": ["ACY41", "Ge PNP"],
+        "U1": "9"
+    }
+}

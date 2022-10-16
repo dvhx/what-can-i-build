@@ -1,0 +1,31 @@
+{
+    "name": "'70s Funk Box",
+    "author": "mirosol",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/70-funk-box.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "10n",
+        "C4": "22n",
+        "C5": "10n",
+        "C6": "56n",
+        "PT1": "2k",
+        "P2_Range": "10k",
+        "R1": "1M",
+        "R2": "470k",
+        "R3": "22k",
+        "R4": "56k",
+        "R5": "22k",
+        "R6": "56k",
+        "R7": "56k",
+        "T1": ["HEP-722", "HEP-723", "2N3904", "NPN"],
+        "U1": "9"
+    }
+}

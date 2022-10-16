@@ -1,0 +1,39 @@
+{
+    "name": "Pit Fighter",
+    "author": "Forrest Whitesides",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/pit-fighter.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "47u",
+        "C3": "2u2",
+        "C4": "470p",
+        "C5": "33p",
+        "C6": "2n2",
+        "C7": "2u2",
+        "D1": ["1N914", "1N4148"],
+        "D2": ["1N914", "1N4148"],
+        "D3": ["1N4001", "Si Diode"],
+        "Q1": "LM301",
+        "P1_Fuzz": "10k",
+        "P2_Volume": "50k",
+        "R1": "47k",
+        "R2": "47",
+        "R3": "2M2",
+        "R4": "680k",
+        "R5": "2M2",
+        "R6": "22k",
+        "R7": "47k",
+        "R8": "100k",
+        "R9": "10k",
+        "R10": "1k5",
+        "T1": "2N5088",
+        "U1": "9"
+    }
+}

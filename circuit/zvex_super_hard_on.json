@@ -1,0 +1,27 @@
+{
+    "name": "Super Hard On",
+    "author": "ZVex",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/07/zvex-super-hard-on-updated-version.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "10u",
+        "C3": "47u",
+        "D1": "9V1 ZENER",
+        "D2": "LED",
+        "P1_Boost": "5k",
+        "R1": "5k1",
+        "R2": "10M",
+        "R3": "10M",
+        "R4": "100k",
+        "R5": "2k2",
+        "T1": "BS170",
+        "U1": "9"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Stupid Simple Overdrive",
+    "author": "Pink Jimi Photon",
+    "url": {
+        "schematic+stripboard": "https://tagboardeffects.blogspot.com/2014/02/pinkjimiphoton-stupid-simple-overdrive.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100p",
+        "C2": "47n",
+        "C3": "100u",
+        "C4": "470n",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "Q1": ["NE5534", "TL071"],
+        "R1": "10k",
+        "R2": "10k",
+        "R3": "1M",
+        "R4": "4M7",
+        "R5": "10k",
+        "R6": "10k",
+        "U1": "9"
+    }
+}

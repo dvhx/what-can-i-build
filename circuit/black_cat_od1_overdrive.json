@@ -1,0 +1,35 @@
+{
+    "name": "Black Cat OD1 Overdrive",
+    "author": "Fred Bonte",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/black-cat-od1-overdrive.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "220p",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "100n",
+        "C5": "100n",
+        "C6": "100u",
+        "C7": "10u",
+        "C8": "100p",
+        "C9": "220p",
+        "P1_Gain": "50k",
+        "P2_Volume": "50k",
+        "Q1": ["OP275", "Opamp Dual"],
+        "R1": "470k",
+        "R2": "1M",
+        "R3": "22k",
+        "R4": "100k",
+        "R5": "22k",
+        "R6": "1M",
+        "R7": "430",
+        "R8": "100k",
+        "U1": "9"
+    }
+}

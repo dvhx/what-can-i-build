@@ -1,0 +1,41 @@
+{
+    "name": "Differential Distortion",
+    "author": "Ken Willmott",
+    "url": {
+        "schematic": "https://kenwillmott.com/blog/archives/95",
+        "stripboard": "",
+        "perfboard": "",
+        "tagboard": "",
+        "pcb": "",
+        "pedal": ""
+    },
+    "parts": {
+        "R1": "100k",
+        "R2": "3k9",
+        "R3": "240k",
+        "R4": "1M",
+        "R5": "27k",
+        "R6": "4k7",
+        "R8": "4k7",
+        "R9": "4k7",
+        "R10": "100k",
+        "R11": "470k",
+        "C1": "22n",
+        "C2": "1u",
+        "C4": "10n",
+        "C5": "100n",
+        "C6": "100n",
+        "C7": "22n",
+        "C8": "4u7",
+        "C9": "2n",
+        "T1": ["MMBT9014", "2N5088", "NPN"],
+        "T2": ["MMBT9015", "2N3906", "PNP"],
+        "T3": ["MMBT9015", "2N3906", "PNP"],
+        "P1": "10k",
+        "P3": "250k",
+        "P2": "10k",
+        "S1": "SPST",
+        "U1": "9"
+    }
+}
+

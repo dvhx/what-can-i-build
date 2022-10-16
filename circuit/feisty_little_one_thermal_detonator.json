@@ -1,0 +1,40 @@
+{
+    "name": "Thermal Detonator",
+    "author": "Feisty Little One",
+    "url": {
+        "schematic": "https://www.freestompboxes.org/viewtopic.php?f=7&t=27909",
+        "article": "https://feistylittleone.wordpress.com/guitar-pedals/thermal-detonator/",
+        "stripboard": "https://tagboardeffects.blogspot.com/2016/10/feisty-little-one-thermal-detonator.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100p",
+        "C2": "10n",
+        "C3": "22u",
+        "C4": "100u",
+        "C5": "2u2",
+        "D1": "1N4148",
+        "D2": "LED",
+        "D3": "LED",
+        "S1": "DPDT",
+        "P1_Oscillation": "500k",
+        "P2_Volume": "500k",
+        "P3_Fuzz": "1k",
+        "P4_Sag": "10k",
+        "R1": "18",
+        "R2": "1M5",
+        "R3": "100k",
+        "R4": "1k",
+        "R5": "33k",
+        "R6": "330",
+        "R7": "18",
+        "R8": "4k7",
+        "R9": "4k7",
+        "T1": "2N3904",
+        "T2": "2N3904",
+        "U1": "9"
+    }
+}

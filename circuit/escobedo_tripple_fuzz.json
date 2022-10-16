@@ -1,0 +1,35 @@
+{
+    "name": "Tripple Fuzz",
+    "author": "Tim Escobedo",
+    "url": {
+        "schematic": "https://nexp.pt/tpe123/tripple.gif",
+        "stripboard": "http://tagboardeffects.blogspot.com/2012/11/escobedo-tripple-fuzz.html",
+        "perfboard": "",
+        "tagboard": "",
+        "pcb": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "220p",
+        "C4": "100n",
+        "D1": ["1N4148", "1N914"],
+        "D2": ["1N4148", "1N914"],
+        "D3": "LED",
+        "P1_Gain": "10k",
+        "P2_Volume": "100k",
+        "R1": "5M",
+        "R2": "330",
+        "R3": "1M",
+        "R4": "10k",
+        "R5": "10k",
+        "R6": "500k",
+        "R7": "10k",
+        "T1": "MPSA18",
+        "T2": "2N3906",
+        "T3": "2N3904",
+        "U1": "9"
+    }
+}
+

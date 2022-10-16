@@ -1,0 +1,21 @@
+{
+    "name": "JFET buffer (simple)",
+    "author": "IvIark",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/02/jfet-buffer.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "R1": "100",
+        "R2": "1M",
+        "R3": "3k9",
+        "T1": "2N5457",
+        "U1": "9"
+    }
+}

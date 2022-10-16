@@ -1,0 +1,22 @@
+{
+    "name": "Em-Drive",
+    "author": "Emerson Custom Guitars",
+    "url": {
+        "schematic": "",
+        "stripboard": "http://tagboardeffects.blogspot.com/2013/01/emerson-custom-guitars-em-drive.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "P1_Volume": "250k",
+        "P2_Gain": "250k",
+        "R1": "2M",
+        "R2": "4k7",
+        "T1": "2N5088",
+        "U1": "9"
+    }
+}

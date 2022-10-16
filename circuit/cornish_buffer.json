@@ -1,0 +1,32 @@
+{
+    "name": "Cornish Buffer",
+    "author": "IvIark",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/02/cornish-buffer.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "1n",
+        "C3": "220u",
+        "C4": "4u7",
+        "C5": "22u",
+        "D1": ["1N5401", "1N4001"],
+        "R1": "10M",
+        "R2": "100",
+        "R3": "1k",
+        "R4": "120k",
+        "R5": "120k",
+        "R6": "200k",
+        "R7": "150",
+        "R8": "20k",
+        "R9": "7k5",
+        "R10": "50k",
+        "T1": "BC549",
+        "U1": "9"
+    }
+}

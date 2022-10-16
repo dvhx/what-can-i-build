@@ -1,0 +1,29 @@
+- one circuit per json file
+- filename can only contain lowercase character, number or underscore
+- once you publish filename, don't change the filename, change the "name" field instead
+- circuit names must be unique, e.g. "Bazz Fuss", "Bazz Fuss v2", "Bazz Fuss (Germanium)"
+- all parts must have name and value ("R1": "10k", "R2": "4k7", ...)
+- parts names prefixes
+    R   resistor
+    P   potentiometer
+    PT  trimmer pot
+    C   capacitor
+    L   inductor
+    D   diode
+    T   transistor
+    Q   chip
+    J   connector
+    S   switch
+    LDR ldr
+    V   tube
+    U   supply or battery
+    X   other
+- values
+    - use 1k2 not 1.2k, 4u7 not 4.7u, 2M2 not 2.2M
+    - without unit (100n not 100nF, 22k not 22kΩ)
+    - model names are upper case (1N34 not 1n34, 2N2222 not 2n2222)
+- there must be at least 1 url
+- dual pots are e.g. "50k Stereo"
+- alternatives are array: ["BC547B", "BC547"] or ["BC547B", "BC547", "NPN"]
+- any opamp is e.g. ["TL071", "Opamp Single"] or ["TL072", "NE5532", "Opamp Dual"]
+- after you make changes or add new circuit, run 0_update.sh to generate circuits.js

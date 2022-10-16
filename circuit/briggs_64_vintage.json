@@ -1,0 +1,32 @@
+{
+    "name": "'64 Vintage",
+    "author": "Fred Briggs",
+
+    "url": {
+        "schematic": "https://www.freestompboxes.org/viewtopic.php?t=16153",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/briggs-64-vintage.html",
+        "perfboard": "",
+        "pcb": ""
+    },
+
+    "parts": {
+        "C1": "470n",
+        "C2": "82n",
+        "C3": "220n",
+        "C4": "4n7",
+        "C5": "22n",
+        "C6": "10u",
+        "D1": "SB340",
+        "D2": "BAT46",
+        "P1_Volume": "1k",
+        "P2_Headroom": "10k",
+        "P3_Master": "100k",
+        "T1": ["2N3565", "2N5088", "BC108", "NPN"],
+        "R1": "4k7",
+        "R2": "2M2",
+        "R3": "390",
+        "R4": "470k",
+        "R5": "47k",
+        "U1": "9"
+    }
+}

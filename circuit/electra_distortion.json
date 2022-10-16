@@ -1,0 +1,23 @@
+{
+    "name": "Electra Distortion",
+    "author": "beavisaudio.com",
+    "url": {
+        "schematic": "http://beavisaudio.com/schematics/Electra-Distortion-Schematic.htm",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "D1": "1N34A",
+        "D2": "1N34A",
+        "R1": "4k7",
+        "R2": "3M3",
+        "R3": "470",
+        "T1": "2N3904",
+        "U1": "9"
+    }
+}

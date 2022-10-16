@@ -1,0 +1,36 @@
+{
+    "name": "Jinx Fuzz",
+    "author": "Escobedo",
+    "url": {
+        "article": "https://forrestwhitesides.com/tim-escobedos-folk-urban-diy-circuits/#:~:text=Jinx%20Fuzz",
+        "schematic": "https://forrestwhitesides.com/wp-content/uploads/FolkUrban/Jinx.gif",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "R1": "500k",
+        "R2": "10k",
+        "R3": "500k",
+        "R4": "100k",
+        "R5": "22k",
+        "R6": "4k7",
+        "R7": "1k",
+        "D1": ["1N4001", "Si Diode"],
+        "C1": "10u",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "10u",
+        "C5": "10u",
+        "C6": "100n",
+        "S1": "DPDT",
+        "T1": ["MPSA13", "NPN_DARLINGTON"],
+        "T2": ["J201", "JFET_N"],
+        "P1": "50k",
+        "P2": "10k",
+        "P3": "100k",
+        "U1": "9"
+    }
+}

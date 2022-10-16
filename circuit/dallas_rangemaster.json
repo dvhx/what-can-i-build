@@ -1,0 +1,28 @@
+{
+    "name": "Rangemaster (treble booster)",
+    "author": "Dallas Musical Ltd.",
+    "url": {
+        "schematic": "https://fuzzcentral.ssguitar.com/rangemaster.php",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "5n",
+        "C2": "47u",
+        "C3": "47u",
+        "C4": "10n",
+        "P1": "10k",
+        "R1": "470k",
+        "R2": "68k",
+        "R3": "3k9",
+        "T1": [
+            "OC44",
+            "OC71",
+            "Ge PNP"
+        ],
+        "U1": "9"
+    }
+}

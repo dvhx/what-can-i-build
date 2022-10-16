@@ -1,0 +1,23 @@
+{
+    "name": "DOD 210 FET preamp",
+    "author": "David Oreste DiFrancesco",
+    "url": {
+        "schematic": "",
+        "stripboard": "http://tagboardeffects.blogspot.com/2020/07/dod-210-fet-preamp.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47n",
+        "C2": "4u7",
+        "P1": "100k",
+        "T1": "J201",
+        "R1": "3M9",
+        "R2": "220k",
+        "R3": "22k",
+        "R4": "10k",
+        "U1": "9"
+    }
+}

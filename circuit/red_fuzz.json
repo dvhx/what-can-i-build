@@ -1,0 +1,37 @@
+{
+    "name": "Red Fuzz",
+    "author": "mirosol",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/02/red-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47n",
+        "C2": "1n",
+        "C3": "10u",
+        "C4": "100n",
+        "C5": "100n",
+        "C6": "220n",
+        "C7": "3n3",
+        "D1": "LED",
+        "D2": "LED",
+        "Q1": ["LF351", "TL071", "LM741", "Opamp Single"],
+        "P1_Intensity": "1M",
+        "P2_Tone": "100k",
+        "P3_Volume": "100k",
+        "R1": "10k",
+        "R2": "1M",
+        "R3": "10k",
+        "R4": "470k",
+        "R5": "1k8",
+        "R6": "470k",
+        "R7": "1M",
+        "R8": "2k2",
+        "T1": ["J201", "JFET_N"],
+        "U1": "9"
+    }
+}

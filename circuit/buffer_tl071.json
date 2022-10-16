@@ -1,0 +1,21 @@
+{
+    "name": "TL071 Buffer",
+    "author": "IvIark",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/08/buffers.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "10u",
+        "Q1": "TL071",
+        "R1": "1M",
+        "R2": "10k",
+        "R3": "10k",
+        "U1": "9"
+    }
+}

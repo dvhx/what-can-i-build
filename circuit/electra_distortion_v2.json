@@ -1,0 +1,22 @@
+{
+    "name": "Electra Distortion v2",
+    "author": "forrestwhitesides.com",
+    "url": {
+        "schematic, perfboard, tagboard": "https://forrestwhitesides.com/electra-distortion-diy-layouts/",
+        "stripboard": "",
+        "pcb": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "D1": "1N4148",
+        "D2": "1N34A",
+        "P1": "100k",
+        "R1": "47k",
+        "R2": "2M2",
+        "R3": "680",
+        "T1": ["2N3904", "2N2222", "NPN"],
+        "U1": "9"
+    }
+}

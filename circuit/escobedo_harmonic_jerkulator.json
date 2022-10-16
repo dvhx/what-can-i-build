@@ -1,0 +1,31 @@
+{
+    "name": "Harmonic Jerkulator",
+    "author": "Tim Escobedo",
+    "url": {
+        "schematic": "https://i605.photobucket.com/albums/tt137/pinkjimiphoton/hARMONICJERKULATOR1a.png",
+        "article": "https://forums.musicplayer.com/topic/140360-harmonic-jerkulatoreasy-newbe-friendly-project/",
+        "stripboard": "http://i605.photobucket.com/albums/tt137/pinkjimiphoton/hARMONICJERKULATOR1a.png",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "20n",
+        "C2": "100n",
+        "C3": "50n",
+        "C4": "22u",
+        "D1": "LED",
+        "P1_Gain": "100k",
+        "P2_Harmonics": "100k",
+        "R1": "1k",
+        "R2": "22k",
+        "R3": "1M",
+        "R4": "22k",
+        "R5": "100k",
+        "R6": "2k2",
+        "T1": ["MP16B", "Ge PNP"],
+        "T2": ["NTE128", "2N2270", "NPN"],
+        "U1": "9"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "name": "B3",
+    "author": "ARC Effects",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/arc-effects-b3.html",
+        "perfboard": "",
+        "tagboard": "",
+        "pcb": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "100n",
+        "C3": "4u7",
+        "C4": "4u7",
+        "C5": "1n",
+        "C6": "100n",
+        "C7": "47u",
+        "D1": ["1N270", "Ge Diode"],
+        "Q1": "ICL7660S",
+        "P1_Balance": "5k",
+        "P2_Sustain": "100k",
+        "P3_Timbre": "100k",
+        "R1": "27k",
+        "R2": "10k",
+        "R3": "10k",
+        "R4": "100k",
+        "R5": "470k",
+        "R6": "10k",
+        "R7": "3k3",
+        "R8": "15k",
+        "T1": "NKT213",
+        "T2": "NKT213",
+        "T3": "NKT213",
+        "U1": "9"
+    }
+}

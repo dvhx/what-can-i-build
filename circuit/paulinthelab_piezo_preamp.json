@@ -1,0 +1,24 @@
+{
+    "name": "Peizo Preamp",
+    "author": "PaulInTheLab",
+    "url": {
+        "schematic, stripboard": "https://paulinthelab.blogspot.com/2013/08/peizo-pickup-transducer-preamp.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "33n",
+        "C3": "10u",
+        "C4": "100u",
+        "Q1": ["LM358", "LM258"],
+        "P1": "22k",
+        "R1": "1M",
+        "R2": "100k",
+        "R3": "470",
+        "R4": "470",
+        "U1": "9"
+    }
+}

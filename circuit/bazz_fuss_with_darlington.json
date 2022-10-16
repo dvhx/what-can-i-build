@@ -1,0 +1,20 @@
+{
+    "name": "Bazz Fuss with darlington",
+    "author": "home-wrecker.com",
+
+    "url": {
+        "schematic, perfboard": "https://home-wrecker.com/bazz.html#:~:text=darlington",
+        "stripboard": "",
+        "pcb": ""
+    },
+
+    "parts": {
+        "R1": "10k",
+        "T1": ["MPSA13", "NPN_DARLINGTON"],
+        "C1": "4u7",
+        "C2": "220n",
+        "D1": ["1N914", "1N34A", "LED"],
+        "P1": "100k",
+        "U1": "9"
+    }
+}

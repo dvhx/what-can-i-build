@@ -1,0 +1,42 @@
+{
+    "name": "Really Simple Transistor Compressor",
+    "author": "mirosol",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/really-simple-transistor-compressor.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "1u",
+        "C3": "10u",
+        "C4": "47u",
+        "C5": "100u",
+        "C6": "47u",
+        "C7": "10u",
+        "C8": "47u",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "D3": "1N4001",
+        "P1_Level": "10k",
+        "R1": "1M",
+        "R2": "15k",
+        "R3": "330k",
+        "R4": "27k",
+        "R5": "10k",
+        "R6": "330k",
+        "R7": "100k",
+        "R8": "2k2",
+        "R9": "1k",
+        "R10": "680",
+        "R11": "2k2",
+        "T1": "BC213L",
+        "T2": "BC183L",
+        "T3": "BC183L",
+        "T4": "BC183L",
+        "U1": "9"
+    }
+}
