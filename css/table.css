@@ -1,0 +1,45 @@
+/* table styling */
+
+table {
+    width: 100%;
+}
+table, tr, td {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+td {
+    vertical-align: top;
+}
+table.border, table.border tr, table.border th, table.border td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table td {
+    padding: 0.3ex;
+}
+table td.full {
+    width: 100%;
+}
+table .error {
+    color: red;
+}
+table .warning {
+    color: green;
+}
+table td.nowrap {
+    white-space: nowrap;
+}
+table tr:hover {
+    background-color: #ccddee;
+}
+td a.link {
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+

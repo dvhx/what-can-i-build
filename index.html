@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>What can I build</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <link rel="shortcut icon" href="image/icon.png" type="image/png" />
+
+    <link rel="stylesheet" href="css/index.css?version=151" type="text/css" />
+    <link rel="stylesheet" href="css/sidebar.css?version=151" type="text/css" />
+    <link rel="stylesheet" href="css/table.css?version=151" type="text/css" />
+    <link rel="stylesheet" href="css/mobile.css?version=151" type="text/css" />
+
+    <script type="text/javascript" src="depend/canvas/canvas.src.js?version=151"></script>
+
+    <script type="text/javascript" src="circuit/circuits.js?version=151"></script>
+
+    <script type="text/javascript" src="js/global.js?version=151"></script>
+    <script type="text/javascript" src="js/engineering.js?version=151"></script>
+    <script type="text/javascript" src="js/check_new_circuits.js?version=151"></script>
+    <script type="text/javascript" src="js/index.js?version=151"></script>
+    <script type="text/javascript" src="js/render.js?version=151"></script>
+    <script type="text/javascript" src="js/filter.js?version=151"></script>
+
+  </head>
+  <body>
+    <nav id="sidebar">
+
+        <h1>What do I have</h1>
+
+        <h2>Resistors <span id="plus_10_resistor" title="Increase all resistors by 10, i.e. you don't care about resistors">+10 all</span></h2>
+        <section id="type_resistor"></section>
+
+        <h2>Pots</h2>
+        <section id="type_pot"></section>
+
+        <h2>Pots (trimmer)</h2>
+        <section id="type_pot_trimmer"></section>
+
+        <h2>LDR</h2>
+        <section id="type_ldr"></section>
+
+        <h2>Capacitors <span id="plus_10_capacitor" title="Increase all capacitors by 10, i.e. you don't care about capacitors">+10 all</span></h2>
+        <section id="type_capacitor"></section>
+
+        <h2>Inductors</h2>
+        <section id="type_inductor"></section>
+
+        <h2>Diodes</h2>
+        <section id="type_diode"></section>
+
+        <h2>Transistors</h2>
+        <section id="type_transistor"></section>
+
+        <h2>Supply</h2>
+        <section id="type_supply"></section>
+
+        <h2>Connectors</h2>
+        <section id="type_connector"></section>
+
+        <h2>Switch</h2>
+        <section id="type_switch"></section>
+
+        <h2>Chips</h2>
+        <section id="type_chip"></section>
+
+        <h2>Tube</h2>
+        <section id="type_tube"></section>
+
+        <h2>Other</h2>
+        <section id="type_other"></section>
+
+        <div class="bottom">
+            <a href="https://github.com/dvhx/what-can-i-build">Source</a>
+        </div>
+
+    </nav>
+
+    <main>
+
+        <header>
+            <h1>What can I build <span id="total_count"></span></h1>
+        </header>
+
+        <div>
+            Show circuits
+            <label title="You have all parts (uncheck to see what you need to buy)">
+                <input id="filter_show_possible" type="checkbox" checked><span>possible</span>
+            </label>
+            <label title="Show circuits where you don't have exact part, but you have alternative parts that circuit allows as substitutions">
+                <input id="filter_show_subs" type="checkbox" checked><span>with substitution</span>
+            </label>
+            <label title="Only show circuits you've already built in the table (regardless of their posibility)">
+                <input id="filter_show_done" type="checkbox"><span>done</span>
+            </label>
+        </div>
+
+        <table class="border">
+            <thead>
+                <tr>
+                    <th class="sticky">Links</th>
+                    <th class="sticky" style="width: 100%">Circuit</th>
+                    <th class="sticky" style="min-width: 10ex;">Parts</th>
+                    <th class="sticky">Action</th>
+                </tr>
+            </thead>
+            <tbody id="table_ok">
+            </tbody>
+        </table>
+
+        <div id="nothing" style="margin-top: 1ex; display: none; color: gray;">
+        With the parts you have,
+        you cannot build anything, if you want to see what parts are missing,
+        uncheck the "possible" checkbox. Circuits with fewest missing parts will be
+        shown on top and sorted by easiest first.</div>
+
+    </main>
+
+  </body>
+</html>
+
+
+
+

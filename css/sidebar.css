@@ -1,0 +1,68 @@
+/* gray sidebar */
+
+#sidebar {
+    height: 100%;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    padding: 0.5ex;
+    _box-shadow: 0 0 1ex;
+    font-size: small;
+    user-select: none;
+    width: 320px;
+}
+
+#sidebar h1 {
+    text-align: center;
+}
+#sidebar h1, h2 {
+    margin: 0;
+    padding: 0;
+    padding-top: 0.5ex;
+    font-size: small;
+}
+#sidebar label {
+    outline: 1px solid red;
+}
+#sidebar input[type=number] {
+    max-width: 7ex;
+}
+#sidebar section {
+    column-count: 2;
+    column-gap: 0;
+}
+
+#sidebar section label {
+    outline: 0px solid red;
+    display: flex;
+    max-width: 4cm;
+    align-items: center;
+}
+#sidebar section label > span {
+    flex: 1;
+    text-align: right;
+    padding-right: 0.5ex;
+}
+
+#sidebar .bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1ex;
+}
+
+/* make number input arrows always visible */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+#plus_10_resistor, #plus_10_capacitor {
+    float: right;
+    color: blue;
+    cursor: pointer;
+}
+

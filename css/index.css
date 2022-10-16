@@ -1,0 +1,37 @@
+/* style for index.html */
+
+body {
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+main {
+    box-sizing: border-box;
+    padding: 1ex;
+    flex: 1;
+    overflow-y: scroll;
+    max-height: 100vh;
+}
+
+main h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+}
+
+label {
+    user-select: none;
+}
+main label {
+    cursor: pointer;
+}
+main label input[type=checkbox], label span {
+    vertical-align: middle;
+}
+
