@@ -185,6 +185,45 @@ SC.plusTenAll = function (event) {
     SC.refresh();
 };
 
+SC.exact = function (aPartsCounts) {
+    // Find exact parts counts, e.g. {P:3, S:1} will find anything with 3 pots and 1 switch
+    var k, c = {}, j, ok, z, ret = [], url;
+    for (k in SC.circuit) {
+        if (SC.circuit.hasOwnProperty(k)) {
+            c = {};
+            for (j in SC.circuit[k].parts) {
+                if (SC.circuit[k].parts.hasOwnProperty(j)) {
+                    z = j.match(/^[A-Z]+/)[0];
+                    c[z] = c[z] || 0;
+                    c[z]++;
+                }
+            }
+            ok = true;
+            for (j in aPartsCounts) {
+                if (aPartsCounts.hasOwnProperty(j)) {
+                    if (c[j] !== aPartsCounts[j]) {
+                        ok = false;
+                    }
+                }
+            }
+            if (ok) {
+                // console.log(SC.circuit[k].name, SC.circuit[k].parts);
+                url = '';
+                for (j in SC.circuit[k].url) {
+                    if (SC.circuit[k].url.hasOwnProperty(j)) {
+                        if (SC.circuit[k].url[j] !== '') {
+                            url = SC.circuit[k].url[j];
+                            break;
+                        }
+                    }
+                }
+                ret.push('- [' + k + '](' + url + ')');
+            }
+        }
+    }
+    console.log(ret.join('\n'));
+};
+
 window.addEventListener('DOMContentLoaded', function () {
     SC.e = CA.elementsWithId();
     SC.e.filter_show_possible.onclick = SC.refresh;
