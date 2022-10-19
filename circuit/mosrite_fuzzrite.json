@@ -1,0 +1,27 @@
+{
+    "name": "Fuzzrite",
+    "author": "Mosrite",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/07/mosrite-fuzzrite.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "4n7",
+        "C2": "2n",
+        "C3": "47n",
+        "C4": "2n",
+        "P1_Depth": "500k",
+        "P2_Volume": "50k",
+        "R1": "470k",
+        "R2": "470k",
+        "R3": "470k",
+        "R4": "470k",
+        "T1": ["BC547", "NPN"],
+        "T2": ["BC547", "NPN"],
+        "U1": "9"
+    }
+}

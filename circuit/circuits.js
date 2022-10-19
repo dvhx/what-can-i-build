@@ -2032,6 +2032,51 @@ window.SC.circuit['dr_quack'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['dunlop_jh1_hendrix_cybaby'] = {
+    "name": "JH-1 Hendrix rybaby",
+    "author": "Dunlop",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/03/dunlop-jh-1-hendrix-wah.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "4u7",
+        "C3": "22p",
+        "C4": "100n",
+        "C5": "10n",
+        "C6": "100u",
+        "C7": "220n",
+        "C8": "220n",
+        "C9": "22n",
+        "C10": "10n",
+        "D1": "9V1 ZENER",
+        "L1": "500m",
+        "P1_Wah": "470k",
+        "R1": "1k",
+        "R2": "2M2",
+        "R3": "1M8",
+        "R4": "10k",
+        "R5": "68k",
+        "R6": "82k",
+        "R7": "1k5",
+        "R8": "82k",
+        "R9": "390",
+        "R10": "470k",
+        "R11": "22k",
+        "R12": "470k",
+        "R13": "1k",
+        "R14": "10k",
+        "T1": "MPSA13",
+        "T2": "MPSA18",
+        "T3": "MPSA18",
+        "U1": "9"
+    }
+};
 window.SC.circuit['earthquaker_devices_plumes'] = {
     "name": "Plumes",
     "author": "Earthquaker Devices",
@@ -3164,6 +3209,35 @@ window.SC.circuit['klon_centaur'] = {
         "S1": "DPDT"
     }
 };
+window.SC.circuit['landgraff_boost'] = {
+    "name": "Boost",
+    "author": "John Landgraff",
+    "url": {
+        "schematic": "",
+        "stripboard": "http://tagboardeffects.blogspot.com/2010/04/updated-landgraff-boost-vero.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "10u",
+        "C3": "47u",
+        "D1": "1N914",
+        "D2": "1N914",
+        "D3": "1N4001",
+        "P1_Boost": "5k",
+        "R1": "1M",
+        "R2": "10k",
+        "R3": "10M",
+        "R4": "10M",
+        "R5": "5k1",
+        "R6": "100k",
+        "T1": ["NTE490", "BS170", "MOSFET_N"],
+        "U1": "9"
+    }
+};
 window.SC.circuit['mad_professor_snow_white_autowah'] = {
     "name": "Snow White Autowah",
     "author": "Mad Professor",
@@ -3395,6 +3469,33 @@ window.SC.circuit['moen_fuzz_moo'] = {
         "T2": "2N5088",
         "T3": "2N5088",
         "T4": "2N5088",
+        "U1": "9"
+    }
+};
+window.SC.circuit['mosrite_fuzzrite'] = {
+    "name": "Fuzzrite",
+    "author": "Mosrite",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/07/mosrite-fuzzrite.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "4n7",
+        "C2": "2n",
+        "C3": "47n",
+        "C4": "2n",
+        "P1_Depth": "500k",
+        "P2_Volume": "50k",
+        "R1": "470k",
+        "R2": "470k",
+        "R3": "470k",
+        "R4": "470k",
+        "T1": ["BC547", "NPN"],
+        "T2": ["BC547", "NPN"],
         "U1": "9"
     }
 };
