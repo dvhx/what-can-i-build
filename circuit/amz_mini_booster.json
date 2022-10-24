@@ -1,0 +1,28 @@
+{
+    "name": "Mini Booster",
+    "author": "AMZ",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/amz-mini-booster.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47n",
+        "C2": "100u",
+        "C3": "3u3",
+        "C4": "220n",
+        "C5": "10p",
+        "P1_Volume": "100k",
+        "R1": "100",
+        "R2": "1k",
+        "R3": "1M",
+        "R4": "1M",
+        "R5": "1M",
+        "T1": "2N5457",
+        "T2": "2N5457",
+        "U1": "9"
+    }
+}

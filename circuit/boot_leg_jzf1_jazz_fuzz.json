@@ -1,0 +1,35 @@
+{
+    "name": "JZF-1 Jazz Fuzz",
+    "author": "Boot-Leg",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/03/boot-leg-jzf-1-jazz-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100u",
+        "C2": "470n",
+        "C3": "100n",
+        "C4": "100n",
+        "C5": "1u",
+        "C6": "10n",
+        "D1": "1N4001",
+        "D2": "1N4001",
+        "D3": "1N4001",
+        "P1_Fuzz": "500k",
+        "P2_Vintage": "1k",
+        "P3_Volume": "50k",
+        "Q1": "LM741",
+        "R1": "1k",
+        "R2": "1M",
+        "R3": "100k",
+        "R4": "470",
+        "R5": "10k",
+        "R6": "100k",
+        "R7": "2k2",
+        "U1": "9"
+    }
+}

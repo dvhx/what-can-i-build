@@ -1,0 +1,29 @@
+{
+    "name": "UK854 Fuzz Box",
+    "author": "Amtron",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/amtron-uk854-fuzz-box.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100u",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "100u",
+        "D1": ["1N5817", "Schottky"],
+        "PT1": "25k",
+        "P2_Volume": "10k",
+        "P3_Fuzz": "470",
+        "R1": "82k",
+        "R2": "100k",
+        "R3": "330k",
+        "R4": "1M",
+        "T1": ["BC209", "BC239", "2N3904", "2N2222", "BC108", "NPN"],
+        "T2": ["BC209", "BC239", "2N3904", "2N2222", "BC108", "NPN"],
+        "U1": "9"
+    }
+}

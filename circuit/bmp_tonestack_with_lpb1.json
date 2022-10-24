@@ -1,0 +1,28 @@
+{
+    "name": "BMP tonestack with LPB1",
+    "author": "mirosol",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/08/bmp-tonestack-w-lpb1.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "4n7",
+        "C2": "10n",
+        "C3": "100n",
+        "C4": "100n",
+        "P1_PT1": "100k",
+        "P2_Pot": "100k",
+        "R1": "39k",
+        "R2": "22k",
+        "R3": "10k",
+        "R4": "100k",
+        "R5": "1M",
+        "R6": "390",
+        "T1": ["2N3904", "2N5088", "NPN"],
+        "U1": "9"
+    }
+}

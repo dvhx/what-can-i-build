@@ -1,0 +1,33 @@
+{
+    "name": "Assassin of Silence",
+    "author": "Rick Holt",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/assassin-of-silence-by-rick-holt.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "100n",
+        "P1_Fuzz1": "100k",
+        "P2_Fuzz2": "100k",
+        "R1": "390",
+        "R2": "100k",
+        "R3": "1M",
+        "R4": "1M",
+        "R5": "10k",
+        "R6": "10k",
+        "R7": "1M",
+        "R8": "100k",
+        "R9": "390",
+        "S1": "DPDT",
+        "T1": "2N5088",
+        "T2": "2N5088",
+        "U1": "9"
+    }
+}

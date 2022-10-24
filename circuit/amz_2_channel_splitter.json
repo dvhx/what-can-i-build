@@ -1,0 +1,29 @@
+{
+    "name": "2 channel splitter",
+    "author": "AMZ",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/08/amz-2-channel-splitter.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100u",
+        "C3": "1u",
+        "C4": "1u",
+        "D1": ["1N5817", "Schottky"],
+        "R1": "10M",
+        "R2": "2M2",
+        "R3": "2M2",
+        "R4": "10k",
+        "R5": "100k",
+        "R6": "100k",
+        "R7": "100k",
+        "T1": "2N5457",
+        "T2": "2N5457",
+        "U1": "9"
+    }
+}

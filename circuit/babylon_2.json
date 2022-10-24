@@ -1,0 +1,32 @@
+{
+    "name": "Babylon 2",
+    "author": "effdub",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/babylon-2.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100u",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "4n7",
+        "C5": "100n",
+        "D1": ["1N4001", "Diode"],
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "P1_Volume": "100k",
+        "R1": "1M",
+        "R2": "2M2",
+        "R3": "1M",
+        "R4": "82k",
+        "R5": "2M2",
+        "R6": "220",
+        "T1": "2N3904",
+        "T2": "2N3904",
+        "U1": "9"
+    }
+}

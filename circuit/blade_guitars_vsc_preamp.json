@@ -1,0 +1,33 @@
+{
+    "name": "VSC Preamp",
+    "author": "Blade Guitars",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/09/blade-vsc-preamp-modified.html#:~:text=posted%20by",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "4u7",
+        "C2": "100n",
+        "C3": "4n7",
+        "C4": "3n3",
+        "C5": "10u",
+        "C6": "10u",
+        "C7": "4u7",
+        "D1": ["1N5817", "Schottky"],
+        "P1_Mid": "50k",
+        "P2_Volume": "100k",
+        "Q1": ["LM741", "TL062", "Opamp Single"],
+        "R1": "1k",
+        "R2": "10k",
+        "R3": "2M",
+        "R4": "470k",
+        "R5": "500k",
+        "R6": "10k",
+        "R7": "10k",
+        "U1": "9"
+    }
+}

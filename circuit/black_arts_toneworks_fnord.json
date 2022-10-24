@@ -1,0 +1,37 @@
+{
+    "name": "Fnord",
+    "author": "Black Arts Toneworks",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/02/black-arts-toneworks-fnord.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "10n",
+        "C5": "100n",
+        "C6": "2n2",
+        "C7": "100u",
+        "C8": "22u",
+        "D1": ["1N914", "1N4148"],
+        "D2": ["1N914", "1N4148"],
+        "P1_Fnord": "10k",
+        "P2_Filter": "50k",
+        "P3_Silence": "100k",
+        "Q1": "CD4070",
+        "R1": "100k",
+        "R2": "10k",
+        "R3": "10k",
+        "R4": "470k",
+        "R5": "100",
+        "R6": "100k",
+        "S1": "DPDT",
+        "T1": ["MPSA13", "NPN_DARLINGTON"],
+        "U1": "9"
+    }
+}

@@ -239,6 +239,92 @@ window.SC.circuit['ampeg_scrambler'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['amtron_uk854_fuzz_box'] = {
+    "name": "UK854 Fuzz Box",
+    "author": "Amtron",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/amtron-uk854-fuzz-box.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100u",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "100u",
+        "D1": ["1N5817", "Schottky"],
+        "PT1": "25k",
+        "P2_Volume": "10k",
+        "P3_Fuzz": "470",
+        "R1": "82k",
+        "R2": "100k",
+        "R3": "330k",
+        "R4": "1M",
+        "T1": ["BC209", "BC239", "2N3904", "2N2222", "BC108", "NPN"],
+        "T2": ["BC209", "BC239", "2N3904", "2N2222", "BC108", "NPN"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['amz_2_channel_splitter'] = {
+    "name": "2 channel splitter",
+    "author": "AMZ",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/08/amz-2-channel-splitter.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100u",
+        "C3": "1u",
+        "C4": "1u",
+        "D1": ["1N5817", "Schottky"],
+        "R1": "10M",
+        "R2": "2M2",
+        "R3": "2M2",
+        "R4": "10k",
+        "R5": "100k",
+        "R6": "100k",
+        "R7": "100k",
+        "T1": "2N5457",
+        "T2": "2N5457",
+        "U1": "9"
+    }
+};
+window.SC.circuit['amz_mini_booster'] = {
+    "name": "Mini Booster",
+    "author": "AMZ",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/amz-mini-booster.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47n",
+        "C2": "100u",
+        "C3": "3u3",
+        "C4": "220n",
+        "C5": "10p",
+        "P1_Volume": "100k",
+        "R1": "100",
+        "R2": "1k",
+        "R3": "1M",
+        "R4": "1M",
+        "R5": "1M",
+        "T1": "2N5457",
+        "T2": "2N5457",
+        "U1": "9"
+    }
+};
 window.SC.circuit['analog_bit_crusher'] = {
     "name": "Analog Bit Crusher",
     "author": "Colin Raffel",
@@ -543,6 +629,38 @@ window.SC.circuit['arsenio_novo_tubesound_overdrive'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['babylon_2'] = {
+    "name": "Babylon 2",
+    "author": "effdub",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/babylon-2.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100u",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "4n7",
+        "C5": "100n",
+        "D1": ["1N4001", "Diode"],
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "P1_Volume": "100k",
+        "R1": "1M",
+        "R2": "2M2",
+        "R3": "1M",
+        "R4": "82k",
+        "R5": "2M2",
+        "R6": "220",
+        "T1": "2N3904",
+        "T2": "2N3904",
+        "U1": "9"
+    }
+};
 window.SC.circuit['bazz_fuss'] = {
     "name": "Bazz Fuss",
     "author": "home-wrecker.com",
@@ -785,6 +903,43 @@ window.SC.circuit['bjfe_pale_green_compressor'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['black_arts_toneworks_fnord'] = {
+    "name": "Fnord",
+    "author": "Black Arts Toneworks",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/02/black-arts-toneworks-fnord.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "10n",
+        "C5": "100n",
+        "C6": "2n2",
+        "C7": "100u",
+        "C8": "22u",
+        "D1": ["1N914", "1N4148"],
+        "D2": ["1N914", "1N4148"],
+        "P1_Fnord": "10k",
+        "P2_Filter": "50k",
+        "P3_Silence": "100k",
+        "Q1": "CD4070",
+        "R1": "100k",
+        "R2": "10k",
+        "R3": "10k",
+        "R4": "470k",
+        "R5": "100",
+        "R6": "100k",
+        "S1": "DPDT",
+        "T1": ["MPSA13", "NPN_DARLINGTON"],
+        "U1": "9"
+    }
+};
 window.SC.circuit['black_cat_od1_overdrive'] = {
     "name": "Black Cat OD1 Overdrive",
     "author": "Fred Bonte",
@@ -817,6 +972,129 @@ window.SC.circuit['black_cat_od1_overdrive'] = {
         "R6": "1M",
         "R7": "430",
         "R8": "100k",
+        "U1": "9"
+    }
+};
+window.SC.circuit['blade_guitars_vsc_preamp'] = {
+    "name": "VSC Preamp",
+    "author": "Blade Guitars",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/09/blade-vsc-preamp-modified.html#:~:text=posted%20by",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "4u7",
+        "C2": "100n",
+        "C3": "4n7",
+        "C4": "3n3",
+        "C5": "10u",
+        "C6": "10u",
+        "C7": "4u7",
+        "D1": ["1N5817", "Schottky"],
+        "P1_Mid": "50k",
+        "P2_Volume": "100k",
+        "Q1": ["LM741", "TL062", "Opamp Single"],
+        "R1": "1k",
+        "R2": "10k",
+        "R3": "2M",
+        "R4": "470k",
+        "R5": "500k",
+        "R6": "10k",
+        "R7": "10k",
+        "U1": "9"
+    }
+};
+window.SC.circuit['blue_plate_special'] = {
+    "name": "Blue Plate Special",
+    "author": "Dragonfly",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/02/blue-plate-special.html#:~:text=posted%20by",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "47u",
+        "C3": "150p",
+        "C4": "22n",
+        "C5": "47u",
+        "P1_PT1": "100k",
+        "P2_Volume": "500k",
+        "R1": "1M",
+        "R2": "180k",
+        "R3": "10k",
+        "R4": "3k9",
+        "T1": ["OC140", "CV7112", "AC187", "AC127", "Ge NPN"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['bmp_tonestack_with_lpb1'] = {
+    "name": "BMP tonestack with LPB1",
+    "author": "mirosol",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/08/bmp-tonestack-w-lpb1.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "4n7",
+        "C2": "10n",
+        "C3": "100n",
+        "C4": "100n",
+        "P1_PT1": "100k",
+        "P2_Pot": "100k",
+        "R1": "39k",
+        "R2": "22k",
+        "R3": "10k",
+        "R4": "100k",
+        "R5": "1M",
+        "R6": "390",
+        "T1": ["2N3904", "2N5088", "NPN"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['boot_leg_jzf1_jazz_fuzz'] = {
+    "name": "JZF-1 Jazz Fuzz",
+    "author": "Boot-Leg",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/03/boot-leg-jzf-1-jazz-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100u",
+        "C2": "470n",
+        "C3": "100n",
+        "C4": "100n",
+        "C5": "1u",
+        "C6": "10n",
+        "D1": "1N4001",
+        "D2": "1N4001",
+        "D3": "1N4001",
+        "P1_Fuzz": "500k",
+        "P2_Vintage": "1k",
+        "P3_Volume": "50k",
+        "Q1": "LM741",
+        "R1": "1k",
+        "R2": "1M",
+        "R3": "100k",
+        "R4": "470",
+        "R5": "10k",
+        "R6": "100k",
+        "R7": "2k2",
         "U1": "9"
     }
 };
@@ -2784,6 +3062,68 @@ window.SC.circuit['forrest_whitesides_pit_figher'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['fred_briggs_e11even'] = {
+    "name": "E11even",
+    "author": "Fred Briggs",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/briggs-e11even.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "470p",
+        "C3": "4n7",
+        "C4": "100n",
+        "D1": "12V ZENER",
+        "D2": "BAT41",
+        "D3": "BAT41",
+        "P1_Body": "470k",
+        "P2_Gain": "1k",
+        "P3_Bias": "10k",
+        "P4_Master": "100k",
+        "R1": "1M",
+        "R2": "10k",
+        "R3": "2M2",
+        "T1": "BS170",
+        "U1": "9"
+    }
+};
+window.SC.circuit['fred_briggs_face'] = {
+    "name": "'Face",
+    "author": "Fred Briggs",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/briggs-face.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "47p",
+        "C3": "22n",
+        "C4": "3n3",
+        "C5": "100n",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "P1_PT1": "4k7",
+        "P2_Volume": "1M",
+        "P3_Tone": "100k",
+        "P4_Master": "100k",
+        "R1": "1k",
+        "R2": "10k",
+        "S1": "SPST",
+        "T1": ["2N5457", "MPF102"],
+        "T2": ["2N5457", "MPF102"],
+        "U1": "9"
+    }
+};
 window.SC.circuit['fuzz_face'] = {
     "name": "Fuzz Face",
     "author": "Arbaiter Electronics Ltd.",
@@ -3897,6 +4237,39 @@ window.SC.circuit['red_fuzz'] = {
         "R7": "1M",
         "R8": "2k2",
         "T1": ["J201", "JFET_N"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['rick_holt_assassin_of_silence'] = {
+    "name": "Assassin of Silence",
+    "author": "Rick Holt",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/assassin-of-silence-by-rick-holt.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "100n",
+        "P1_Fuzz1": "100k",
+        "P2_Fuzz2": "100k",
+        "R1": "390",
+        "R2": "100k",
+        "R3": "1M",
+        "R4": "1M",
+        "R5": "10k",
+        "R6": "10k",
+        "R7": "1M",
+        "R8": "100k",
+        "R9": "390",
+        "S1": "DPDT",
+        "T1": "2N5088",
+        "T2": "2N5088",
         "U1": "9"
     }
 };
