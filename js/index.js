@@ -207,7 +207,7 @@ SC.exact = function (aPartsCounts) {
                 }
             }
             if (ok) {
-                // console.log(SC.circuit[k].name, SC.circuit[k].parts);
+                console.log(SC.circuit[k].name, SC.circuit[k].parts);
                 url = '';
                 for (j in SC.circuit[k].url) {
                     if (SC.circuit[k].url.hasOwnProperty(j)) {
