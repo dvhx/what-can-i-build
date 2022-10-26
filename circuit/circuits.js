@@ -1732,6 +1732,42 @@ window.SC.circuit['buffer_tl071'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['burns_buzzaround'] = {
+    "name": "Buzzaround",
+    "author": "Burns",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/burns-buzzaround.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "1n",
+        "C3": "100n",
+        "C4": "4u7",
+        "C5": "4u7",
+        "C6": "100u",
+        "D1": "Ge DIODE",
+        "P1_Sustain": "100k",
+        "P2_Balance": "5k",
+        "P3_Timbre": "100k",
+        "R1": "10k",
+        "R2": "100k",
+        "R3": "470k",
+        "R4": "10k",
+        "R5": "3k3",
+        "R6": "10k",
+        "R7": "15k",
+        "R8": "27k",
+        "T1": "NKT213",
+        "T2": "NKT213",
+        "T3": "NKT213",
+        "U1": "9"
+    }
+};
 window.SC.circuit['catalinbread_naga_viper'] = {
     "name": "Naga Viper",
     "author": "Catalinbread",
@@ -1789,6 +1825,89 @@ window.SC.circuit['catalinbread_sagrado_poblano_picoso'] = {
         "R6": "100k",
         "R7": "2k2",
         "T1": "BS170",
+        "U1": "9"
+    }
+};
+window.SC.circuit['clark_gainster'] = {
+    "name": "Gainster",
+    "author": "Clark",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/09/clark-gainster.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "120p",
+        "C3": "2n2",
+        "C4": "47n",
+        "C5": "100n",
+        "C6": "47u",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "P1_Gain": "1M",
+        "P2_Tone": "25k",
+        "P3_Level": "500k",
+        "Q1": "LF353",
+        "R1": "10k",
+        "R2": "1k",
+        "R3": "1M",
+        "R4": "10k",
+        "R5": "10k",
+        "R6": "10k",
+        "R7": "10k",
+        "R8": "22k",
+        "U1": "9"
+    }
+};
+window.SC.circuit['cmatmods_butah'] = {
+    "name": "Butah",
+    "author": "CmatMods",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2016/05/cmatmods-butah.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "51p",
+        "C2": "100n",
+        "C3": "10n",
+        "C4": "100n",
+        "C5": "10n",
+        "C6": "10n",
+        "C7": "100n",
+        "C8": "10n",
+        "C9": "100u",
+        "C10": "100u",
+        "D1": "1N5817",
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "D4": "1N4148",
+        "D5": "1N4148",
+        "P1_Volume": "100k",
+        "P2_Gain": "100k",
+        "P3_Tone": "25k",
+        "Q1": "TL072",
+        "R1": "2M2",
+        "R2": "1M",
+        "R3": "4k7",
+        "R4": "3k3",
+        "R5": "4k7",
+        "R6": "47k",
+        "R7": "220k",
+        "R8": "6k8",
+        "R9": "47k",
+        "R10": "10k",
+        "R11": "1M",
+        "R12": "6k8",
+        "R13": "1k",
         "U1": "9"
     }
 };
@@ -1883,6 +2002,34 @@ window.SC.circuit['colorsound_jumbo_tonebender'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['colorsound_one_knob_fuzz'] = {
+    "name": "One Knob Fuzz",
+    "author": "Colorsound",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/10/colorsound-one-knob-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "220p",
+        "C2": "100n",
+        "C3": "220n",
+        "C4": "10u",
+        "P1_Volume": "500k",
+        "R1": "10k",
+        "R2": "82",
+        "R3": "1M",
+        "R4": "1k",
+        "R5": "150k",
+        "R6": "2k2",
+        "T1": "BC109",
+        "T2": "BC108",
+        "U1": "9"
+    }
+};
 window.SC.circuit['colorsound_supasustain'] = {
     "name": "SupaSustain",
     "author": "Colorsound",
@@ -1927,12 +2074,12 @@ window.SC.circuit['colorsound_supasustain'] = {
         "U1": "18"
     }
 };
-window.SC.circuit['cornish_buffer'] = {
-    "name": "Cornish Buffer",
-    "author": "IvIark",
+window.SC.circuit['colorsound_tremolo'] = {
+    "name": "Tremolo",
+    "author": "Colorsound",
     "url": {
         "schematic": "",
-        "stripboard": "https://tagboardeffects.blogspot.com/2012/02/cornish-buffer.html",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/02/colorsound-tremolo.html",
         "perfboard": "",
         "pcb": "",
         "tagboard": "",
@@ -1940,22 +2087,32 @@ window.SC.circuit['cornish_buffer'] = {
     },
     "parts": {
         "C1": "100n",
-        "C2": "1n",
-        "C3": "220u",
-        "C4": "4u7",
-        "C5": "22u",
-        "D1": ["1N5401", "1N4001"],
-        "R1": "10M",
-        "R2": "100",
-        "R3": "1k",
-        "R4": "120k",
-        "R5": "120k",
-        "R6": "200k",
-        "R7": "150",
-        "R8": "20k",
-        "R9": "7k5",
-        "R10": "50k",
-        "T1": "BC549",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "220n",
+        "C5": "470n",
+        "C6": "470n",
+        "C7": "470n",
+        "D1": ["1N5817", "1N4001"],
+        "P1_Depth": "100k",
+        "P2_Speed": "250k",
+        "R1": "18k",
+        "R2": "1M",
+        "R3": "100k",
+        "R4": "330k",
+        "R5": "4k7",
+        "R6": "100k",
+        "R7": "1M",
+        "R8": "3M3",
+        "R9": "220k",
+        "R10": "4k7",
+        "R11": "3M3",
+        "R12": "22k",
+        "R13": "3k3",
+        "T1": ["2SC945", "2N5088"],
+        "T2": ["2SC945", "2N5088"],
+        "T3": ["2SC945", "2N5088"],
+        "T4": ["2SC945", "2N5088"],
         "U1": "9"
     }
 };
@@ -3427,6 +3584,72 @@ window.SC.circuit['jfet_parallel_looper'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['keeley_4knob_compressor'] = {
+    "name": "4-Knob Compressor",
+    "author": "Keeley",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/07/keeley-4-knob-compressor.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "2n2",
+        "C2": "10n",
+        "C3": "10n",
+        "C4": "1u",
+        "C5": "150p",
+        "C6": "1u",
+        "C7": "10u",
+        "C8": "10n",
+        "C9": "10u",
+        "C10": "1u",
+        "C11": "1u",
+        "C12": "1u",
+        "C13": "1u",
+        "C14": "10n",
+        "C15": "1n",
+        "C16": "47n",
+        "C17": "10n",
+        "D1": "1N914",
+        "D2": "1N914",
+        "P1_PT1": "2k",
+        "P2_Clip": "150k",
+        "P3_Attack": "150k",
+        "P4_Sustain": "500k",
+        "P5_Output": "50k",
+        "Q1": ["LM3080", "CA3080"],
+        "R1": "10k",
+        "R2": "220k",
+        "R3": "4M7",
+        "R4": "10k",
+        "R5": "10k",
+        "R6": "470k",
+        "R7": "10k",
+        "R8": "56k",
+        "R9": "27k",
+        "R10": "1M",
+        "R11": "1M",
+        "R12": "470k",
+        "R13": "220k",
+        "R14": "15k",
+        "R15": "1M",
+        "R16": "150k",
+        "R17": "1M",
+        "R18": "10k",
+        "R19": "10k",
+        "R20": "27k",
+        "R21": "10k",
+        "T1": ["2N5088", "NPN"],
+        "T2": ["2N5088", "NPN"],
+        "T3": ["2N5088", "NPN"],
+        "T4": ["2N5088", "NPN"],
+        "T5": ["2N5088", "NPN"],
+        "U1": "9"
+    }
+};
 window.SC.circuit['ken_willmott_differential_distortion'] = {
     "name": "Differential Distortion",
     "author": "Ken Willmott",
@@ -3648,6 +3871,34 @@ window.SC.circuit['mad_professor_snow_white_autowah'] = {
         "T2": "2N5457",
         "T3": "BC550",
         "T4": "BC550",
+        "U1": "9"
+    }
+};
+window.SC.circuit['masaru_kubota_comet_filter'] = {
+    "name": "Comet filter",
+    "author": "Masaru Kubota",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/comet-filter.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "10n",
+        "C3": "10u",
+        "C4": "10u",
+        "C5": "100u",
+        "P1_Filter1": "1M",
+        "P2_Filter2": "100k",
+        "R1": "470k",
+        "R2": "1k",
+        "R3": "1k",
+        "R4": "10k",
+        "R5": "10k",
+        "T1": ["2N3904", "NPN"],
         "U1": "9"
     }
 };
@@ -4047,6 +4298,92 @@ window.SC.circuit['paulinthelab_piezo_preamp'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['pete_cornish_buffer'] = {
+    "name": "Buffer",
+    "author": "Pete Cornish",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/02/cornish-buffer.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "1n",
+        "C3": "220u",
+        "C4": "4u7",
+        "C5": "22u",
+        "D1": ["1N5401", "1N4001"],
+        "R1": "10M",
+        "R2": "100",
+        "R3": "1k",
+        "R4": "120k",
+        "R5": "120k",
+        "R6": "200k",
+        "R7": "150",
+        "R8": "20k",
+        "R9": "7k5",
+        "R10": "50k",
+        "T1": "BC549",
+        "U1": "9"
+    }
+};
+window.SC.circuit['pete_cornish_ss2'] = {
+    "name": "SS-2",
+    "author": "Pete Cornish",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/05/cornish-ss-2.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "220n",
+        "C3": "470n",
+        "C4": "10n",
+        "C5": "4n7",
+        "C6": "1n",
+        "C7": "10p",
+        "C8": "10n",
+        "C9": "1n",
+        "C10": "10n",
+        "C11": "220u",
+        "C12": "1u",
+        "C13": "10u",
+        "C14": "10n",
+        "C15": "22u",
+        "D1": "1N270",
+        "D2": "1N270",
+        "P1_Drive": "50k",
+        "P2_Tone": "20k",
+        "P3_Volume": "10k",
+        "Q1": "741",
+        "Q2": "741",
+        "R1": "510",
+        "R2": "2k4",
+        "R3": "10k",
+        "R4": "1M",
+        "R5": "150k",
+        "R6": "1M",
+        "R7": "100k",
+        "R8": "1M",
+        "R9": "10k",
+        "R10": "6k8",
+        "R11": "180k",
+        "R12": "1M",
+        "R13": "150k",
+        "R14": "10k",
+        "R15": "10k",
+        "R16": "91",
+        "R17": "91",
+        "U1": "9"
+    }
+};
 window.SC.circuit['pink_jimi_photon_stupid_simple_overdrive'] = {
     "name": "Stupid Simple Overdrive",
     "author": "Pink Jimi Photon",
@@ -4270,6 +4607,78 @@ window.SC.circuit['rick_holt_assassin_of_silence'] = {
         "S1": "DPDT",
         "T1": "2N5088",
         "T2": "2N5088",
+        "U1": "9"
+    }
+};
+window.SC.circuit['rocket88_17v_charge_pump'] = {
+    "name": "17V change pump",
+    "author": "Rocket88",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2016/11/charge-pump-extravaganza.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "10u",
+        "D1": "1N5817",
+        "D2": "1N5817",
+        "Q1": "MAX1044",
+        "U1": "9"
+    }
+};
+window.SC.circuit['rocket88_25v_charge_pump'] = {
+    "name": "25V charge pump",
+    "author": "Rocket88",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2016/11/charge-pump-extravaganza.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "10u",
+        "C3": "10u",
+        "C4": "10u",
+        "D1": "1N5817",
+        "D2": "1N5817",
+        "D3": "1N5817",
+        "D4": "1N5817",
+        "Q1": "MAX1044",
+        "U1": "9"
+    }
+};
+window.SC.circuit['rocket88_33v_charge_pump'] = {
+    "name": "33V charge pump",
+    "author": "Rocket88",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2016/11/charge-pump-extravaganza.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "10u",
+        "C3": "10u",
+        "C4": "10u",
+        "C5": "10u",
+        "C6": "10u",
+        "D1": "1N5817",
+        "D2": "1N5817",
+        "D3": "1N5817",
+        "D4": "1N5817",
+        "D5": "1N5817",
+        "D6": "1N5817",
+        "Q1": "MAX1044",
         "U1": "9"
     }
 };

@@ -1,0 +1,28 @@
+{
+    "name": "One Knob Fuzz",
+    "author": "Colorsound",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/10/colorsound-one-knob-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "220p",
+        "C2": "100n",
+        "C3": "220n",
+        "C4": "10u",
+        "P1_Volume": "500k",
+        "R1": "10k",
+        "R2": "82",
+        "R3": "1M",
+        "R4": "1k",
+        "R5": "150k",
+        "R6": "2k2",
+        "T1": "BC109",
+        "T2": "BC108",
+        "U1": "9"
+    }
+}

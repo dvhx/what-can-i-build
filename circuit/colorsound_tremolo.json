@@ -1,0 +1,42 @@
+{
+    "name": "Tremolo",
+    "author": "Colorsound",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/02/colorsound-tremolo.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "220n",
+        "C5": "470n",
+        "C6": "470n",
+        "C7": "470n",
+        "D1": ["1N5817", "1N4001"],
+        "P1_Depth": "100k",
+        "P2_Speed": "250k",
+        "R1": "18k",
+        "R2": "1M",
+        "R3": "100k",
+        "R4": "330k",
+        "R5": "4k7",
+        "R6": "100k",
+        "R7": "1M",
+        "R8": "3M3",
+        "R9": "220k",
+        "R10": "4k7",
+        "R11": "3M3",
+        "R12": "22k",
+        "R13": "3k3",
+        "T1": ["2SC945", "2N5088"],
+        "T2": ["2SC945", "2N5088"],
+        "T3": ["2SC945", "2N5088"],
+        "T4": ["2SC945", "2N5088"],
+        "U1": "9"
+    }
+}

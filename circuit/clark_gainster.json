@@ -1,0 +1,36 @@
+{
+    "name": "Gainster",
+    "author": "Clark",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/09/clark-gainster.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "120p",
+        "C3": "2n2",
+        "C4": "47n",
+        "C5": "100n",
+        "C6": "47u",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "P1_Gain": "1M",
+        "P2_Tone": "25k",
+        "P3_Level": "500k",
+        "Q1": "LF353",
+        "R1": "10k",
+        "R2": "1k",
+        "R3": "1M",
+        "R4": "10k",
+        "R5": "10k",
+        "R6": "10k",
+        "R7": "10k",
+        "R8": "22k",
+        "U1": "9"
+    }
+}

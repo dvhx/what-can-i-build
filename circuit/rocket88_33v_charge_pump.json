@@ -1,0 +1,28 @@
+{
+    "name": "33V charge pump",
+    "author": "Rocket88",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2016/11/charge-pump-extravaganza.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "10u",
+        "C3": "10u",
+        "C4": "10u",
+        "C5": "10u",
+        "C6": "10u",
+        "D1": "1N5817",
+        "D2": "1N5817",
+        "D3": "1N5817",
+        "D4": "1N5817",
+        "D5": "1N5817",
+        "D6": "1N5817",
+        "Q1": "MAX1044",
+        "U1": "9"
+    }
+}

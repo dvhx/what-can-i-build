@@ -1,0 +1,28 @@
+{
+    "name": "Comet filter",
+    "author": "Masaru Kubota",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/comet-filter.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "10n",
+        "C3": "10u",
+        "C4": "10u",
+        "C5": "100u",
+        "P1_Filter1": "1M",
+        "P2_Filter2": "100k",
+        "R1": "470k",
+        "R2": "1k",
+        "R3": "1k",
+        "R4": "10k",
+        "R5": "10k",
+        "T1": ["2N3904", "NPN"],
+        "U1": "9"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "17V change pump",
+    "author": "Rocket88",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2016/11/charge-pump-extravaganza.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "10u",
+        "D1": "1N5817",
+        "D2": "1N5817",
+        "Q1": "MAX1044",
+        "U1": "9"
+    }
+}

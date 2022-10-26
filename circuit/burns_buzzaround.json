@@ -1,0 +1,36 @@
+{
+    "name": "Buzzaround",
+    "author": "Burns",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/burns-buzzaround.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "1n",
+        "C3": "100n",
+        "C4": "4u7",
+        "C5": "4u7",
+        "C6": "100u",
+        "D1": "Ge DIODE",
+        "P1_Sustain": "100k",
+        "P2_Balance": "5k",
+        "P3_Timbre": "100k",
+        "R1": "10k",
+        "R2": "100k",
+        "R3": "470k",
+        "R4": "10k",
+        "R5": "3k3",
+        "R6": "10k",
+        "R7": "15k",
+        "R8": "27k",
+        "T1": "NKT213",
+        "T2": "NKT213",
+        "T3": "NKT213",
+        "U1": "9"
+    }
+}
