@@ -1,0 +1,32 @@
+{
+    "name": "Valentine",
+    "author": "Dragonfly",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/02/dragonfly-valentine.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "100n",
+        "C3": "100n",
+        "P1_Drive": "1M",
+        "P2_Volume": "100k",
+        "R1": "5k1",
+        "R2": "180k",
+        "R3": "1k5",
+        "R4": "100",
+        "R5": "1M",
+        "R6": "220k",
+        "R7": "100k",
+        "R8": "3k",
+        "R9": "1k",
+        "R10": "100",
+        "T1": "2N3904",
+        "T2": ["NTE458", "JFET_N"],
+        "U1": "9"
+    }
+}

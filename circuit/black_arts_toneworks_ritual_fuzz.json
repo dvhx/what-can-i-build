@@ -1,0 +1,28 @@
+{
+    "name": "Ritual Fuzz",
+    "author": "Black Arts Toneworks",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/04/1-knob-fuzz-bonanza.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "150p",
+        "C2": "680n",
+        "C3": "220n",
+        "C4": "100u",
+        "C5": "10u",
+        "P1_Volume": "500k",
+        "R1": "1k",
+        "R2": "10k",
+        "R3": "150k",
+        "R4": "820",
+        "R5": "2k",
+        "T1": "2N2222",
+        "T2": "2N2222",
+        "U1": "9"
+    }
+}

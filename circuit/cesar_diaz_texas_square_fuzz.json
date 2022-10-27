@@ -1,0 +1,26 @@
+{
+    "name": "Texas Square Fuzz",
+    "author": "Cesar Diaz",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/05/diaz-texas-square-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "2u2",
+        "C2": "22u",
+        "C3": "10n",
+        "P1_Fuzz": "2k",
+        "P2_Volume": "500k",
+        "R1": "33k",
+        "R2": "100k",
+        "R3": "8k2",
+        "R4": "1k2",
+        "T1": ["NTE103", "AC187", "Ge PNP"],
+        "T2": ["NTE103", "AC187", "Ge PNP"],
+        "U1": "9"
+    }
+}

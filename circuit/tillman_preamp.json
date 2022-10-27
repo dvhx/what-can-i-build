@@ -1,0 +1,22 @@
+{
+    "name": "Preamp",
+    "author": "Tillman",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/05/a-pair-o-preamps-echoplex-and-tillman.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "4u7",
+        "R1": "6k8",
+        "R2": "3M",
+        "R3": "2k2",
+        "R4": "51k",
+        "T1": "J201",
+        "U1": "9"
+    }
+}

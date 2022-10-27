@@ -1,0 +1,29 @@
+{
+    "name": "Saturn Five",
+    "author": "Dragonfly",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/02/dragonfly-saturn-five.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "220p",
+        "C2": "100n",
+        "C3": "22n",
+        "C4": "22n",
+        "C5": "22n",
+        "P1_Splat": "500k",
+        "P2_Volume": "500k",
+        "R1": "1M",
+        "R2": "1M",
+        "R3": "4k7",
+        "R4": "470k",
+        "R5": "100k",
+        "T1": "BC108",
+        "T2": "BC108",
+        "U1": "9"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Preamp",
+    "author": "EchoPlex",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/05/a-pair-o-preamps-echoplex-and-tillman.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "22n",
+        "C3": "220p",
+        "C4": "47u",
+        "C5": "100n",
+        "R1": "1M",
+        "R2": "100k",
+        "R3": "22k",
+        "R4": "1M",
+        "R5": "3k3",
+        "R6": "100k",
+        "R7": "220k",
+        "T1": "2N5457",
+        "U1": "9"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "US Fuzz",
+    "author": "Devi Ever",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2011/05/devi-ever-us-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "1n",
+        "C3": "100n",
+        "C4": "22n",
+        "C5": "22n",
+        "C6": "10n",
+        "P1_Intensity": "500k",
+        "P2_Volume": "100k",
+        "R1": "220k",
+        "R2": "2M2",
+        "R3": "10k",
+        "R4": "2M2",
+        "R5": "100k",
+        "T1": "MPSA18",
+        "T2": "2N2222",
+        "T3": "MPSA18",
+        "T4": "2N2222",
+        "U1": "9"
+    }
+}

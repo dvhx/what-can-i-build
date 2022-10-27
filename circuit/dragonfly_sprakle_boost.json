@@ -1,0 +1,26 @@
+{
+    "name": "Sparkle Boost",
+    "author": "Dragonfly",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/dragonfly-sparkle-boost.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "1u",
+        "C3": "10u",
+        "P1_PT1": "100k",
+        "P2_Gain": "5k",
+        "P3_Volume": "100k",
+        "R1": "2M2",
+        "R2": "1M",
+        "R3": "2k7",
+        "R4": "100k",
+        "T1": ["NTE458", "JFET_N"],
+        "U1": "9"
+    }
+}

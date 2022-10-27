@@ -1,0 +1,38 @@
+{
+    "name": "Flatline Compressor",
+    "author": "John Hollis",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/02/john-hollis-flatline-compressor.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "1n",
+        "C2": "1u",
+        "C3": "100u",
+        "C4": "10u",
+        "C5": "47u",
+        "D1": ["1N34A", "1N4148"],
+        "D2": ["1N34A", "1N4148"],
+        "D3": ["1N34A", "1N4148"],
+        "D4": ["1N34A", "1N4148"],
+        "D5": "LED",
+        "LDR1": "LDR",
+        "P1_Sustain": "10k",
+        "P2_Volume": "100k",
+        "Q1": ["TL072", "Opamp Dual"],
+        "R1": "220k",
+        "R2": "10M",
+        "R3": "10M",
+        "R4": "10k",
+        "R5": "100k",
+        "R6": "10k",
+        "R7": "47k",
+        "R8": "100k",
+        "R9": "330",
+        "U1": "9"
+    }
+}

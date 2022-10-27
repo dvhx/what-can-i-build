@@ -1,0 +1,28 @@
+{
+    "name": "1966",
+    "author": "Dr. Tony Balls",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/04/1-knob-fuzz-bonanza.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "220p",
+        "C2": "220n",
+        "C3": "47u",
+        "C4": "22u",
+        "C5": "6n8",
+        "P1_Volume": "500k",
+        "R1": "1k",
+        "R2": "10k",
+        "R3": "47k",
+        "R4": "1k",
+        "R5": "8k2",
+        "T1": ["BC107", "BC108"],
+        "T2": ["BC107", "BC108"],
+        "U1": "9"
+    }
+}
