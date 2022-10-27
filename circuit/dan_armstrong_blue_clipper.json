@@ -1,0 +1,30 @@
+{
+    "name": "Blue Clipper",
+    "author": "Dan Armstrong",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/10/dan-armstrong-blue-clipper.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "33n",
+        "C2": "47n",
+        "C3": "4u7",
+        "C4": "4u7",
+        "D1": ["1N914", "1N4148"],
+        "D2": ["1N914", "1N4148"],
+        "P1_Volume": "50k",
+        "Q1": ["JRC4558", "Opamp Dual"],
+        "R1": "10k",
+        "R2": "1M",
+        "R3": "200k",
+        "R4": "150k",
+        "R5": "240k",
+        "R6": "150",
+        "R7": "8k2",
+        "U1": "9"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Si Fuzz Face",
+    "author": "Creepy Fingers",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/04/creepy-fingers-effects-si-fuzz-face.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "2u2",
+        "C2": "22u",
+        "C3": "15n",
+        "C4": "39p",
+        "P1_Fuzz": "1k",
+        "P2_Volume": "500k",
+        "R1": "330",
+        "R2": "33k",
+        "R3": "8k2",
+        "R4": "10",
+        "R5": "100k",
+        "T1": "BC130C",
+        "T2": "BC130C",
+        "U1": "9"
+    }
+}

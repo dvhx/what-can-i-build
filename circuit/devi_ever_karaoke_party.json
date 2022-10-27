@@ -1,0 +1,25 @@
+{
+    "name": "Karaoke Party",
+    "author": "Devi Ever",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/01/devi-ever-karaoke-party.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100u",
+        "P1_Control": "100k",
+        "P2_Volume": "100k",
+        "R1": "1k",
+        "R2": "2M2",
+        "R3": "3M3",
+        "R4": "10k",
+        "T1": "MPSA18",
+        "U1": "9"
+    }
+}

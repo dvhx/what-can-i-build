@@ -1,0 +1,37 @@
+{
+    "name": "Hotcake",
+    "author": "Crowther",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/02/crowther-hotcake.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "56n",
+        "C3": "22n",
+        "C4": "10u",
+        "C5": "10u",
+        "C6": "470p",
+        "C7": "82n",
+        "D1": "8V2 ZENER",
+        "P1_Gain": "50k",
+        "P2_Volume": "50k",
+        "P3_Presence": "50k",
+        "Q1": "TL071",
+        "R1": "10k",
+        "R2": "220",
+        "R3": "1M",
+        "R4": "100k",
+        "R5": "100k",
+        "R6": "82k",
+        "R7": "10k",
+        "R8": "1k",
+        "R9": "220",
+        "R10": "10k",
+        "U1": "9"
+    }
+}

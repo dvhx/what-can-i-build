@@ -1,0 +1,32 @@
+{
+    "name": "Interstellar Overdriver",
+    "author": "Death By Audio",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/04/death-by-audio-interstellar-overdriver.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "10n",
+        "C3": "100n",
+        "C4": "100n",
+        "P1_Gain": "100k Stereo",
+        "P2_Level": "100k",
+        "R1": "10k",
+        "R2": "910k",
+        "R3": "180k",
+        "R4": "910k",
+        "R5": "180k",
+        "R6": "910k",
+        "R7": "180k",
+        "R8": "3k3",
+        "T1": "2N5089",
+        "T2": "2N5089",
+        "T3": "2N5089",
+        "U1": "9"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Supersonic Fuzz Gun",
+    "author": "Death By Audio",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/04/death-by-audio-supersonic-fuzz-gun.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "470p",
+        "C2": "10n",
+        "C3": "100n",
+        "C4": "100u",
+        "C5": "4u7",
+        "C6": "4u7",
+        "C7": "100n",
+        "C8": "330n",
+        "D1": "LED",
+        "P1_Density": "100k",
+        "P2_Bias": "50k",
+        "P3_Fuzz": "10k",
+        "P4_Filter": "10k",
+        "P5_Level": "100k",
+        "R1": "180k",
+        "R2": "910k",
+        "R3": "10k",
+        "R4": "2k2",
+        "R5": "910k",
+        "R6": "910k",
+        "R7": "180k",
+        "R8": "910k",
+        "R9": "4M7",
+        "R10": "750",
+        "S1": "SPDT",
+        "T1": "2N5089",
+        "T2": "2N5089",
+        "T3": "2N5306",
+        "U1": "9"
+    }
+}

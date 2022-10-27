@@ -1,0 +1,26 @@
+{
+    "name": "OK",
+    "author": "Devi Ever",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/devi-ever-ok.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "10n",
+        "C3": "100n",
+        "C4": "100n",
+        "P1_Control": "100k",
+        "P2_Volume": "100k",
+        "R1": "3M3",
+        "R2": "10k",
+        "T1": "MPSA18",
+        "T2": "MPSA18",
+        "T3": "2N2907",
+        "U1": "9"
+    }
+}

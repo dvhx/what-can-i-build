@@ -1,0 +1,30 @@
+{
+    "name": "Super Bee",
+    "author": "DAM",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/01/dam-super-bee.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47u",
+        "C2": "470p",
+        "C3": "100n",
+        "C4": "47p",
+        "C5": "100n",
+        "C6": "15u",
+        "P1_PT1": "22k",
+        "P2_Attack": "1k",
+        "P3_Level": "100k",
+        "R1": "10k",
+        "R2": "47k",
+        "R3": "1k",
+        "R4": "820",
+        "T1": ["OC76", "OC84", "OC71", "OC78", "OC42", "CV5416", "Ge PNP"],
+        "T2": ["OC76", "OC84", "OC71", "OC78D", "OC42", "CV5416", "Ge PNP"],
+        "U1": "9"
+    }
+}

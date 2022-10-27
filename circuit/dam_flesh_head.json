@@ -1,0 +1,35 @@
+{
+    "name": "Flesh Head",
+    "author": "DAM",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/09/dam-fleshhead.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "4u7",
+        "C2": "4u7",
+        "C3": "47u",
+        "C4": "100n",
+        "C5": "100n",
+        "C6": "6n8",
+        "P1_Volume": "100k",
+        "P2_Flesh": "100k",
+        "R1": "10k",
+        "R2": "10k",
+        "R3": "47k",
+        "R4": "8k2",
+        "R5": "1k",
+        "R6": "10k",
+        "R7": "470",
+        "R8": "100k",
+        "R9": "10k",
+        "T1": ["OC71", "OC78", "OC81", "Ge PNP"],
+        "T2": ["OC71", "OC78", "OC81", "Ge PNP"],
+        "T3": ["OC71", "OC78", "OC81", "Ge PNP"],
+        "U1": "9"
+    }
+}

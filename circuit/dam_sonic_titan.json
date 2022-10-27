@@ -1,0 +1,34 @@
+{
+    "name": "Sonic Titan with modified tone stack",
+    "author": "DAM",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/01/dam-sonic-titan-with-modified-tone.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "4u7",
+        "C2": "4u7",
+        "C3": "4n7",
+        "C4": "100u",
+        "C5": "10u",
+        "C6": "10u",
+        "C7": "10n",
+        "D1": "LED",
+        "P1_PT1": "10k",
+        "P2_Drive": "10k",
+        "P3_Tone": "25k",
+        "P4_Level": "100k",
+        "Q1": "LM386",
+        "R1": "1k",
+        "R2": "2k2",
+        "R3": "4M7",
+        "R4": "2k2",
+        "R5": "2k2",
+        "T1": ["2N3819", "JFET_N"],
+        "U1": "9"
+    }
+}

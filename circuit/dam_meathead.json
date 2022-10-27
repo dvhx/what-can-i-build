@@ -1,0 +1,28 @@
+{
+    "name": "Meathead",
+    "author": "DAM",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/dam-meathead.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "22n",
+        "C3": "10u",
+        "C4": "470p",
+        "C5": "47p",
+        "P1_Dirt": "500k",
+        "R1": "120k",
+        "R2": "18k",
+        "R3": "820",
+        "R4": "4k7",
+        "R5": "1k",
+        "T1": "2N3904",
+        "T2": "BC182L",
+        "U1": "9"
+    }
+}

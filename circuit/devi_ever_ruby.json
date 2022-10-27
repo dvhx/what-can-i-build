@@ -1,0 +1,29 @@
+{
+    "name": "Ruby",
+    "author": "Devi Ever",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/06/devi-ever-ruby.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "10n",
+        "C3": "100n",
+        "C4": "100n",
+        "P1_Intensity": "100k",
+        "P2_Volume": "100k",
+        "R1": "2M2",
+        "R2": "1M",
+        "R3": "10k",
+        "R4": "10k",
+        "R5": "1k",
+        "R6": "2M2",
+        "T1": "MPSA18",
+        "T2": "MPSA18",
+        "U1": "9"
+    }
+}

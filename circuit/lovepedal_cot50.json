@@ -1,0 +1,29 @@
+{
+    "name": "COT50",
+    "author": "Lovepedal",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/02/cot50-with-briggs-mods.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47u",
+        "C2": "56n",
+        "C3": "120n",
+        "C4": "47n",
+        "C5": "470n",
+        "D1": "1N270",
+        "D2": "1N270",
+        "P1_Structure": "1k",
+        "P2_Nature": "1k",
+        "R1": "330",
+        "R2": "47",
+        "R3": "2M2",
+        "R4": "3k3",
+        "T1": "2N5088",
+        "U1": "9"
+    }
+}
