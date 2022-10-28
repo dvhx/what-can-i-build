@@ -1,0 +1,39 @@
+{
+    "name": "Flapjack OD",
+    "author": "Effdub",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/09/effdub-flapjack-od.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "82n",
+        "C2": "10n",
+        "C3": "10u",
+        "C4": "10u",
+        "C5": "100u",
+        "C6": "10n",
+        "C7": "47n",
+        "C8": "470p",
+        "D1": "1N5817",
+        "P1_Gain": "50k",
+        "P2_Presence": "25k",
+        "P3_Volume": "50k",
+        "R1": "1k",
+        "R2": "1M",
+        "R3": "100k",
+        "R4": "220",
+        "R5": "1M",
+        "R6": "10k",
+        "R7": "100k",
+        "R8": "82k",
+        "R9": "10k",
+        "R10": "220",
+        "R11": "10k",
+        "Q1": "741",
+        "U1": "9"
+    }
+}

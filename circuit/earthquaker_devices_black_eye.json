@@ -1,0 +1,27 @@
+{
+    "name": "Black Eye",
+    "author": "Earthquaker Devices",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/03/earthquaker-devices-black-eye.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100u",
+        "C3": "10u",
+        "D1": "1N4001",
+        "D2": "1N4001",
+        "PT1": "5k",
+        "P2_Boost": "100k",
+        "R1": "2M2",
+        "R2": "10k",
+        "R3": "10M",
+        "R4": "10M",
+        "T1": "BS170",
+        "U1": "9"
+    }
+}

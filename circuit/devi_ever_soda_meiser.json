@@ -1,0 +1,33 @@
+{
+    "name": "Soda Meiser",
+    "author": "Devi Ever",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/12/effector-13-devi-soda-meiser.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/effector-13-soda-meiser.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "100n",
+        "C5": "100n",
+        "P1_Intensity": "100k",
+        "P2_Volume": "100k",
+        "R1": "2M2",
+        "R2": "10k",
+        "R3": "3M3",
+        "R4": "10k",
+        "R5": "10k",
+        "R6": "10k",
+        "S1": "SPDT",
+        "T1": "MPSA18",
+        "T2": "MPSA18",
+        "T3": "MPSA18",
+        "T4": ["2N2907", "2N3906"],
+        "U1": "9"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Great Destroyer",
+    "author": "Dwarfcraft",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/08/dwarftcraft-great-destroyer.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "1u",
+        "PT1": "22k",
+        "P2_Drive": "1M",
+        "P3_Starve": "2k",
+        "P4_Tone": "5k",
+        "P5_Volume": "100k",
+        "Q1": ["MC14049BCP", "CD4049"],
+        "R1": "3k3",
+        "U1": "9"
+    }
+}

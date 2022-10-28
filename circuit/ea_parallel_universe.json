@@ -1,0 +1,33 @@
+{
+    "name": "Parallel Universe",
+    "author": "Experimentalists Anonymous",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/ea-parallel-universe-old-version.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "10u",
+        "C3": "100n",
+        "C4": "100n",
+        "C5": "10u",
+        "C6": "100n",
+        "P1_Gain": "2k",
+        "P2_Starve": "1k",
+        "P3_Freq": "5k",
+        "P4_Level": "5k",
+        "P5_Tone": "10k",
+        "Q1": "LM386",
+        "R1": "2k2",
+        "R2": "2M2",
+        "R3": "2M2",
+        "R4": "47k",
+        "S1": "SPDT",
+        "S2": "SPST",
+        "U1": "9"
+    }
+}

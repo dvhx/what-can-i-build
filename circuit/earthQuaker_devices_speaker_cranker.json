@@ -1,0 +1,28 @@
+{
+    "name": "Speaker Cranker",
+    "author": "EarthQuaker Devices",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/03/earthquaker-devices-speaker-cranker.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100u",
+        "C2": "100n",
+        "C3": "100u",
+        "C4": "68n",
+        "D1": ["1N60P", "Ge Diode"],
+        "D2": ["1N60P", "Ge Diode"],
+        "D3": ["1N60P", "Ge Diode"],
+        "P1_More": "5k",
+        "R1": "330",
+        "R2": "10k",
+        "R3": "10M",
+        "R4": "2M2",
+        "T1": "2N3904",
+        "U1": "9"
+    }
+}

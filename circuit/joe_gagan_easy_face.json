@@ -1,0 +1,29 @@
+{
+    "name": "Easy Face with input cap blend",
+    "author": "Joe Gagan",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/easy-face-with-input-cap-blend.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "100n",
+        "C3": "3u3",
+        "C4": "22u",
+        "PT1": "10k",
+        "P2_Pregain": "250k",
+        "P3_Blend": "100k",
+        "P4_Volume": "500k",
+        "R1": "33k",
+        "R2": "470",
+        "R3": "100k",
+        "R4": "1k",
+        "T1": "2N3906",
+        "T2": ["2SB33", "Ge PNP"],
+        "U1": "9"
+    }
+}

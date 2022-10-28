@@ -1,0 +1,32 @@
+{
+    "name": "Graphic Fuzz",
+    "author": "Earth Sound Research",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2020/07/earth-sound-research-graphic-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "1u",
+        "C2": "10u",
+        "C3": "100n",
+        "C4": "100u",
+        "C5": "100n",
+        "C6": "1u",
+        "C7": "100n",
+        "D1": "1N5817",
+        "P1_Linear": "1M",
+        "P2_Volume": "100k",
+        "Q1": "741",
+        "R1": "1M",
+        "R2": "10k",
+        "R3": "2M2",
+        "R4": "10k",
+        "R5": "220",
+        "R6": "10k",
+        "U1": "9"
+    }
+}

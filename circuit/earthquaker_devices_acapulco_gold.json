@@ -1,0 +1,30 @@
+{
+    "name": "Acapulco Gold",
+    "author": "Earthquaker Devices",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2015/11/earthquaker-devices-acapulco-gold.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "4n7",
+        "C2": "10u",
+        "C3": "10u",
+        "C4": "1u",
+        "C5": "1u",
+        "C6": "100u",
+        "D1": "1N4001",
+        "D2": "LED",
+        "P1_Volume": "100k",
+        "P2_Gain": "1M",
+        "R1": "68k",
+        "R2": "1M",
+        "R3": "3k3",
+        "Q1": "LM386",
+        "Q2": "LM386",
+        "U1": "9"
+    }
+}
