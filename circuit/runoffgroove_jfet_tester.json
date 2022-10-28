@@ -1,0 +1,19 @@
+{
+    "name": "JFET tester",
+    "author": "Runoffgroove",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/07/greatly-improved-jfet-matcher.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47u",
+        "R1": "1M",
+        "R2": "100",
+        "S1": "SPDT",
+        "U1": "9"
+    }
+}

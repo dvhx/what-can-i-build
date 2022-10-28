@@ -1,0 +1,32 @@
+{
+    "name": "Super Full Wave Octaver",
+    "author": "JC Maillet",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/01/jc-maillet-super-full-wave-octaver.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "39p",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "22u",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "D3": "1N5817",
+        "P1_Control": "100k",
+        "P2_Level": "10k",
+        "Q1": ["JRC4558", "Opamp Dual"],
+        "R1": "15k",
+        "R2": "1M",
+        "R3": "100k",
+        "R4": "15k",
+        "R5": "15k",
+        "R6": "100k",
+        "R7": "1k",
+        "U1": "9"
+    }
+}

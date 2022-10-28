@@ -1,0 +1,36 @@
+{
+    "name": "Germanium Overdrive",
+    "author": "EHX",
+    "url": {
+        "schematic": "https://1.bp.blogspot.com/-69MXRdBho44/VBlv8INmLbI/AAAAAAAAIng/bb-E6QePvCc/s1600/EH%2BGermanium%2BOD.jpg",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/09/ehx-germanium-overdrive.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "470n",
+        "C2": "47u",
+        "C3": "470n",
+        "C4": "470n",
+        "C5": "470n",
+        "C6": "470n",
+        "P1_Gain": "10k",
+        "P2_Bias": "100k",
+        "P3_Volts": "100k",
+        "R1": "62k",
+        "R2": "62k",
+        "R3": "15k",
+        "R4": "62k",
+        "R5": "2M2",
+        "R6": "10k",
+        "R7": "100k",
+        "R8": "10k",
+        "R9": "62k",
+        "T1": "NKT275",
+        "T2": "2N5087",
+        "T3": "2N5087",
+        "U1": "9"
+    }
+}

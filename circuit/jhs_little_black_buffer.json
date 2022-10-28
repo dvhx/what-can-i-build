@@ -1,0 +1,26 @@
+{
+    "name": "Little black buffer",
+    "author": "JHS",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/05/jhs-little-black-buffer.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "10u",
+        "D1": "LED",
+        "Q1": ["TL072", "Opamp Dual"],
+        "R1": "2M2",
+        "R2": "2M2",
+        "R3": "2M2",
+        "R4": "470",
+        "R5": "2M2",
+        "R6": "2M2",
+        "U1": "9"
+    }
+}

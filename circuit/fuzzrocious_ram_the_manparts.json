@@ -1,0 +1,31 @@
+{
+    "name": "Ram the Manparts",
+    "author": "Fuzzrocious",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2019/06/fuzzrocious-ram-manparts.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "25u",
+        "C3": "1u",
+        "C4": "47u",
+        "C5": "47u",
+        "C6": "390p",
+        "D1": "1N4001",
+        "P1_Starve": "10k",
+        "P2_Volume": "100k",
+        "Q1": "LM386",
+        "R1": "2M2",
+        "R2": "1k",
+        "R3": "10",
+        "R4": "47",
+        "R5": "10",
+        "S1": "SPST",
+        "U1": "9"
+    }
+}

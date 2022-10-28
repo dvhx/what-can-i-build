@@ -1918,6 +1918,40 @@ window.SC.circuit['clark_gainster'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['clyde_mccoy_jen_wah'] = {
+    "name": "Jen Wah",
+    "author": "Clyde McCoy",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/03/italian-jen-wah-clyde-mccoy.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "220n",
+        "C3": "220n",
+        "C4": "10n",
+        "C5": "4u",
+        "L1": "500m",
+        "P1_Wah": "100k",
+        "R1": "68k",
+        "R2": "100k",
+        "R3": "1k5",
+        "R4": "100k",
+        "R5": "22k",
+        "R6": "470",
+        "R7": "470k",
+        "R8": "1k",
+        "R9": "470k",
+        "R10": "10k",
+        "T1": ["BC109", "BC173"],
+        "T2": ["BC109", "BC173"],
+        "U1": "9"
+    }
+};
 window.SC.circuit['cmatmods_butah'] = {
     "name": "Butah",
     "author": "CmatMods",
@@ -2332,6 +2366,43 @@ window.SC.circuit['crowther_hotcake'] = {
         "R9": "220",
         "R10": "10k",
         "U1": "9"
+    }
+};
+window.SC.circuit['culturejam_ersatz_verben'] = {
+    "name": "Ersatz Verben pseudo reverb",
+    "author": "culturejam",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/03/ersatz-verben-psuedo-reverb-by.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "100n",
+        "C5": "100n",
+        "C6": "100n",
+        "C7": "100u",
+        "C8": "22u",
+        "C9": "100u",
+        "C10": "100n",
+        "C11": "100n",
+        "C12": "22n",
+        "P1_Time": "10k",
+        "P2_FB": "250k",
+        "P3_Mix": "100k",
+        "Q1": "PT2399",
+        "Q2": "78L05",
+        "R1": "1k",
+        "R2": "22k",
+        "R3": "22k",
+        "R4": "68k",
+        "R5": "22k",
+        "R6": "10k"
     }
 };
 window.SC.circuit['dallas_rangemaster'] = {
@@ -3154,6 +3225,36 @@ window.SC.circuit['dod_yjm308'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['dragonfly_firecracker_od'] = {
+    "name": "Firecracker OD",
+    "author": "Dragonfly",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/firecracker-overdrive.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "10n",
+        "C3": "10u",
+        "D1": "1N4001",
+        "D2": "1N4001",
+        "D3": "1N4001",
+        "D4": "1N4001",
+        "PT1": "20k",
+        "P1_Gain": "1k",
+        "P2_Volume": "100k",
+        "R1": "10M",
+        "R2": "2M2",
+        "R3": "10M",
+        "R4": "2k7",
+        "T1": "BS170",
+        "U1": "9"
+    }
+};
 window.SC.circuit['dragonfly_saturn_five'] = {
     "name": "Saturn Five",
     "author": "Dragonfly",
@@ -3726,6 +3827,110 @@ window.SC.circuit['effdub_flapjack_od'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['ehx_doctor_q'] = {
+    "name": "Doctor Q",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/ehx-doctor-q.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "50n",
+        "C2": "5n",
+        "C3": "1n",
+        "C4": "50n",
+        "C5": "2n",
+        "C6": "10n",
+        "C7": "10u",
+        "C8": "10u",
+        "D1": "1N914",
+        "D2": "1N914",
+        "PT1": "25k",
+        "P1_Sensitivity": "100k",
+        "Q1": ["ECG778", "TL072", "Opamp Dual"],
+        "R1": "47k",
+        "R2": "2M2",
+        "R3": "100",
+        "R4": "47k",
+        "R5": "470k",
+        "R6": "470k",
+        "R7": "22k",
+        "R8": "47k",
+        "R9": "47",
+        "R10": "470k",
+        "R11": "47k",
+        "R12": "47k",
+        "S1": "DPDT",
+        "T1": ["BC239C", "2N3904", "NPN"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['ehx_germanium_fuzz'] = {
+    "name": "Germanium Overdrive",
+    "author": "EHX",
+    "url": {
+        "schematic": "https://1.bp.blogspot.com/-69MXRdBho44/VBlv8INmLbI/AAAAAAAAIng/bb-E6QePvCc/s1600/EH%2BGermanium%2BOD.jpg",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/09/ehx-germanium-overdrive.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "470n",
+        "C2": "47u",
+        "C3": "470n",
+        "C4": "470n",
+        "C5": "470n",
+        "C6": "470n",
+        "P1_Gain": "10k",
+        "P2_Bias": "100k",
+        "P3_Volts": "100k",
+        "R1": "62k",
+        "R2": "62k",
+        "R3": "15k",
+        "R4": "62k",
+        "R5": "2M2",
+        "R6": "10k",
+        "R7": "100k",
+        "R8": "10k",
+        "R9": "62k",
+        "T1": "NKT275",
+        "T2": "2N5087",
+        "T3": "2N5087",
+        "U1": "9"
+    }
+};
+window.SC.circuit['ehx_hogs_foot'] = {
+    "name": "Hogs Foot",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/05/ehx-hogs-foot.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "3u3",
+        "C2": "100n",
+        "C3": "47u",
+        "C4": "3u3",
+        "C5": "100n",
+        "P1_Boost": "100k",
+        "R1": "10k",
+        "R2": "430k",
+        "R3": "43k",
+        "R4": "390",
+        "T1": ["2N5133", "2N5088"],
+        "U1": "9"
+    }
+};
 window.SC.circuit['ehx_lpb1'] = {
     "name": "LPB1 Turret",
     "author": "EHX",
@@ -3747,6 +3952,191 @@ window.SC.circuit['ehx_lpb1'] = {
         "R4": "830k",
         "R5": "10k",
         "T1": "2N5088",
+        "U1": "9"
+    }
+};
+window.SC.circuit['ehx_lpb2'] = {
+    "name": "LPB2",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/ehx-lpb2.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "P1_Gain": "100k",
+        "R1": "390",
+        "R2": "43k",
+        "R3": "4M7",
+        "R4": "430k",
+        "R5": "10k",
+        "T1": "2N5088",
+        "U1": "9"
+    }
+};
+window.SC.circuit['ehx_opamp_muff_fuzz'] = {
+    "name": "Opamp Muff Fuzz",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/05/ehx-muff-fuzzes.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "10u",
+        "C3": "100n",
+        "D1": "1N34A",
+        "D2": "1N34A",
+        "P1_Volume": "100k",
+        "Q1": "JRC4558",
+        "R1": "470k",
+        "R2": "100k",
+        "R3": "680k",
+        "R4": "680k",
+        "R5": "10k",
+        "U1": "9"
+    }
+};
+window.SC.circuit['ehx_satisfaction_fuzz'] = {
+    "name": "Satisfaction Fuzz",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/04/ehx-satisfaction-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "22n",
+        "C3": "1n5",
+        "C4": "4n7",
+        "C5": "22n",
+        "D1": "1N5817",
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "P1_Attack": "100k",
+        "P2_Volume": "100k",
+        "R1": "18k",
+        "R2": "56k",
+        "R3": "150k",
+        "R4": "560k",
+        "R5": "18k",
+        "R6": "1M",
+        "T1": "2N2222",
+        "T2": "2N3906",
+        "U1": "9"
+    }
+};
+window.SC.circuit['ehx_screaming_bird'] = {
+    "name": "Screaming Bird",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/05/ehx-screaming-bird.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "2n",
+        "C2": "2n",
+        "C3": "47u",
+        "P1_Boost": "100k",
+        "R1": "10k",
+        "R2": "430k",
+        "R3": "43k",
+        "R4": "390",
+        "T1": ["2N5133", "2N5088"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['ehx_screaming_hog'] = {
+    "name": "Screaming Hog.png",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/05/ehx-screaming-hog.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "2n",
+        "C2": "2n",
+        "C3": "100n",
+        "C4": "100n",
+        "C5": "47u",
+        "C6": "3u3",
+        "C7": "3u3",
+        "P1_Boost": "100k",
+        "R1": "10k",
+        "R2": "430k",
+        "R3": "43k",
+        "R4": "390",
+        "S1": "4PDT",
+        "T1": ["2N5133", "2N5088"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['ehx_signal_pad'] = {
+    "name": "Signal Pad",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/06/electro-harmonix-signal-pad.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100u",
+        "C2": "220p",
+        "D1": "1N4004",
+        "D2": "LED",
+        "P1_Volume": "1M",
+        "R1": "3k3"
+    }
+};
+window.SC.circuit['ehx_transistor_muff_fuzz'] = {
+    "name": "Transistor Muff Fuzz",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/05/ehx-muff-fuzzes.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "47u",
+        "D1": "1N34A",
+        "D2": "1N34A",
+        "P1_Volume": "100k",
+        "R1": "10k",
+        "R2": "100k",
+        "R3": "100k",
+        "R4": "2k7",
+        "R5": "100k",
+        "T1": "2N5088",
+        "T2": "2N5088",
         "U1": "9"
     }
 };
@@ -3792,6 +4182,36 @@ window.SC.circuit['electra_distortion_v2'] = {
         "R2": "2M2",
         "R3": "680",
         "T1": ["2N3904", "2N2222", "NPN"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['emanating_fist_electronics_black_acid'] = {
+    "name": "Black Acid",
+    "author": "Emanating Fist Electronics",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/05/emanating-fist-electronics-black-acid.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "1u",
+        "C2": "4n7",
+        "C3": "220p",
+        "C4": "22u",
+        "C5": "47u",
+        "C6": "100n",
+        "PT1": "20k",
+        "P1_Volume": "500k",
+        "P2_Fuzz": "1k",
+        "P3_Drive": "100k",
+        "R1": "150k",
+        "R2": "560",
+        "R3": "2k2",
+        "T1": "BC109",
+        "T2": "BC109",
         "U1": "9"
     }
 };
@@ -4116,6 +4536,54 @@ window.SC.circuit['fallstaff_od'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['fal_treble_booster_1969'] = {
+    "name": "Treble Booster 1969",
+    "author": "FAL",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2022/01/fal-treble-boosters.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "10n",
+        "C3": "100n",
+        "C4": "25u",
+        "C5": "32u",
+        "R1": "4k7",
+        "R2": "68k",
+        "R3": "1k",
+        "T1": ["NKT213", "Ge PNP"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['fal_treble_booster'] = {
+    "name": "Treble booster 1967",
+    "author": "FAL",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2022/01/fal-treble-boosters.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "25u",
+        "C3": "100u",
+        "C4": "47n",
+        "R1": "4k7",
+        "R2": "10k",
+        "R3": "68k",
+        "R4": "1k",
+        "T1": "Ge PNP",
+        "U1": "9"
+    }
+};
 window.SC.circuit['feisty_little_one_thermal_detonator'] = {
     "name": "Thermal Detonator",
     "author": "Feisty Little One",
@@ -4375,6 +4843,111 @@ window.SC.circuit['fred_briggs_face'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['friedman_golden_pearl_overdrive'] = {
+    "name": "Golden Pearl Overdrive",
+    "author": "Friedman",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2019/11/friedman-golden-pearl-overdrive.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47n",
+        "C2": "22u",
+        "C3": "22n",
+        "C4": "100p",
+        "C5": "47p",
+        "C6": "10u",
+        "C7": "47u",
+        "C8": "2n2",
+        "C9": "3n9",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "D4": "LED",
+        "D5": "LED",
+        "P1_Gain": "1M",
+        "P2_Tone": "25k",
+        "P3_Volume": "10k",
+        "Q1": "LM833",
+        "R1": "2k2",
+        "R2": "1M",
+        "R3": "1k",
+        "R4": "10k",
+        "R5": "1M",
+        "R6": "10k",
+        "R7": "10k",
+        "R8": "10k",
+        "R9": "22k",
+        "R10": "2k2",
+        "S1": "DPDT",
+        "S2": "DPDT",
+        "U1": "9"
+    }
+};
+window.SC.circuit['fulltone_69'] = {
+    "name": "Fulltone 69",
+    "author": "Mike Fuller",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/fulltone-69.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "2u2",
+        "C2": "100n",
+        "C3": "22u",
+        "PT1": "10k",
+        "P1_Bias": "50k",
+        "P2_Contour": "1k",
+        "P3_Fuzz": "1k",
+        "P4_Volume": "500k",
+        "R1": "1M",
+        "R2": "33k",
+        "R3": "100k",
+        "R4": "1k",
+        "R5": "220",
+        "T1": "Ge PNP",
+        "T2": "Ge PNP",
+        "U1": "9"
+    }
+};
+window.SC.circuit['fulltone_fat_boost_v1'] = {
+    "name": "Fulltone Fat Boost v1",
+    "author": "Mike Fuller",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/04/fulltone-fatboost-v1.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/fulltone-fatboost-v1.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10p",
+        "C2": "220n",
+        "C3": "47n",
+        "C4": "10u",
+        "C5": "3u3",
+        "P1_Gain": "500k",
+        "P2_Tone": "100k",
+        "P3_Volume": "100k",
+        "R1": "1M",
+        "R2": "1M",
+        "R3": "1M",
+        "R4": "1k",
+        "T1": "2N5457",
+        "T2": "2N5457",
+        "U1": "9",
+        "U2": "9"
+    }
+};
 window.SC.circuit['fuzz_face'] = {
     "name": "Fuzz Face",
     "author": "Arbaiter Electronics Ltd.",
@@ -4397,6 +4970,150 @@ window.SC.circuit['fuzz_face'] = {
         "R4": "100k",
         "T1": ["NKT275", "AC128", "Ge PNP"],
         "T2": ["NKT275", "AC128", "Ge PNP"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['fuzzhugger_phantom_octave'] = {
+    "name": "Phantom Octave",
+    "author": "Fuzzhugger",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/04/fuzzhugger-phantom-octave.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100u",
+        "C4": "100u",
+        "C5": "100u",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "D4": "LED",
+        "P1_Level": "100k",
+        "Q1": "LM386",
+        "R1": "2M2",
+        "R2": "47k",
+        "U1": "9"
+    }
+};
+window.SC.circuit['fuzzrocious_ram_the_manparts'] = {
+    "name": "Ram the Manparts",
+    "author": "Fuzzrocious",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2019/06/fuzzrocious-ram-manparts.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "25u",
+        "C3": "1u",
+        "C4": "47u",
+        "C5": "47u",
+        "C6": "390p",
+        "D1": "1N4001",
+        "P1_Starve": "10k",
+        "P2_Volume": "100k",
+        "Q1": "LM386",
+        "R1": "2M2",
+        "R2": "1k",
+        "R3": "10",
+        "R4": "47",
+        "R5": "10",
+        "S1": "SPST",
+        "U1": "9"
+    }
+};
+window.SC.circuit['fya_garagemaster'] = {
+    "name": "Garagemaster",
+    "author": "FYA",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2016/07/fya-garagemaster.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "12n",
+        "C2": "220u",
+        "C3": "2n7",
+        "C4": "47u",
+        "C5": "4n7",
+        "D1": "1N5817",
+        "D2": "LED",
+        "P1_Gain": "10k",
+        "P2_Bias": "50k",
+        "R1": "1M",
+        "R2": "1M",
+        "R3": "2k7",
+        "R4": "470k",
+        "R5": "4k7",
+        "R6": "68k",
+        "T1": "Ge PNP",
+        "U1": "9"
+    }
+};
+window.SC.circuit['fya_jazz_driver'] = {
+    "name": "Jazz Driver",
+    "author": "FYA",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2016/02/fya-jazz-driver.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100p",
+        "C2": "470n",
+        "C3": "22n",
+        "C4": "220n",
+        "C5": "470n",
+        "C6": "100u",
+        "C7": "10u",
+        "D1": "1N5817",
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "D4": "1N4148",
+        "D5": "1N4148",
+        "P1_Volume": "500k",
+        "P2_Tone": "20k",
+        "R1": "47",
+        "R2": "2k2",
+        "R3": "1M",
+        "R4": "100",
+        "R5": "1k",
+        "R6": "560k",
+        "T1": ["J310", "JFET_N"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['geofex_germanium_transistor_tester'] = {
+    "name": "Germanium transistor tester",
+    "author": "Geofex",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/08/germanium-transistor-tester.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "PT1": "5k",
+        "R1": "2M2",
+        "S1": "SPDT",
         "U1": "9"
     }
 };
@@ -4480,6 +5197,42 @@ window.SC.circuit['harmonic_percolator'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['heathkit_ta28'] = {
+    "name": "TA28",
+    "author": "Heathkit",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/09/heathkit-ta28.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100u",
+        "C3": "10u",
+        "C4": "100u",
+        "C5": "22n",
+        "P1_Level": "50k",
+        "P2_Tone": "50k",
+        "R1": "3k3",
+        "R2": "27k",
+        "R3": "100k",
+        "R4": "82k",
+        "R5": "2k7",
+        "R6": "8k2",
+        "R7": "10k",
+        "R8": "2k",
+        "R9": "10k",
+        "R10": "6k8",
+        "R11": "10k",
+        "R12": "10k",
+        "T1": "BC550C",
+        "T2": "BC560C",
+        "U1": "9"
+    }
+};
 window.SC.circuit['hofner_buzztone'] = {
     "name": "Buzztone",
     "author": "Hofner",
@@ -4510,6 +5263,61 @@ window.SC.circuit['hofner_buzztone'] = {
         "T1": ["BC108B", "BC172B"],
         "T2": ["BC108B", "BC172B"],
         "T3": ["BC108B", "BC172B"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['hornby_skewes_bass_boost'] = {
+    "name": "Bass boost",
+    "author": "Hornby Skewes",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/05/hornby-skewes-bass-boost.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "125u",
+        "C3": "100n",
+        "C4": "100n",
+        "R1": "1k",
+        "R2": "62k",
+        "R3": "3k9",
+        "R4": "10k",
+        "R5": "10k",
+        "R6": "1k",
+        "T1": ["2N3702", "Si PNP"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['hornby_skewes_selectatone'] = {
+    "name": "Selectatone",
+    "author": "Hornby Skewes",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/05/hornby-skewes-tb-2-selectatone.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100u",
+        "C3": "100n",
+        "C4": "100n",
+        "C5": "1n",
+        "R1": "2k2",
+        "R2": "100k",
+        "R3": "10k",
+        "R4": "10k",
+        "R5": "1k",
+        "R6": "10k",
+        "R7": "100k",
+        "S1": "DPDT",
+        "T1": ["OC71", "Ge PNP"],
         "U1": "9"
     }
 };
@@ -4567,6 +5375,34 @@ window.SC.circuit['ibanez_ts808'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['illumist_jfet_boost'] = {
+    "name": "JFET boost",
+    "author": "Illumist",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/illumist-jfet-boost.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "22u",
+        "C3": "1u",
+        "D1": "LED",
+        "PT1": "5k",
+        "P1_Boost": "5k",
+        "R1": "1k",
+        "R2": "10k",
+        "R3": "1M",
+        "R4": "100",
+        "R5": "330k",
+        "R6": "3k3",
+        "T1": ["2SK117", "JFET_N"],
+        "U1": "9"
+    }
+};
 window.SC.circuit['jan_ray_vemuram'] = {
     "name": "Vemuram",
     "author": "Jan Ray",
@@ -4613,6 +5449,62 @@ window.SC.circuit['jan_ray_vemuram'] = {
         "R10": "1k2",
         "R11": "100",
         "S1": "DPDT",
+        "U1": "9"
+    }
+};
+window.SC.circuit['jc_maillet_super_full_wave_octaver'] = {
+    "name": "Super Full Wave Octaver",
+    "author": "JC Maillet",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/01/jc-maillet-super-full-wave-octaver.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "39p",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "22u",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "D3": "1N5817",
+        "P1_Control": "100k",
+        "P2_Level": "10k",
+        "Q1": ["JRC4558", "Opamp Dual"],
+        "R1": "15k",
+        "R2": "1M",
+        "R3": "100k",
+        "R4": "15k",
+        "R5": "15k",
+        "R6": "100k",
+        "R7": "1k",
+        "U1": "9"
+    }
+};
+window.SC.circuit['jerry_garcia_tiger_preamp'] = {
+    "name": "Tiger Preamp",
+    "author": "Jerry Garcia",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/04/jerry-garcia-tiger-preamp.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "2u2",
+        "C3": "22n",
+        "Q1": "LF356N",
+        "R1": "1M",
+        "R2": "100",
+        "R3": "100k",
+        "R4": "10k",
+        "R5": "1M",
         "U1": "9"
     }
 };
@@ -4675,6 +5567,105 @@ window.SC.circuit['jfet_parallel_looper'] = {
         "T2": ["J201", "2N5457", "JFET_N"],
         "T3": ["J201", "2N5457", "JFET_N"],
         "T4": ["J201", "2N5457", "JFET_N"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['jhs_little_black_buffer'] = {
+    "name": "Little black buffer",
+    "author": "JHS",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/05/jhs-little-black-buffer.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "10u",
+        "D1": "LED",
+        "Q1": ["TL072", "Opamp Dual"],
+        "R1": "2M2",
+        "R2": "2M2",
+        "R3": "2M2",
+        "R4": "470",
+        "R5": "2M2",
+        "R6": "2M2",
+        "U1": "9"
+    }
+};
+window.SC.circuit['jim_dunlop_crybaby_gcb_95'] = {
+    "name": "CryBaby GCB-95",
+    "author": "Jim Dunlop",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/09/jim-dunlop-crybaby-gcb-95.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "22p",
+        "C3": "100n",
+        "C4": "220n",
+        "C5": "10n",
+        "C6": "4n7",
+        "C7": "4u7",
+        "C8": "10n",
+        "C9": "220n",
+        "L1": "500m",
+        "P1_Wah": "100k",
+        "R1": "1k",
+        "R2": "10k",
+        "R3": "1M8",
+        "R4": "22k",
+        "R5": "2M2",
+        "R6": "68k",
+        "R7": "390",
+        "R8": "1k5",
+        "R9": "470k",
+        "R10": "82k",
+        "R11": "1k",
+        "R12": "33k",
+        "R13": "470k",
+        "R14": "10k",
+        "T1": "MPSA18",
+        "T2": "MPSA18",
+        "T3": "MPSA18",
+        "U1": "9"
+    }
+};
+window.SC.circuit['joe_davisson_antiquity_fuzz'] = {
+    "name": "Antiquity Fuzz",
+    "author": "Joe Davisson",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/07/joe-davisson-antiquity-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "22u",
+        "D1": ["1N914", "1N4148"],
+        "D2": "1N5817",
+        "PT1": "10k",
+        "P1_Gain": "2k",
+        "P2_Volume": "100k",
+        "R1": "100k",
+        "R2": "100k",
+        "R3": "1M",
+        "R4": "470",
+        "R5": "8k2",
+        "T1": "2N5089",
+        "T2": "2N5089",
         "U1": "9"
     }
 };
@@ -4745,6 +5736,36 @@ window.SC.circuit['john_hollis_flatline_compressor'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['jordan_bosstone'] = {
+    "name": "Bosstone",
+    "author": "Jordan",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/01/jordan-bosstone.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/jordan-bosstone.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "50p",
+        "C3": "22n",
+        "C4": "22n",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "P1_Attack": "100k",
+        "P2_Volume": "100k",
+        "R1": "560k",
+        "R2": "560k",
+        "R3": "150k",
+        "R4": "18k",
+        "R5": "18k",
+        "T1": ["2N3904", "NPN"],
+        "T2": ["2N3906", "PNP"],
+        "U1": "9"
+    }
+};
 window.SC.circuit['keeley_4knob_compressor'] = {
     "name": "4-Knob Compressor",
     "author": "Keeley",
@@ -4808,6 +5829,102 @@ window.SC.circuit['keeley_4knob_compressor'] = {
         "T3": ["2N5088", "NPN"],
         "T4": ["2N5088", "NPN"],
         "T5": ["2N5088", "NPN"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['keeley_java_boost'] = {
+    "name": "Java Boost",
+    "author": "Keeley",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/05/keeley-java-boost.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "6n8",
+        "C2": "10n",
+        "C3": "47n",
+        "C4": "100n",
+        "C5": "10n",
+        "C6": "47u",
+        "C7": "47u",
+        "D1": "LED",
+        "PT1": "100k",
+        "P1_Tone": "100k",
+        "PT2": "10k",
+        "P2_Level": "10k",
+        "R1": "1M",
+        "R2": "470k",
+        "R3": "1M",
+        "R4": "5k6",
+        "S1": "SPDT",
+        "T1": ["OC44", "Ge PNP"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['keeley_katana_boost'] = {
+    "name": "Katana Boost",
+    "author": "Keeley",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/02/keeley-katana-boost.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "220n",
+        "C2": "100p",
+        "C3": "220n",
+        "C4": "1n",
+        "C5": "220n",
+        "C6": "10u",
+        "C7": "15n",
+        "P1_Volume": "250k",
+        "R1": "1M",
+        "R2": "1M",
+        "R3": "680",
+        "R4": "4k7",
+        "R5": "1M",
+        "R6": "680",
+        "R7": "4k7",
+        "S1": "DPDT",
+        "T1": "2N5458",
+        "T2": "2N5458",
+        "U1": "18"
+    }
+};
+window.SC.circuit['kendrick_buffalo_pfuz'] = {
+    "name": "Buffalo Pfuz",
+    "author": "Kendrick",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/03/kendrick-buffalo-pfuz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47n",
+        "C2": "33u",
+        "C3": "10u",
+        "D1": "1N4001",
+        "D2": "1N4001",
+        "D3": "1N4001",
+        "P1_Gain": "100k",
+        "P2_Volume": "20k",
+        "Q1": ["NTE941", "741"],
+        "R1": "1k",
+        "R2": "100k",
+        "R3": "100k",
+        "R4": "10k",
+        "R5": "10k",
+        "S1": "SPST",
         "U1": "9"
     }
 };
@@ -5026,7 +6143,8 @@ window.SC.circuit['mad_professor_snow_white_autowah'] = {
         "P3_Resonance": "50k",
         "P4_Decay": "1M",
         "Q1": "78L05",
-        "Q2": "LM324",
+        "Q2": "LM13700",
+        "Q3": "LM324",
         "R1": "47",
         "R2": "7k9",
         "R3": "4k7",
@@ -5927,6 +7045,31 @@ window.SC.circuit['rocket88_33v_charge_pump'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['rocket88_germanium_giant'] = {
+    "name": "Germanium Giant",
+    "author": "Rocket88",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2015/08/germanium-giant.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "D1": ["1N4148", "D9K"],
+        "D2": ["1N4148", "D9K"],
+        "PT1": "5k",
+        "P1_Volume": "100k",
+        "P2_Clean": "25k",
+        "R1": "2M2",
+        "R2": "47k",
+        "T1": ["MP38", "Ge NPN"],
+        "U1": "9"
+    }
+};
 window.SC.circuit['ross_compressor'] = {
     "name": "Compressor",
     "author": "Ross",
@@ -6012,6 +7155,25 @@ window.SC.circuit['ruby_amp_tagboard'] = {
         "R2": "1M5",
         "R3": "10",
         "T1": ["MPF102", "J201", "2N5457", "JFET_N"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['runoffgroove_jfet_tester'] = {
+    "name": "JFET tester",
+    "author": "Runoffgroove",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/07/greatly-improved-jfet-matcher.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47u",
+        "R1": "1M",
+        "R2": "100",
+        "S1": "SPDT",
         "U1": "9"
     }
 };

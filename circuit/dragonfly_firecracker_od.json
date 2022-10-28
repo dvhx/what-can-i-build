@@ -1,0 +1,30 @@
+{
+    "name": "Firecracker OD",
+    "author": "Dragonfly",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/firecracker-overdrive.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "10n",
+        "C3": "10u",
+        "D1": "1N4001",
+        "D2": "1N4001",
+        "D3": "1N4001",
+        "D4": "1N4001",
+        "PT1": "20k",
+        "P1_Gain": "1k",
+        "P2_Volume": "100k",
+        "R1": "10M",
+        "R2": "2M2",
+        "R3": "10M",
+        "R4": "2k7",
+        "T1": "BS170",
+        "U1": "9"
+    }
+}

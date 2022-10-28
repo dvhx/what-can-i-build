@@ -1,0 +1,36 @@
+{
+    "name": "TA28",
+    "author": "Heathkit",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/09/heathkit-ta28.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100u",
+        "C3": "10u",
+        "C4": "100u",
+        "C5": "22n",
+        "P1_Level": "50k",
+        "P2_Tone": "50k",
+        "R1": "3k3",
+        "R2": "27k",
+        "R3": "100k",
+        "R4": "82k",
+        "R5": "2k7",
+        "R6": "8k2",
+        "R7": "10k",
+        "R8": "2k",
+        "R9": "10k",
+        "R10": "6k8",
+        "R11": "10k",
+        "R12": "10k",
+        "T1": "BC550C",
+        "T2": "BC560C",
+        "U1": "9"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Fulltone 69",
+    "author": "Mike Fuller",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/fulltone-69.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "2u2",
+        "C2": "100n",
+        "C3": "22u",
+        "PT1": "10k",
+        "P1_Bias": "50k",
+        "P2_Contour": "1k",
+        "P3_Fuzz": "1k",
+        "P4_Volume": "500k",
+        "R1": "1M",
+        "R2": "33k",
+        "R3": "100k",
+        "R4": "1k",
+        "R5": "220",
+        "T1": "Ge PNP",
+        "T2": "Ge PNP",
+        "U1": "9"
+    }
+}

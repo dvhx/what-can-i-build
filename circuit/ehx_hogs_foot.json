@@ -1,0 +1,26 @@
+{
+    "name": "Hogs Foot",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/05/ehx-hogs-foot.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "3u3",
+        "C2": "100n",
+        "C3": "47u",
+        "C4": "3u3",
+        "C5": "100n",
+        "P1_Boost": "100k",
+        "R1": "10k",
+        "R2": "430k",
+        "R3": "43k",
+        "R4": "390",
+        "T1": ["2N5133", "2N5088"],
+        "U1": "9"
+    }
+}

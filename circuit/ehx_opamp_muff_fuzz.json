@@ -1,0 +1,27 @@
+{
+    "name": "Opamp Muff Fuzz",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/05/ehx-muff-fuzzes.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "10u",
+        "C3": "100n",
+        "D1": "1N34A",
+        "D2": "1N34A",
+        "P1_Volume": "100k",
+        "Q1": "JRC4558",
+        "R1": "470k",
+        "R2": "100k",
+        "R3": "680k",
+        "R4": "680k",
+        "R5": "10k",
+        "U1": "9"
+    }
+}

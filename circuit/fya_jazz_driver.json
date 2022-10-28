@@ -1,0 +1,36 @@
+{
+    "name": "Jazz Driver",
+    "author": "FYA",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2016/02/fya-jazz-driver.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100p",
+        "C2": "470n",
+        "C3": "22n",
+        "C4": "220n",
+        "C5": "470n",
+        "C6": "100u",
+        "C7": "10u",
+        "D1": "1N5817",
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "D4": "1N4148",
+        "D5": "1N4148",
+        "P1_Volume": "500k",
+        "P2_Tone": "20k",
+        "R1": "47",
+        "R2": "2k2",
+        "R3": "1M",
+        "R4": "100",
+        "R5": "1k",
+        "R6": "560k",
+        "T1": ["J310", "JFET_N"],
+        "U1": "9"
+    }
+}

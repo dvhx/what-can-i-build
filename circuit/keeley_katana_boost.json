@@ -1,0 +1,33 @@
+{
+    "name": "Katana Boost",
+    "author": "Keeley",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/02/keeley-katana-boost.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "220n",
+        "C2": "100p",
+        "C3": "220n",
+        "C4": "1n",
+        "C5": "220n",
+        "C6": "10u",
+        "C7": "15n",
+        "P1_Volume": "250k",
+        "R1": "1M",
+        "R2": "1M",
+        "R3": "680",
+        "R4": "4k7",
+        "R5": "1M",
+        "R6": "680",
+        "R7": "4k7",
+        "S1": "DPDT",
+        "T1": "2N5458",
+        "T2": "2N5458",
+        "U1": "18"
+    }
+}

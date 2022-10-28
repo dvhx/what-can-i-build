@@ -1,0 +1,28 @@
+{
+    "name": "JFET boost",
+    "author": "Illumist",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/illumist-jfet-boost.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "22u",
+        "C3": "1u",
+        "D1": "LED",
+        "PT1": "5k",
+        "P1_Boost": "5k",
+        "R1": "1k",
+        "R2": "10k",
+        "R3": "1M",
+        "R4": "100",
+        "R5": "330k",
+        "R6": "3k3",
+        "T1": ["2SK117", "JFET_N"],
+        "U1": "9"
+    }
+}

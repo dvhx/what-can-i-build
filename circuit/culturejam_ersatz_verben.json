@@ -1,0 +1,37 @@
+{
+    "name": "Ersatz Verben pseudo reverb",
+    "author": "culturejam",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/03/ersatz-verben-psuedo-reverb-by.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "100n",
+        "C5": "100n",
+        "C6": "100n",
+        "C7": "100u",
+        "C8": "22u",
+        "C9": "100u",
+        "C10": "100n",
+        "C11": "100n",
+        "C12": "22n",
+        "P1_Time": "10k",
+        "P2_FB": "250k",
+        "P3_Mix": "100k",
+        "Q1": "PT2399",
+        "Q2": "78L05",
+        "R1": "1k",
+        "R2": "22k",
+        "R3": "22k",
+        "R4": "68k",
+        "R5": "22k",
+        "R6": "10k"
+    }
+}

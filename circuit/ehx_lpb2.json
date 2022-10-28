@@ -1,0 +1,24 @@
+{
+    "name": "LPB2",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/ehx-lpb2.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "P1_Gain": "100k",
+        "R1": "390",
+        "R2": "43k",
+        "R3": "4M7",
+        "R4": "430k",
+        "R5": "10k",
+        "T1": "2N5088",
+        "U1": "9"
+    }
+}

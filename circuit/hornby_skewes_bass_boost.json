@@ -1,0 +1,26 @@
+{
+    "name": "Bass boost",
+    "author": "Hornby Skewes",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/05/hornby-skewes-bass-boost.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "125u",
+        "C3": "100n",
+        "C4": "100n",
+        "R1": "1k",
+        "R2": "62k",
+        "R3": "3k9",
+        "R4": "10k",
+        "R5": "10k",
+        "R6": "1k",
+        "T1": ["2N3702", "Si PNP"],
+        "U1": "9"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Phantom Octave",
+    "author": "Fuzzhugger",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/04/fuzzhugger-phantom-octave.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100u",
+        "C4": "100u",
+        "C5": "100u",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "D4": "LED",
+        "P1_Level": "100k",
+        "Q1": "LM386",
+        "R1": "2M2",
+        "R2": "47k",
+        "U1": "9"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "name": "Doctor Q",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/ehx-doctor-q.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "50n",
+        "C2": "5n",
+        "C3": "1n",
+        "C4": "50n",
+        "C5": "2n",
+        "C6": "10n",
+        "C7": "10u",
+        "C8": "10u",
+        "D1": "1N914",
+        "D2": "1N914",
+        "PT1": "25k",
+        "P1_Sensitivity": "100k",
+        "Q1": ["ECG778", "TL072", "Opamp Dual"],
+        "R1": "47k",
+        "R2": "2M2",
+        "R3": "100",
+        "R4": "47k",
+        "R5": "470k",
+        "R6": "470k",
+        "R7": "22k",
+        "R8": "47k",
+        "R9": "47",
+        "R10": "470k",
+        "R11": "47k",
+        "R12": "47k",
+        "S1": "DPDT",
+        "T1": ["BC239C", "2N3904", "NPN"],
+        "U1": "9"
+    }
+}

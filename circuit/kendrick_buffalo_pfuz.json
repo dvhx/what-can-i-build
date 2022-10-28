@@ -1,0 +1,30 @@
+{
+    "name": "Buffalo Pfuz",
+    "author": "Kendrick",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/03/kendrick-buffalo-pfuz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47n",
+        "C2": "33u",
+        "C3": "10u",
+        "D1": "1N4001",
+        "D2": "1N4001",
+        "D3": "1N4001",
+        "P1_Gain": "100k",
+        "P2_Volume": "20k",
+        "Q1": ["NTE941", "741"],
+        "R1": "1k",
+        "R2": "100k",
+        "R3": "100k",
+        "R4": "10k",
+        "R5": "10k",
+        "S1": "SPST",
+        "U1": "9"
+    }
+}

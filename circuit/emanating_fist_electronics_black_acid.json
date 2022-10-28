@@ -1,0 +1,30 @@
+{
+    "name": "Black Acid",
+    "author": "Emanating Fist Electronics",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/05/emanating-fist-electronics-black-acid.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "1u",
+        "C2": "4n7",
+        "C3": "220p",
+        "C4": "22u",
+        "C5": "47u",
+        "C6": "100n",
+        "PT1": "20k",
+        "P1_Volume": "500k",
+        "P2_Fuzz": "1k",
+        "P3_Drive": "100k",
+        "R1": "150k",
+        "R2": "560",
+        "R3": "2k2",
+        "T1": "BC109",
+        "T2": "BC109",
+        "U1": "9"
+    }
+}

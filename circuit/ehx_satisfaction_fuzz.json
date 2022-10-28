@@ -1,0 +1,33 @@
+{
+    "name": "Satisfaction Fuzz",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/04/ehx-satisfaction-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "22n",
+        "C3": "1n5",
+        "C4": "4n7",
+        "C5": "22n",
+        "D1": "1N5817",
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "P1_Attack": "100k",
+        "P2_Volume": "100k",
+        "R1": "18k",
+        "R2": "56k",
+        "R3": "150k",
+        "R4": "560k",
+        "R5": "18k",
+        "R6": "1M",
+        "T1": "2N2222",
+        "T2": "2N3906",
+        "U1": "9"
+    }
+}

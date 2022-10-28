@@ -1,0 +1,24 @@
+{
+    "name": "Tiger Preamp",
+    "author": "Jerry Garcia",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/04/jerry-garcia-tiger-preamp.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "2u2",
+        "C3": "22n",
+        "Q1": "LF356N",
+        "R1": "1M",
+        "R2": "100",
+        "R3": "100k",
+        "R4": "10k",
+        "R5": "1M",
+        "U1": "9"
+    }
+}

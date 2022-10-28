@@ -1,0 +1,30 @@
+{
+    "name": "Bosstone",
+    "author": "Jordan",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/01/jordan-bosstone.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/jordan-bosstone.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "50p",
+        "C3": "22n",
+        "C4": "22n",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "P1_Attack": "100k",
+        "P2_Volume": "100k",
+        "R1": "560k",
+        "R2": "560k",
+        "R3": "150k",
+        "R4": "18k",
+        "R5": "18k",
+        "T1": ["2N3904", "NPN"],
+        "T2": ["2N3906", "PNP"],
+        "U1": "9"
+    }
+}

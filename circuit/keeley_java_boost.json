@@ -1,0 +1,33 @@
+{
+    "name": "Java Boost",
+    "author": "Keeley",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/05/keeley-java-boost.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "6n8",
+        "C2": "10n",
+        "C3": "47n",
+        "C4": "100n",
+        "C5": "10n",
+        "C6": "47u",
+        "C7": "47u",
+        "D1": "LED",
+        "PT1": "100k",
+        "P1_Tone": "100k",
+        "PT2": "10k",
+        "P2_Level": "10k",
+        "R1": "1M",
+        "R2": "470k",
+        "R3": "1M",
+        "R4": "5k6",
+        "S1": "SPDT",
+        "T1": ["OC44", "Ge PNP"],
+        "U1": "9"
+    }
+}

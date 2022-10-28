@@ -1,0 +1,43 @@
+{
+    "name": "CryBaby GCB-95",
+    "author": "Jim Dunlop",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/09/jim-dunlop-crybaby-gcb-95.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "22p",
+        "C3": "100n",
+        "C4": "220n",
+        "C5": "10n",
+        "C6": "4n7",
+        "C7": "4u7",
+        "C8": "10n",
+        "C9": "220n",
+        "L1": "500m",
+        "P1_Wah": "100k",
+        "R1": "1k",
+        "R2": "10k",
+        "R3": "1M8",
+        "R4": "22k",
+        "R5": "2M2",
+        "R6": "68k",
+        "R7": "390",
+        "R8": "1k5",
+        "R9": "470k",
+        "R10": "82k",
+        "R11": "1k",
+        "R12": "33k",
+        "R13": "470k",
+        "R14": "10k",
+        "T1": "MPSA18",
+        "T2": "MPSA18",
+        "T3": "MPSA18",
+        "U1": "9"
+    }
+}

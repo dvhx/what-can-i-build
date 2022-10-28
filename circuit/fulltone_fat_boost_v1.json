@@ -1,0 +1,30 @@
+{
+    "name": "Fulltone Fat Boost v1",
+    "author": "Mike Fuller",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/04/fulltone-fatboost-v1.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/fulltone-fatboost-v1.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10p",
+        "C2": "220n",
+        "C3": "47n",
+        "C4": "10u",
+        "C5": "3u3",
+        "P1_Gain": "500k",
+        "P2_Tone": "100k",
+        "P3_Volume": "100k",
+        "R1": "1M",
+        "R2": "1M",
+        "R3": "1M",
+        "R4": "1k",
+        "T1": "2N5457",
+        "T2": "2N5457",
+        "U1": "9",
+        "U2": "9"
+    }
+}

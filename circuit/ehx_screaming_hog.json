@@ -1,0 +1,29 @@
+{
+    "name": "Screaming Hog.png",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/05/ehx-screaming-hog.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "2n",
+        "C2": "2n",
+        "C3": "100n",
+        "C4": "100n",
+        "C5": "47u",
+        "C6": "3u3",
+        "C7": "3u3",
+        "P1_Boost": "100k",
+        "R1": "10k",
+        "R2": "430k",
+        "R3": "43k",
+        "R4": "390",
+        "S1": "4PDT",
+        "T1": ["2N5133", "2N5088"],
+        "U1": "9"
+    }
+}

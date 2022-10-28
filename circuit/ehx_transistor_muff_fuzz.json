@@ -1,0 +1,28 @@
+{
+    "name": "Transistor Muff Fuzz",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/05/ehx-muff-fuzzes.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "47u",
+        "D1": "1N34A",
+        "D2": "1N34A",
+        "P1_Volume": "100k",
+        "R1": "10k",
+        "R2": "100k",
+        "R3": "100k",
+        "R4": "2k7",
+        "R5": "100k",
+        "T1": "2N5088",
+        "T2": "2N5088",
+        "U1": "9"
+    }
+}

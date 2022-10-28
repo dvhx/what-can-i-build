@@ -1,0 +1,30 @@
+{
+    "name": "Antiquity Fuzz",
+    "author": "Joe Davisson",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/07/joe-davisson-antiquity-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "22u",
+        "D1": ["1N914", "1N4148"],
+        "D2": "1N5817",
+        "PT1": "10k",
+        "P1_Gain": "2k",
+        "P2_Volume": "100k",
+        "R1": "100k",
+        "R2": "100k",
+        "R3": "1M",
+        "R4": "470",
+        "R5": "8k2",
+        "T1": "2N5089",
+        "T2": "2N5089",
+        "U1": "9"
+    }
+}

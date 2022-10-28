@@ -1,0 +1,24 @@
+{
+    "name": "Screaming Bird",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/05/ehx-screaming-bird.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "2n",
+        "C2": "2n",
+        "C3": "47u",
+        "P1_Boost": "100k",
+        "R1": "10k",
+        "R2": "430k",
+        "R3": "43k",
+        "R4": "390",
+        "T1": ["2N5133", "2N5088"],
+        "U1": "9"
+    }
+}

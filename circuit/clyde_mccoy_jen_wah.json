@@ -1,0 +1,34 @@
+{
+    "name": "Jen Wah",
+    "author": "Clyde McCoy",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/03/italian-jen-wah-clyde-mccoy.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "220n",
+        "C3": "220n",
+        "C4": "10n",
+        "C5": "4u",
+        "L1": "500m",
+        "P1_Wah": "100k",
+        "R1": "68k",
+        "R2": "100k",
+        "R3": "1k5",
+        "R4": "100k",
+        "R5": "22k",
+        "R6": "470",
+        "R7": "470k",
+        "R8": "1k",
+        "R9": "470k",
+        "R10": "10k",
+        "T1": ["BC109", "BC173"],
+        "T2": ["BC109", "BC173"],
+        "U1": "9"
+    }
+}

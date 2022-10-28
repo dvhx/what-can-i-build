@@ -1,0 +1,31 @@
+{
+    "name": "Garagemaster",
+    "author": "FYA",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2016/07/fya-garagemaster.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "12n",
+        "C2": "220u",
+        "C3": "2n7",
+        "C4": "47u",
+        "C5": "4n7",
+        "D1": "1N5817",
+        "D2": "LED",
+        "P1_Gain": "10k",
+        "P2_Bias": "50k",
+        "R1": "1M",
+        "R2": "1M",
+        "R3": "2k7",
+        "R4": "470k",
+        "R5": "4k7",
+        "R6": "68k",
+        "T1": "Ge PNP",
+        "U1": "9"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Selectatone",
+    "author": "Hornby Skewes",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/05/hornby-skewes-tb-2-selectatone.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100u",
+        "C3": "100n",
+        "C4": "100n",
+        "C5": "1n",
+        "R1": "2k2",
+        "R2": "100k",
+        "R3": "10k",
+        "R4": "10k",
+        "R5": "1k",
+        "R6": "10k",
+        "R7": "100k",
+        "S1": "DPDT",
+        "T1": ["OC71", "Ge PNP"],
+        "U1": "9"
+    }
+}

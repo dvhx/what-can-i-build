@@ -1,0 +1,20 @@
+{
+    "name": "Signal Pad",
+    "author": "EHX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/06/electro-harmonix-signal-pad.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100u",
+        "C2": "220p",
+        "D1": "1N4004",
+        "D2": "LED",
+        "P1_Volume": "1M",
+        "R1": "3k3"
+    }
+}
