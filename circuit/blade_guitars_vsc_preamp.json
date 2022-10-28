@@ -20,7 +20,7 @@
         "D1": ["1N5817", "Schottky"],
         "P1_Mid": "50k",
         "P2_Volume": "100k",
-        "Q1": ["LM741", "TL062", "Opamp Single"],
+        "Q1": ["741", "TL062", "Opamp Single"],
         "R1": "1k",
         "R2": "10k",
         "R3": "2M",

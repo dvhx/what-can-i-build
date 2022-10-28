@@ -37,7 +37,7 @@ window.SC.circuit['5_knob_compressor'] = {
         "D1": "1N4148",
         "D2": "1N4148",
         "D3": "1N5817",
-        "P1_PT1": "2k",
+        "PT1": "2k",
         "P2_Comp": "500k",
         "P3_Attack": "100k",
         "P4_Clip": "100k",
@@ -392,7 +392,7 @@ window.SC.circuit['analogman_king_of_tone'] = {
         "D5": "MA856",
         "D6": "1S1588",
         "D7": "1S1588",
-        "P1_PT1": "50k",
+        "PT1": "50k",
         "P2_Drive": "100k",
         "P3_Tone": "25k",
         "P4_Volume": "100k",
@@ -1025,7 +1025,7 @@ window.SC.circuit['blade_guitars_vsc_preamp'] = {
         "D1": ["1N5817", "Schottky"],
         "P1_Mid": "50k",
         "P2_Volume": "100k",
-        "Q1": ["LM741", "TL062", "Opamp Single"],
+        "Q1": ["741", "TL062", "Opamp Single"],
         "R1": "1k",
         "R2": "10k",
         "R3": "2M",
@@ -1053,7 +1053,7 @@ window.SC.circuit['blue_plate_special'] = {
         "C3": "150p",
         "C4": "22n",
         "C5": "47u",
-        "P1_PT1": "100k",
+        "PT1": "100k",
         "P2_Volume": "500k",
         "R1": "1M",
         "R2": "180k",
@@ -1079,7 +1079,7 @@ window.SC.circuit['bmp_tonestack_with_lpb1'] = {
         "C2": "10n",
         "C3": "100n",
         "C4": "100n",
-        "P1_PT1": "100k",
+        "PT1": "100k",
         "P2_Pot": "100k",
         "R1": "39k",
         "R2": "22k",
@@ -1115,7 +1115,7 @@ window.SC.circuit['boot_leg_jzf1_jazz_fuzz'] = {
         "P1_Fuzz": "500k",
         "P2_Vintage": "1k",
         "P3_Volume": "50k",
-        "Q1": "LM741",
+        "Q1": "741",
         "R1": "1k",
         "R2": "1M",
         "R3": "100k",
@@ -2443,7 +2443,7 @@ window.SC.circuit['dam_red_rooster'] = {
         "C4": "47u",
         "C5": "10n",
         "D1": "1N4001",
-        "P1_PT1": "5k",
+        "PT1": "5k",
         "P2_Range": "100k",
         "P3_Boost": "10k",
         "R1": "470k",
@@ -2473,7 +2473,7 @@ window.SC.circuit['dam_sonic_titan'] = {
         "C6": "10u",
         "C7": "10n",
         "D1": "LED",
-        "P1_PT1": "10k",
+        "PT1": "10k",
         "P2_Drive": "10k",
         "P3_Tone": "25k",
         "P4_Level": "100k",
@@ -2505,7 +2505,7 @@ window.SC.circuit['dam_super_bee'] = {
         "C4": "47p",
         "C5": "100n",
         "C6": "15u",
-        "P1_PT1": "22k",
+        "PT1": "22k",
         "P2_Attack": "1k",
         "P3_Level": "100k",
         "R1": "10k",
@@ -2650,7 +2650,7 @@ window.SC.circuit['danelectro_french_fries'] = {
         "C10": "22u",
         "D1": "1N4148",
         "D2": "1N4148",
-        "P1_PT1": "25k",
+        "PT1": "25k",
         "P2_Resonance": "22k",
         "Q1": ["JRC4558", "Opamp Dual"],
         "R1": "47k",
@@ -2954,6 +2954,39 @@ window.SC.circuit['devi_ever_ruby'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['devi_ever_soda_meiser'] = {
+    "name": "Soda Meiser",
+    "author": "Devi Ever",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/12/effector-13-devi-soda-meiser.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/effector-13-soda-meiser.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "100n",
+        "C5": "100n",
+        "P1_Intensity": "100k",
+        "P2_Volume": "100k",
+        "R1": "2M2",
+        "R2": "10k",
+        "R3": "3M3",
+        "R4": "10k",
+        "R5": "10k",
+        "R6": "10k",
+        "S1": "SPDT",
+        "T1": "MPSA18",
+        "T2": "MPSA18",
+        "T3": "MPSA18",
+        "T4": ["2N2907", "2N3906"],
+        "U1": "9"
+    }
+};
 window.SC.circuit['devi_ever_us_fuzz'] = {
     "name": "US Fuzz",
     "author": "Devi Ever",
@@ -3032,7 +3065,7 @@ window.SC.circuit['dod_250_overdrive'] = {
         "D3": ["1N4148", "1N914"],
         "P1_GAIN": "500k",
         "P2_VOLUME": "100k",
-        "Q1": "LM741",
+        "Q1": "741",
         "R1": "100",
         "R2": "22k",
         "R3": "22k",
@@ -3165,7 +3198,7 @@ window.SC.circuit['dragonfly_sprakle_boost'] = {
         "C1": "22n",
         "C2": "1u",
         "C3": "10u",
-        "P1_PT1": "100k",
+        "PT1": "100k",
         "P2_Gain": "5k",
         "P3_Volume": "100k",
         "R1": "2M2",
@@ -3331,6 +3364,121 @@ window.SC.circuit['dunlop_jh1_hendrix_cybaby'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['dwarfcraft_great_destroyer'] = {
+    "name": "Great Destroyer",
+    "author": "Dwarfcraft",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/08/dwarftcraft-great-destroyer.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "1u",
+        "PT1": "22k",
+        "P2_Drive": "1M",
+        "P3_Starve": "2k",
+        "P4_Tone": "5k",
+        "P5_Volume": "100k",
+        "Q1": ["MC14049BCP", "CD4049"],
+        "R1": "3k3",
+        "U1": "9"
+    }
+};
+window.SC.circuit['ea_parallel_universe'] = {
+    "name": "Parallel Universe",
+    "author": "Experimentalists Anonymous",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/ea-parallel-universe-old-version.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "10u",
+        "C3": "100n",
+        "C4": "100n",
+        "C5": "10u",
+        "C6": "100n",
+        "P1_Gain": "2k",
+        "P2_Starve": "1k",
+        "P3_Freq": "5k",
+        "P4_Level": "5k",
+        "P5_Tone": "10k",
+        "Q1": "LM386",
+        "R1": "2k2",
+        "R2": "2M2",
+        "R3": "2M2",
+        "R4": "47k",
+        "S1": "SPDT",
+        "S2": "SPST",
+        "U1": "9"
+    }
+};
+window.SC.circuit['earthquaker_devices_acapulco_gold'] = {
+    "name": "Acapulco Gold",
+    "author": "Earthquaker Devices",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2015/11/earthquaker-devices-acapulco-gold.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "4n7",
+        "C2": "10u",
+        "C3": "10u",
+        "C4": "1u",
+        "C5": "1u",
+        "C6": "100u",
+        "D1": "1N4001",
+        "D2": "LED",
+        "P1_Volume": "100k",
+        "P2_Gain": "1M",
+        "R1": "68k",
+        "R2": "1M",
+        "R3": "3k3",
+        "Q1": "LM386",
+        "Q2": "LM386",
+        "U1": "9"
+    }
+};
+window.SC.circuit['earthquaker_devices_black_eye'] = {
+    "name": "Black Eye",
+    "author": "Earthquaker Devices",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/03/earthquaker-devices-black-eye.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100u",
+        "C3": "10u",
+        "D1": "1N4001",
+        "D2": "1N4001",
+        "PT1": "5k",
+        "P2_Boost": "100k",
+        "R1": "2M2",
+        "R2": "10k",
+        "R3": "10M",
+        "R4": "10M",
+        "T1": "BS170",
+        "U1": "9"
+    }
+};
 window.SC.circuit['earthquaker_devices_plumes'] = {
     "name": "Plumes",
     "author": "Earthquaker Devices",
@@ -3383,6 +3531,34 @@ window.SC.circuit['earthquaker_devices_plumes'] = {
         "R13": "100k",
         "R14": "10k",
         "S1": "DPDT",
+        "U1": "9"
+    }
+};
+window.SC.circuit['earthQuaker_devices_speaker_cranker'] = {
+    "name": "Speaker Cranker",
+    "author": "EarthQuaker Devices",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/03/earthquaker-devices-speaker-cranker.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100u",
+        "C2": "100n",
+        "C3": "100u",
+        "C4": "68n",
+        "D1": ["1N60P", "Ge Diode"],
+        "D2": ["1N60P", "Ge Diode"],
+        "D3": ["1N60P", "Ge Diode"],
+        "P1_More": "5k",
+        "R1": "330",
+        "R2": "10k",
+        "R3": "10M",
+        "R4": "2M2",
+        "T1": "2N3904",
         "U1": "9"
     }
 };
@@ -3451,6 +3627,38 @@ window.SC.circuit['earthquaker_hizumitas'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['earth_sound_research_graphic_fuzz'] = {
+    "name": "Graphic Fuzz",
+    "author": "Earth Sound Research",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2020/07/earth-sound-research-graphic-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "1u",
+        "C2": "10u",
+        "C3": "100n",
+        "C4": "100u",
+        "C5": "100n",
+        "C6": "1u",
+        "C7": "100n",
+        "D1": "1N5817",
+        "P1_Linear": "1M",
+        "P2_Volume": "100k",
+        "Q1": "741",
+        "R1": "1M",
+        "R2": "10k",
+        "R3": "2M2",
+        "R4": "10k",
+        "R5": "220",
+        "R6": "10k",
+        "U1": "9"
+    }
+};
 window.SC.circuit['echoplex_preamp'] = {
     "name": "Preamp",
     "author": "EchoPlex",
@@ -3476,6 +3684,45 @@ window.SC.circuit['echoplex_preamp'] = {
         "R6": "100k",
         "R7": "220k",
         "T1": "2N5457",
+        "U1": "9"
+    }
+};
+window.SC.circuit['effdub_flapjack_od'] = {
+    "name": "Flapjack OD",
+    "author": "Effdub",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/09/effdub-flapjack-od.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "82n",
+        "C2": "10n",
+        "C3": "10u",
+        "C4": "10u",
+        "C5": "100u",
+        "C6": "10n",
+        "C7": "47n",
+        "C8": "470p",
+        "D1": "1N5817",
+        "P1_Gain": "50k",
+        "P2_Presence": "25k",
+        "P3_Volume": "50k",
+        "R1": "1k",
+        "R2": "1M",
+        "R3": "100k",
+        "R4": "220",
+        "R5": "1M",
+        "R6": "10k",
+        "R7": "100k",
+        "R8": "82k",
+        "R9": "10k",
+        "R10": "220",
+        "R11": "10k",
+        "Q1": "741",
         "U1": "9"
     }
 };
@@ -4116,7 +4363,7 @@ window.SC.circuit['fred_briggs_face'] = {
         "D1": "1N4148",
         "D2": "1N4148",
         "D3": "1N4148",
-        "P1_PT1": "4k7",
+        "PT1": "4k7",
         "P2_Volume": "1M",
         "P3_Tone": "100k",
         "P4_Master": "100k",
@@ -4348,7 +4595,7 @@ window.SC.circuit['jan_ray_vemuram'] = {
         "D3": "1N4148",
         "D4": "1N4148",
         "D5": "1N4148",
-        "P1_PT1": "10k",
+        "PT1": "10k",
         "P2_Gain": "500k",
         "P3_Bass": "50k",
         "P4_Treble": "10k",
@@ -4431,6 +4678,35 @@ window.SC.circuit['jfet_parallel_looper'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['joe_gagan_easy_face'] = {
+    "name": "Easy Face with input cap blend",
+    "author": "Joe Gagan",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/easy-face-with-input-cap-blend.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "100n",
+        "C3": "3u3",
+        "C4": "22u",
+        "PT1": "10k",
+        "P2_Pregain": "250k",
+        "P3_Blend": "100k",
+        "P4_Volume": "500k",
+        "R1": "33k",
+        "R2": "470",
+        "R3": "100k",
+        "R4": "1k",
+        "T1": "2N3906",
+        "T2": ["2SB33", "Ge PNP"],
+        "U1": "9"
+    }
+};
 window.SC.circuit['john_hollis_flatline_compressor'] = {
     "name": "Flatline Compressor",
     "author": "John Hollis",
@@ -4500,7 +4776,7 @@ window.SC.circuit['keeley_4knob_compressor'] = {
         "C17": "10n",
         "D1": "1N914",
         "D2": "1N914",
-        "P1_PT1": "2k",
+        "PT1": "2k",
         "P2_Clip": "150k",
         "P3_Attack": "150k",
         "P4_Sustain": "500k",
@@ -5082,7 +5358,7 @@ window.SC.circuit['mxr_dyna_comp'] = {
         "C11": "10n",
         "D1": "1N914",
         "D2": "1N914",
-        "P1_PT1": "2k",
+        "PT1": "2k",
         "P2_Sensitivity": "500k",
         "P3_Output": "50k",
         "Q1": ["CA3080", "LM3080"],
@@ -5331,8 +5607,8 @@ window.SC.circuit['pete_cornish_ss2'] = {
         "P1_Drive": "50k",
         "P2_Tone": "20k",
         "P3_Volume": "10k",
-        "Q1": "LM741",
-        "Q2": "LM741",
+        "Q1": "741",
+        "Q2": "741",
         "R1": "510",
         "R2": "2k4",
         "R3": "10k",
@@ -5530,7 +5806,7 @@ window.SC.circuit['red_fuzz'] = {
         "C7": "3n3",
         "D1": "LED",
         "D2": "LED",
-        "Q1": ["LF351", "TL071", "LM741", "Opamp Single"],
+        "Q1": ["LF351", "TL071", "741", "Opamp Single"],
         "P1_Intensity": "1M",
         "P2_Tone": "100k",
         "P3_Volume": "100k",
@@ -5679,7 +5955,7 @@ window.SC.circuit['ross_compressor'] = {
         "C14": "10n",
         "D1": "1N914",
         "D2": "1N914",
-        "P1_PT1": "2k",
+        "PT1": "2k",
         "P2_Sustain": "500k",
         "P3_Output": "100k",
         "Q1": ["CA3080", "LM3080"],

@@ -19,7 +19,7 @@
         "C7": "3n3",
         "D1": "LED",
         "D2": "LED",
-        "Q1": ["LF351", "TL071", "LM741", "Opamp Single"],
+        "Q1": ["LF351", "TL071", "741", "Opamp Single"],
         "P1_Intensity": "1M",
         "P2_Tone": "100k",
         "P3_Volume": "100k",
