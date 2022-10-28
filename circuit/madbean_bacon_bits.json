@@ -1,0 +1,33 @@
+{
+    "name": "Bacon Bits",
+    "author": "Madbean",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/10/madbean-bacon-bits.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "100n",
+        "C3": "10u",
+        "C4": "47u",
+        "C5": "82p",
+        "C6": "1u",
+        "D1": "12V ZENNER",
+        "P1_Boost": "500k",
+        "Q1": ["TL072", "TLC272", "OPA2604", "TLC2262"],
+        "Q2": "ICL7660S",
+        "R1": "10k",
+        "R2": "1M",
+        "R3": "1M",
+        "R4": "10k",
+        "R5": "100k",
+        "R6": "1k",
+        "R7": "10k",
+        "R8": "100k",
+        "U1": "9"
+    }
+}

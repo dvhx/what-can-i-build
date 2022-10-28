@@ -1,0 +1,24 @@
+{
+    "name": "Buffer",
+    "author": "Klon",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2011/04/klon-buffer.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "1u",
+        "C3": "47u",
+        "Q1": "TL071",
+        "R1": "100k",
+        "R2": "1M",
+        "R3": "100k",
+        "R4": "560",
+        "R5": "100k",
+        "U1": "9"
+    }
+}

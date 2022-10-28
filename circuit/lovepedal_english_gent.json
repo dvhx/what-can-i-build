@@ -1,0 +1,37 @@
+{
+    "name": "English Gent",
+    "author": "Lovepedal",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/01/lovepedal-english-gent.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "470n",
+        "C2": "220n",
+        "C3": "47u",
+        "C4": "47u",
+        "D1": "1N5817",
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "D4": "BAT46",
+        "D5": "BAT46",
+        "D6": "LED",
+        "P1_Gain": "1k",
+        "P2_Volume": "100k",
+        "R1": "2M2",
+        "R2": "2M2",
+        "R3": "330",
+        "R4": "330",
+        "R5": "3k3",
+        "R6": "470k",
+        "R7": "100",
+        "R8": "10k",
+        "S1": "DPDT",
+        "T1": "2N5088",
+        "U1": "9"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Woodrow",
+    "author": "Lovepedal",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/lovepedal-woodrow.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "47n",
+        "C3": "47u",
+        "C4": "47u",
+        "D1": "1N914",
+        "D2": "1N914",
+        "P1_Volume": "500k",
+        "R1": "2M2",
+        "R2": "330",
+        "R3": "1M",
+        "R4": "3k3",
+        "T1": "2N5088",
+        "U1": "9"
+    }
+}

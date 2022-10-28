@@ -1,0 +1,29 @@
+{
+    "name": "Snowjob",
+    "author": "Lotus Pedals",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/01/lotus-pedals-snowjob.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "120n",
+        "C2": "47n",
+        "C3": "47u",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "P1_Drive": "250k",
+        "P2_Volume": "250k",
+        "R1": "5k1",
+        "R2": "1M",
+        "R3": "390",
+        "R4": "3k3",
+        "R5": "2M2",
+        "S1": "SPST",
+        "T1": "2N5088",
+        "U1": "9"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Black magic",
+    "author": "Lovepedal",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/02/lovepedal-black-magic.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "4n7",
+        "C3": "10n",
+        "C4": "100u",
+        "C5": "47u",
+        "C6": "22u",
+        "C7": "47u",
+        "P1_Dist": "500",
+        "P2_Volume": "500k",
+        "Q1": "LM386",
+        "R1": "100",
+        "R2": "1M",
+        "R3": "22k",
+        "R4": "470k",
+        "R5": "1",
+        "U1": "9"
+    }
+}

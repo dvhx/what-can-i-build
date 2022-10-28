@@ -1,0 +1,34 @@
+{
+    "name": "LaVache",
+    "author": "Madbean",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/madbean-lavache.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47u",
+        "C2": "47n",
+        "C3": "100n",
+        "C4": "47u",
+        "D1": "1N914",
+        "D2": "1N914",
+        "D3": "BAT46",
+        "D4": "BAT46",
+        "D5": "BAT46",
+        "P1_Gain": "500k",
+        "P2_Volume": "100k",
+        "R1": "1M",
+        "R2": "3M3",
+        "R3": "3M3",
+        "R4": "330",
+        "R5": "3k3",
+        "S1": "SPDT",
+        "S2": "SPST",
+        "T1": ["2N3565", "2N5088", "BC550C", "2N2222"],
+        "U1": "9"
+    }
+}

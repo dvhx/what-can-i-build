@@ -1,0 +1,25 @@
+{
+    "name": "Delux Sixty",
+    "author": "Lovepedal",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/01/lovepedal-delux-sixty.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "100n",
+        "C3": "47u",
+        "P1_Volume": "100k",
+        "R1": "330",
+        "R2": "3M3",
+        "R3": "3k3",
+        "R4": "3M3",
+        "R5": "47k",
+        "T1": "BS170",
+        "U1": "9"
+    }
+}

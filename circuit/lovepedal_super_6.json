@@ -1,0 +1,32 @@
+{
+    "name": "Super 6",
+    "author": "Lovepedal",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/01/lovepedal-super-6.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "10n",
+        "C3": "10n",
+        "C4": "100n",
+        "C5": "47u",
+        "C6": "10u",
+        "D1": "9V1 ZENNER",
+        "P1_Intense": "1k",
+        "P2_Tone": "100k",
+        "P3_Volume": "100k",
+        "R1": "3k3",
+        "R2": "2M2",
+        "R3": "1M5",
+        "R4": "1M",
+        "R5": "330",
+        "R6": "510",
+        "T1": "BS170",
+        "U1": "9"
+    }
+}

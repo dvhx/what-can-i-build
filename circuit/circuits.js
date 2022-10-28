@@ -5968,6 +5968,30 @@ window.SC.circuit['ken_willmott_differential_distortion'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['klon_buffer'] = {
+    "name": "Buffer",
+    "author": "Klon",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2011/04/klon-buffer.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "1u",
+        "C3": "47u",
+        "Q1": "TL071",
+        "R1": "100k",
+        "R2": "1M",
+        "R3": "100k",
+        "R4": "560",
+        "R5": "100k",
+        "U1": "9"
+    }
+};
 window.SC.circuit['klon_centaur'] = {
     "name": "Centaur",
     "author": "Klon",
@@ -6079,6 +6103,93 @@ window.SC.circuit['landgraff_boost'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['lotus_pedals_snowjob'] = {
+    "name": "Snowjob",
+    "author": "Lotus Pedals",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/01/lotus-pedals-snowjob.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "120n",
+        "C2": "47n",
+        "C3": "47u",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "P1_Drive": "250k",
+        "P2_Volume": "250k",
+        "R1": "5k1",
+        "R2": "1M",
+        "R3": "390",
+        "R4": "3k3",
+        "R5": "2M2",
+        "S1": "SPST",
+        "T1": "2N5088",
+        "U1": "9"
+    }
+};
+window.SC.circuit['lovepedal_black_magic'] = {
+    "name": "Black magic",
+    "author": "Lovepedal",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/02/lovepedal-black-magic.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "4n7",
+        "C3": "10n",
+        "C4": "100u",
+        "C5": "47u",
+        "C6": "22u",
+        "C7": "47u",
+        "P1_Dist": "500",
+        "P2_Volume": "500k",
+        "Q1": "LM386",
+        "R1": "100",
+        "R2": "1M",
+        "R3": "22k",
+        "R4": "470k",
+        "R5": "1",
+        "U1": "9"
+    }
+};
+window.SC.circuit['lovepedal_champ'] = {
+    "name": "Champ",
+    "author": "Lovepedal",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/03/lovepedal-champ.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "100u",
+        "C3": "47u",
+        "C4": "100n",
+        "D1": "1N60P",
+        "D2": "1N60P",
+        "P1_Level": "100k",
+        "R1": "1M",
+        "R2": "2M2",
+        "R3": "330",
+        "R4": "3k3",
+        "R5": "330",
+        "T1": "2N5088",
+        "U1": "9"
+    }
+};
 window.SC.circuit['lovepedal_cot50'] = {
     "name": "COT50",
     "author": "Lovepedal",
@@ -6105,6 +6216,194 @@ window.SC.circuit['lovepedal_cot50'] = {
         "R3": "2M2",
         "R4": "3k3",
         "T1": "2N5088",
+        "U1": "9"
+    }
+};
+window.SC.circuit['lovepedal_delux_sixty'] = {
+    "name": "Delux Sixty",
+    "author": "Lovepedal",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/01/lovepedal-delux-sixty.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "100n",
+        "C3": "47u",
+        "P1_Volume": "100k",
+        "R1": "330",
+        "R2": "3M3",
+        "R3": "3k3",
+        "R4": "3M3",
+        "R5": "47k",
+        "T1": "BS170",
+        "U1": "9"
+    }
+};
+window.SC.circuit['lovepedal_english_gent'] = {
+    "name": "English Gent",
+    "author": "Lovepedal",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/01/lovepedal-english-gent.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "470n",
+        "C2": "220n",
+        "C3": "47u",
+        "C4": "47u",
+        "D1": "1N5817",
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "D4": "BAT46",
+        "D5": "BAT46",
+        "D6": "LED",
+        "P1_Gain": "1k",
+        "P2_Volume": "100k",
+        "R1": "2M2",
+        "R2": "2M2",
+        "R3": "330",
+        "R4": "330",
+        "R5": "3k3",
+        "R6": "470k",
+        "R7": "100",
+        "R8": "10k",
+        "S1": "DPDT",
+        "T1": "2N5088",
+        "U1": "9"
+    }
+};
+window.SC.circuit['lovepedal_super_6'] = {
+    "name": "Super 6",
+    "author": "Lovepedal",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/01/lovepedal-super-6.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "10n",
+        "C3": "10n",
+        "C4": "100n",
+        "C5": "47u",
+        "C6": "10u",
+        "D1": "9V1 ZENNER",
+        "P1_Intense": "1k",
+        "P2_Tone": "100k",
+        "P3_Volume": "100k",
+        "R1": "3k3",
+        "R2": "2M2",
+        "R3": "1M5",
+        "R4": "1M",
+        "R5": "330",
+        "R6": "510",
+        "T1": "BS170",
+        "U1": "9"
+    }
+};
+window.SC.circuit['lovepedal_woodrow'] = {
+    "name": "Woodrow",
+    "author": "Lovepedal",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/lovepedal-woodrow.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "47n",
+        "C3": "47u",
+        "C4": "47u",
+        "D1": "1N914",
+        "D2": "1N914",
+        "P1_Volume": "500k",
+        "R1": "2M2",
+        "R2": "330",
+        "R3": "1M",
+        "R4": "3k3",
+        "T1": "2N5088",
+        "U1": "9"
+    }
+};
+window.SC.circuit['madbean_bacon_bits'] = {
+    "name": "Bacon Bits",
+    "author": "Madbean",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/10/madbean-bacon-bits.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "100n",
+        "C3": "10u",
+        "C4": "47u",
+        "C5": "82p",
+        "C6": "1u",
+        "D1": "12V ZENNER",
+        "P1_Boost": "500k",
+        "Q1": ["TL072", "TLC272", "OPA2604", "TLC2262"],
+        "Q2": "ICL7660S",
+        "R1": "10k",
+        "R2": "1M",
+        "R3": "1M",
+        "R4": "10k",
+        "R5": "100k",
+        "R6": "1k",
+        "R7": "10k",
+        "R8": "100k",
+        "U1": "9"
+    }
+};
+window.SC.circuit['madbean_lavache'] = {
+    "name": "LaVache",
+    "author": "Madbean",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/madbean-lavache.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47u",
+        "C2": "47n",
+        "C3": "100n",
+        "C4": "47u",
+        "D1": "1N914",
+        "D2": "1N914",
+        "D3": "BAT46",
+        "D4": "BAT46",
+        "D5": "BAT46",
+        "P1_Gain": "500k",
+        "P2_Volume": "100k",
+        "R1": "1M",
+        "R2": "3M3",
+        "R3": "3M3",
+        "R4": "330",
+        "R5": "3k3",
+        "S1": "SPDT",
+        "S2": "SPST",
+        "T1": ["2N3565", "2N5088", "BC550C", "2N2222"],
         "U1": "9"
     }
 };

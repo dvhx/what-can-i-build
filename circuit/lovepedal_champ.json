@@ -1,0 +1,28 @@
+{
+    "name": "Champ",
+    "author": "Lovepedal",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/03/lovepedal-champ.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "100u",
+        "C3": "47u",
+        "C4": "100n",
+        "D1": "1N60P",
+        "D2": "1N60P",
+        "P1_Level": "100k",
+        "R1": "1M",
+        "R2": "2M2",
+        "R3": "330",
+        "R4": "3k3",
+        "R5": "330",
+        "T1": "2N5088",
+        "U1": "9"
+    }
+}
