@@ -1,0 +1,25 @@
+{
+    "name": "NE555 voltage inverter",
+    "author": "mirosol",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/02/ne555-voltage-inverter.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "1n",
+        "C2": "220u",
+        "C3": "470u",
+        "C4": "220u",
+        "C5": "10n",
+        "D1": ["BAT85", "1N5817", "1N5819", "1N4001", "1N4007", "Schottky"],
+        "D2": ["BAT85", "1N5817", "1N5819", "1N4001", "1N4007", "Schottky"],
+        "Q1": "NE555",
+        "R1": "33k",
+        "R2": "1k",
+        "U1": "9"
+    }
+}

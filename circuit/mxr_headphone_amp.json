@@ -1,0 +1,41 @@
+{
+    "name": "Headphone Amp",
+    "author": "MXR",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/mxr-headphone-amp.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "150p",
+        "C2": "47u",
+        "C3": "100n",
+        "C4": "47u",
+        "C5": "4u7",
+        "C6": "47u",
+        "D1": ["1N914", "1N4148"],
+        "D2": ["1N914", "1N4148"],
+        "P1_Volume": "500k",
+        "Q1": "TL071",
+        "R1": "10M",
+        "R2": "4k7",
+        "R3": "10M",
+        "R4": "2M",
+        "R5": "10M",
+        "R6": "1k",
+        "R7": "56k",
+        "R8": "10k",
+        "R9": "10k",
+        "R10": "10k",
+        "R11": "100",
+        "R12": "3k9",
+        "R13": "100",
+        "R14": "3k9",
+        "T1": ["2N4401", "2N3904"],
+        "T2": ["2N4403", "2N3906"],
+        "U1": "9"
+    }
+}

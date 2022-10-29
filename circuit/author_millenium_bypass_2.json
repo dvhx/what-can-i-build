@@ -1,0 +1,20 @@
+{
+    "name": "Millenium Bypass 2",
+    "author": "R.G.Keen",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/01/millennium-bypass-2.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "D1": "1N914",
+        "D2": "LED",
+        "R1": "2k2",
+        "S1": "DPDT",
+        "T1": "BS170",
+        "U1": "9"
+    }
+}

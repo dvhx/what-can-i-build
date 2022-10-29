@@ -1,0 +1,27 @@
+{
+    "name": "Valve Caster",
+    "author": "Matsumin",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/01/matsumin-valve-caster.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47n",
+        "C2": "47n",
+        "C3": "1u",
+        "C4": "10n",
+        "P1_Gain": "50k",
+        "P2_Tone": "100k",
+        "P3_Volume": "100k",
+        "R1": "1M",
+        "R2": "220k",
+        "R3": "470k",
+        "R4": "100k",
+        "V1": "12AU7",
+        "U1": "9"
+    }
+}

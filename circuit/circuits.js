@@ -629,6 +629,26 @@ window.SC.circuit['arsenio_novo_tubesound_overdrive'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['author_millenium_bypass_2'] = {
+    "name": "Millenium Bypass 2",
+    "author": "R.G.Keen",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/01/millennium-bypass-2.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "D1": "1N914",
+        "D2": "LED",
+        "R1": "2k2",
+        "S1": "DPDT",
+        "T1": "BS170",
+        "U1": "9"
+    }
+};
 window.SC.circuit['babylon_2'] = {
     "name": "Babylon 2",
     "author": "effdub",
@@ -2206,7 +2226,7 @@ window.SC.circuit['colorsound_tremolo'] = {
 };
 window.SC.circuit['crackle_not_ok'] = {
     "name": "Crackle Not OK",
-    "author": "Neve",
+    "author": "Neve/Soulsonic",
     "url": {
         "schematic": "",
         "stripboard": "",
@@ -6481,6 +6501,179 @@ window.SC.circuit['mad_professor_snow_white_autowah'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['marshall_3005_preamp'] = {
+    "name": "3005 Preamp",
+    "author": "Marshall",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2018/10/marshall-3005-preamp.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "220n",
+        "C2": "100n",
+        "C3": "22n",
+        "C4": "10n",
+        "C5": "2n",
+        "C6": "100p",
+        "C7": "2u2",
+        "P1_Gain": "22k",
+        "P2_Treble": "22k",
+        "P3_Bass": "22k",
+        "P4_Mids": "4k7",
+        "P5_Volume": "1M",
+        "Q1": "LM1458",
+        "R1": "60k",
+        "R2": "330k",
+        "R3": "33k",
+        "R4": "10k",
+        "R5": "4k7",
+        "R6": "56k",
+        "R7": "10k",
+        "R8": "10k",
+        "R9": "220k",
+        "R10": "220",
+        "U1": "16",
+        "U2": "-16"
+    }
+};
+window.SC.circuit['marshall_bluesbraker'] = {
+    "name": "Bluesbraker",
+    "author": "Marshall",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/02/marshall-bluesbreaker.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "47p",
+        "C3": "10n",
+        "C4": "10n",
+        "C5": "220n",
+        "C6": "100u",
+        "C7": "10n",
+        "C8": "100n",
+        "C9": "10n",
+        "C10": "220n",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "D4": "1N4148",
+        "D5": "1N4001",
+        "P1_Gain": "100k",
+        "P2_Tone": "25k",
+        "P3_Volume": "100k",
+        "Q1": "TL072",
+        "R1": "47k",
+        "R2": "2M2",
+        "R3": "1M",
+        "R4": "3k3",
+        "R5": "1k",
+        "R6": "4k7",
+        "R7": "47k",
+        "R8": "4k7",
+        "R9": "220k",
+        "R10": "4k7",
+        "R11": "6k8",
+        "R12": "1M",
+        "R13": "6k8",
+        "U1": "9"
+    }
+};
+window.SC.circuit['marshall_guvnor'] = {
+    "name": "Guvnor",
+    "author": "Marshall",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/12/marshall-guvnor.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "220n",
+        "C2": "100n",
+        "C3": "10n",
+        "C4": "120p",
+        "C5": "220n",
+        "C6": "100n",
+        "C7": "100n",
+        "C8": "220n",
+        "C9": "3n9",
+        "C10": "220p",
+        "C11": "68n",
+        "C12": "10n",
+        "C13": "10u",
+        "C14": "100u",
+        "C15": "470p",
+        "D1": "LED",
+        "D2": "LED",
+        "D3": "1N4148",
+        "D4": "1N4148",
+        "D5": "1N4148",
+        "P1_Gain": "100k",
+        "P2_Treble": "10k",
+        "P3_Bass": "10k",
+        "P4_Mids": "10k",
+        "P5_Level": "100k",
+        "Q1": "TL072",
+        "R1": "47k",
+        "R2": "2M2",
+        "R3": "2k2",
+        "R4": "1M",
+        "R5": "10k",
+        "R6": "47k",
+        "R7": "680k",
+        "R8": "680",
+        "R9": "1k5",
+        "R10": "680",
+        "R11": "1k",
+        "R12": "100",
+        "R13": "22k",
+        "S1": "DPDT",
+        "U1": "9"
+    }
+};
+window.SC.circuit['marshall_supa_fuzz'] = {
+    "name": "Supa Fuzz",
+    "author": "Marshall",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/02/marshall-supa-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "100n",
+        "C3": "10n",
+        "C4": "47u",
+        "C5": "10u",
+        "C6": "10n",
+        "P1_Volume": "100k",
+        "P2_Attack": "1k",
+        "R1": "10k",
+        "R2": "10k",
+        "R3": "47k",
+        "R4": "8k2",
+        "R5": "470",
+        "R6": "100k",
+        "T1": "Ge PNP",
+        "T2": "Ge PNP",
+        "T3": "Ge PNP",
+        "U1": "9"
+    }
+};
 window.SC.circuit['masaru_kubota_comet_filter'] = {
     "name": "Comet filter",
     "author": "Masaru Kubota",
@@ -6543,6 +6736,292 @@ window.SC.circuit['masaru_kubota_orion_fuzz'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['matsumin_valve_caster'] = {
+    "name": "Valve Caster",
+    "author": "Matsumin",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/01/matsumin-valve-caster.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47n",
+        "C2": "47n",
+        "C3": "1u",
+        "C4": "10n",
+        "P1_Gain": "50k",
+        "P2_Tone": "100k",
+        "P3_Volume": "100k",
+        "R1": "1M",
+        "R2": "220k",
+        "R3": "470k",
+        "R4": "100k",
+        "V1": "12AU7",
+        "U1": "9"
+    }
+};
+window.SC.circuit['mcgillwell_fet_booster'] = {
+    "name": "FET booster",
+    "author": "McGillwell",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/08/mcgillwell-fet-booster.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "22u",
+        "C3": "22n",
+        "P1_Sound": "220k",
+        "R1": "47k",
+        "R2": "1M5",
+        "R3": "47k",
+        "R4": "47k",
+        "T1": "BF245B",
+        "U1": "9"
+    }
+};
+window.SC.circuit['menatone_red_snapper'] = {
+    "name": "Red Snapper",
+    "author": "Menatone",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/menatone-red-snapper-3-knob.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "47n",
+        "C3": "100p",
+        "C4": "1n",
+        "C5": "100n",
+        "C6": "22u",
+        "D1": "Diode",
+        "D2": "Diode",
+        "D3": "Diode",
+        "P1_Volume": "250k",
+        "P2_Bite": "20k",
+        "P3_Gain": "1M",
+        "Q1": ["JRC4558", "Opamp Dual"],
+        "R1": "1M",
+        "R2": "10k",
+        "R3": "1M",
+        "R4": "1k",
+        "R5": "10k",
+        "R6": "10k",
+        "R7": "33k",
+        "R8": "10k",
+        "R9": "10k",
+        "U1": "9"
+    }
+};
+window.SC.circuit['merlin_blencowe_one_chip_chorus'] = {
+    "name": "One Chip Chorus",
+    "author": "Merlin Blencowe",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/04/merlin-blencowes-one-chip-chorus.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100u",
+        "C3": "47u",
+        "C4": "4u7",
+        "C5": "10u",
+        "C6": "100n",
+        "C7": "100n",
+        "C8": "10u",
+        "C9": "4u7",
+        "C10": "47n",
+        "C11": "10n",
+        "C12": "47n",
+        "C13": "10n",
+        "C14": "100n",
+        "C15": "100n",
+        "C16": "33p",
+        "D1": "LED",
+        "D2": "1N4148",
+        "P1_Depth": "10k",
+        "P2_Rate": "100k",
+        "Q1": "PT2399",
+        "Q2": "78L05",
+        "R1": "100k",
+        "R2": "10k",
+        "R3": "10k",
+        "R4": "820k",
+        "R5": "1M",
+        "R6": "100k",
+        "R7": "1k",
+        "R8": "91k",
+        "R9": "1k",
+        "T2": ["BC337", "NPN"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['mi_audio_boost'] = {
+    "name": "Boost",
+    "author": "MI Audio",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/mi-audio-boost-buff.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "1u",
+        "C2": "100n",
+        "C3": "220p",
+        "C4": "1u",
+        "D1": "LED",
+        "P1_Gain": "10k",
+        "R1": "220k",
+        "R2": "8M2",
+        "R3": "22k",
+        "R4": "22k",
+        "R5": "4k7",
+        "S1": "DPDT",
+        "T1": ["BC549", "NPN"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['mid_fi_electronics_clarinot'] = {
+    "name": "Clari(not)",
+    "author": "Mid-Fi Electronics",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/02/mid-fi-electronics-clarinot.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "10n",
+        "C5": "47u",
+        "C6": "47u",
+        "C7": "47u",
+        "C8": "47u",
+        "C9": "47u",
+        "C10": "10u",
+        "C11": "1n",
+        "C12": "1n",
+        "C13": "100n",
+        "C14": "100n",
+        "D1": "LED",
+        "D2": "1N4001",
+        "LDR1": "LDR",
+        "P1_Delay": "100k",
+        "P2_Depth": "100k",
+        "P3_Track": "1k",
+        "P4_Blend": "25k",
+        "P5_Volume": "100k",
+        "Q1": "LM386",
+        "Q3": "78L05",
+        "Q2": "PT2399",
+        "R1": "1M",
+        "R2": "1k",
+        "R3": "10k",
+        "R4": "100",
+        "R5": "22k",
+        "R6": "100k",
+        "R7": "22k",
+        "R8": "1k",
+        "R9": "10k",
+        "R10": "22k",
+        "S1": "SPST",
+        "U1": "9"
+    }
+};
+window.SC.circuit['mid_fi_electronics_peace_gun_fuzz'] = {
+    "name": "Peace Gun Fuzz",
+    "author": "Mid-Fi Electronics",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/09/mid-fi-electronics-peace-gun-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "50n",
+        "C4": "10n",
+        "C5": "10n",
+        "C6": "100n",
+        "C7": "10u",
+        "C8": "100u",
+        "D1": "1N4001",
+        "D2": "1N4001",
+        "D3": "1N4001",
+        "P1_Resonance": "10k",
+        "P2_Tone": "10k",
+        "P3_Frequency": "5k Stereo",
+        "P4_Volume": "100k",
+        "R1": "4k7",
+        "R2": "1M",
+        "R3": "1M",
+        "R4": "10k",
+        "R5": "10k",
+        "R6": "1k",
+        "R7": "100k",
+        "T1": "MPSA13",
+        "T2": "2N5089",
+        "U1": "9"
+    }
+};
+window.SC.circuit['mid-fi_electronics_random_number_generator'] = {
+    "name": "Random Number Generator",
+    "author": "Mid-Fi Electronics",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/mid-fi-electronics-random-number.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "10u",
+        "C3": "10n",
+        "C4": "10n",
+        "P1_Volume": "100k",
+        "R1": "2M2",
+        "R2": "47k",
+        "R3": "1M",
+        "R4": "470k",
+        "R5": "470k",
+        "R6": "100k",
+        "R7": "100k",
+        "R8": "100k",
+        "R9": "100k",
+        "T1": "2N4401",
+        "T2": "2N2222",
+        "T3": "2N3904",
+        "T4": "2N3904",
+        "U1": "9"
+    }
+};
 window.SC.circuit['mirosol_70_funk_box'] = {
     "name": "'70s Funk Box",
     "author": "mirosol",
@@ -6571,6 +7050,56 @@ window.SC.circuit['mirosol_70_funk_box'] = {
         "R6": "56k",
         "R7": "56k",
         "T1": ["HEP-722", "HEP-723", "2N3904", "NPN"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['mirosol_ne555_voltage_doubler'] = {
+    "name": "NE555 voltage doubler",
+    "author": "mirosol",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/02/ne555-voltage-doubler.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "1n",
+        "C2": "22u",
+        "C3": "470u",
+        "C4": "220u",
+        "C5": "10n",
+        "D1": ["BAT85", "1N5817", "1N5819", "1N4001", "1N4007", "Schottky"],
+        "D2": ["BAT85", "1N5817", "1N5819", "1N4001", "1N4007", "Schottky"],
+        "Q1": "NE555",
+        "R1": "33k",
+        "R2": "1k",
+        "U1": "9"
+    }
+};
+window.SC.circuit['mirosol_ne555_voltage_inverter'] = {
+    "name": "NE555 voltage inverter",
+    "author": "mirosol",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/02/ne555-voltage-inverter.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "1n",
+        "C2": "220u",
+        "C3": "470u",
+        "C4": "220u",
+        "C5": "10n",
+        "D1": ["BAT85", "1N5817", "1N5819", "1N4001", "1N4007", "Schottky"],
+        "D2": ["BAT85", "1N5817", "1N5819", "1N4001", "1N4007", "Schottky"],
+        "Q1": "NE555",
+        "R1": "33k",
+        "R2": "1k",
         "U1": "9"
     }
 };
@@ -6750,6 +7279,39 @@ window.SC.circuit['mountainking_electronics_megalith'] = {
         "U1": "9"
     }
 };
+window.SC.circuit['mxr_dist_plus'] = {
+    "name": "Dist+",
+    "author": "MXR",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/07/mxr-dist.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "1n",
+        "C3": "47n",
+        "C4": "1n",
+        "C5": "1u",
+        "C6": "1u",
+        "D1": "1N270",
+        "D2": "1N270",
+        "P1_Drive": "1M",
+        "P2_Volume": "10k",
+        "Q1": "741",
+        "R1": "4k7",
+        "R2": "10k",
+        "R3": "1M",
+        "R4": "1M",
+        "R5": "1M",
+        "R6": "10k",
+        "R7": "1M",
+        "U1": "9"
+    }
+};
 window.SC.circuit['mxr_dyna_comp'] = {
     "name": "Dyna Comp",
     "author": "MXR",
@@ -6802,6 +7364,78 @@ window.SC.circuit['mxr_dyna_comp'] = {
         "T3": ["2N5088", "NPN"],
         "T4": ["2N5088", "NPN"],
         "T5": ["2N5088", "NPN"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['mxr_headphone_amp'] = {
+    "name": "Headphone Amp",
+    "author": "MXR",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/mxr-headphone-amp.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "150p",
+        "C2": "47u",
+        "C3": "100n",
+        "C4": "47u",
+        "C5": "4u7",
+        "C6": "47u",
+        "D1": ["1N914", "1N4148"],
+        "D2": ["1N914", "1N4148"],
+        "P1_Volume": "500k",
+        "Q1": "TL071",
+        "R1": "10M",
+        "R2": "4k7",
+        "R3": "10M",
+        "R4": "2M",
+        "R5": "10M",
+        "R6": "1k",
+        "R7": "56k",
+        "R8": "10k",
+        "R9": "10k",
+        "R10": "10k",
+        "R11": "100",
+        "R12": "3k9",
+        "R13": "100",
+        "R14": "3k9",
+        "T1": ["2N4401", "2N3904"],
+        "T2": ["2N4403", "2N3906"],
+        "U1": "9"
+    }
+};
+window.SC.circuit['mxr_microamp'] = {
+    "name": "Microamp",
+    "author": "MXR",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/10/mxr-microamp-compact-layout.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "47p",
+        "C3": "15u",
+        "C4": "4u7",
+        "C5": "1u",
+        "P1_Level": "500k",
+        "Q1": ["TL061", "Opamp Single"],
+        "R1": "2M2",
+        "R2": "56k",
+        "R3": "1k",
+        "R4": "10M",
+        "R5": "100k",
+        "R6": "100k",
+        "R7": "10k",
+        "R8": "2k7",
+        "R9": "470",
         "U1": "9"
     }
 };

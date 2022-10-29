@@ -1,7 +1,7 @@
 - one circuit per json file
 - filename can only contain lowercase character, number or underscore
-- once you publish filename, don't change the filename, change the "name" field instead
-- circuit names must be unique, e.g. "Bazz Fuss", "Bazz Fuss v2", "Bazz Fuss (Germanium)"
+- once you publish filename, don't change the filename, change the "name" or "author" field instead
+- circuit names should be unique, e.g. "Bazz Fuss", "Bazz Fuss v2", "Bazz Fuss (Germanium)", having "Booster" from multiple authors is OK
 - all parts must have name and value ("R1": "10k", "R2": "4k7", ...)
 - parts names prefixes
     R   resistor
@@ -11,7 +11,7 @@
     L   inductor
     D   diode
     T   transistor
-    Q   chip
+    Q   chip, voltage regulator
     J   connector
     S   switch
     LDR ldr

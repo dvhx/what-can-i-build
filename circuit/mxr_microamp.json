@@ -1,0 +1,31 @@
+{
+    "name": "Microamp",
+    "author": "MXR",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/10/mxr-microamp-compact-layout.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "47p",
+        "C3": "15u",
+        "C4": "4u7",
+        "C5": "1u",
+        "P1_Level": "500k",
+        "Q1": ["TL061", "Opamp Single"],
+        "R1": "2M2",
+        "R2": "56k",
+        "R3": "1k",
+        "R4": "10M",
+        "R5": "100k",
+        "R6": "100k",
+        "R7": "10k",
+        "R8": "2k7",
+        "R9": "470",
+        "U1": "9"
+    }
+}

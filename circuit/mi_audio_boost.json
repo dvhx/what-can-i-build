@@ -1,0 +1,28 @@
+{
+    "name": "Boost",
+    "author": "MI Audio",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/mi-audio-boost-buff.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "1u",
+        "C2": "100n",
+        "C3": "220p",
+        "C4": "1u",
+        "D1": "LED",
+        "P1_Gain": "10k",
+        "R1": "220k",
+        "R2": "8M2",
+        "R3": "22k",
+        "R4": "22k",
+        "R5": "4k7",
+        "S1": "DPDT",
+        "T1": ["BC549", "NPN"],
+        "U1": "9"
+    }
+}

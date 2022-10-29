@@ -1,0 +1,39 @@
+{
+    "name": "Peace Gun Fuzz",
+    "author": "Mid-Fi Electronics",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/09/mid-fi-electronics-peace-gun-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "50n",
+        "C4": "10n",
+        "C5": "10n",
+        "C6": "100n",
+        "C7": "10u",
+        "C8": "100u",
+        "D1": "1N4001",
+        "D2": "1N4001",
+        "D3": "1N4001",
+        "P1_Resonance": "10k",
+        "P2_Tone": "10k",
+        "P3_Frequency": "5k Stereo",
+        "P4_Volume": "100k",
+        "R1": "4k7",
+        "R2": "1M",
+        "R3": "1M",
+        "R4": "10k",
+        "R5": "10k",
+        "R6": "1k",
+        "R7": "100k",
+        "T1": "MPSA13",
+        "T2": "2N5089",
+        "U1": "9"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "name": "3005 Preamp",
+    "author": "Marshall",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2018/10/marshall-3005-preamp.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "220n",
+        "C2": "100n",
+        "C3": "22n",
+        "C4": "10n",
+        "C5": "2n",
+        "C6": "100p",
+        "C7": "2u2",
+        "P1_Gain": "22k",
+        "P2_Treble": "22k",
+        "P3_Bass": "22k",
+        "P4_Mids": "4k7",
+        "P5_Volume": "1M",
+        "Q1": "LM1458",
+        "R1": "60k",
+        "R2": "330k",
+        "R3": "33k",
+        "R4": "10k",
+        "R5": "4k7",
+        "R6": "56k",
+        "R7": "10k",
+        "R8": "10k",
+        "R9": "220k",
+        "R10": "220",
+        "U1": "16",
+        "U2": "-16"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "FET booster",
+    "author": "McGillwell",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/08/mcgillwell-fet-booster.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "22u",
+        "C3": "22n",
+        "P1_Sound": "220k",
+        "R1": "47k",
+        "R2": "1M5",
+        "R3": "47k",
+        "R4": "47k",
+        "T1": "BF245B",
+        "U1": "9"
+    }
+}

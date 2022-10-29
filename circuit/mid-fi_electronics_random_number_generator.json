@@ -1,0 +1,33 @@
+{
+    "name": "Random Number Generator",
+    "author": "Mid-Fi Electronics",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/mid-fi-electronics-random-number.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "10u",
+        "C3": "10n",
+        "C4": "10n",
+        "P1_Volume": "100k",
+        "R1": "2M2",
+        "R2": "47k",
+        "R3": "1M",
+        "R4": "470k",
+        "R5": "470k",
+        "R6": "100k",
+        "R7": "100k",
+        "R8": "100k",
+        "R9": "100k",
+        "T1": "2N4401",
+        "T2": "2N2222",
+        "T3": "2N3904",
+        "T4": "2N3904",
+        "U1": "9"
+    }
+}
