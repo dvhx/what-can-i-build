@@ -9558,8 +9558,8 @@ window.SC.circuit['the_tone_god_finish_line'] = {
         "Q1": "LM386",
         "R1": "10k",
         "R2": "10k",
-        "R3": "10u",
-        "R4": "1u",
+        "C1": "10u",
+        "C2": "1u",
         "T1": "2N5088",
         "T2": "2N5087",
         "U1": "9"
