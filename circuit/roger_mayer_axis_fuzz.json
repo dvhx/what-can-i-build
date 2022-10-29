@@ -1,0 +1,37 @@
+{
+    "name": "Axis Fuzz",
+    "author": "Roger Mayer",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/roger-mayer-axis-fuzz.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "22u",
+        "C3": "470p",
+        "C4": "100n",
+        "C5": "22u",
+        "C6": "22u",
+        "C7": "2u2",
+        "C8": "22u",
+        "P1_Drive": "2k",
+        "P2_Volume": "50k",
+        "R1": "220",
+        "R2": "680k",
+        "R3": "2M2",
+        "R4": "820k",
+        "R5": "100k",
+        "R6": "39k",
+        "R7": "47k",
+        "R8": "22k",
+        "R9": "10k",
+        "R10": "180k",
+        "T1": "2N3906",
+        "T2": "2N3904",
+        "U1": "9"
+    }
+}

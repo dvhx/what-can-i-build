@@ -1,0 +1,30 @@
+{
+    "name": "Gheto Stomp",
+    "author": "Nick Greer",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/07/nick-greer-ghetto-stomp.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "10n",
+        "C3": "47n",
+        "C4": "47u",
+        "D1": ["1N4148", "1N914"],
+        "D2": ["1N4148", "1N914"],
+        "D3": "LED",
+        "P1_Gain": "100k",
+        "P2_Tone": "100k",
+        "P3_Volume": "100k",
+        "R1": "47k",
+        "R2": "680",
+        "R3": "2M2",
+        "R4": "2k2",
+        "T1": "2N3904",
+        "U1": "9"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Finger Print",
+    "author": "Penny Pedals",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/02/penny-pedals-finger-print.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "180n",
+        "C2": "100u",
+        "C3": "100u",
+        "C4": "100u",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "D3": "LED",
+        "D4": "9V1 ZENER",
+        "P1_Gain": "1k",
+        "P2_Texture": "500k",
+        "P3_Volume": "10k",
+        "Q1": "LM386",
+        "R1": "47k",
+        "R2": "1M5",
+        "U1": "9"
+    }
+}

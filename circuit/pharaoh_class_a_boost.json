@@ -1,0 +1,33 @@
+{
+    "name": "Class A Boost",
+    "author": "Pharaoh",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/07/pharaoh-class-boost.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47n",
+        "C2": "100n",
+        "C3": "100u",
+        "C4": "47u",
+        "C5": "10u",
+        "P1_Volume": "100k",
+        "P2_Contour": "1k",
+        "R1": "1M",
+        "R2": "680",
+        "R3": "100k",
+        "R4": "10k",
+        "R5": "1M",
+        "R6": "10k",
+        "R7": "330k",
+        "R8": "10k",
+        "R9": "330k",
+        "T1": "2N5089",
+        "T2": "2N5089",
+        "U1": "9"
+    }
+}

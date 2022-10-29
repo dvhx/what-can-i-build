@@ -1,0 +1,23 @@
+{
+    "name": "Tape Measure Boost",
+    "author": "Nine Volt Nirvana",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/09/nine-volt-nirvana-tape-measure-boost.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "1u",
+        "C2": "1u",
+        "P1_Volume": "100k",
+        "R1": "150",
+        "R2": "100k",
+        "R3": "470k",
+        "R4": "10k",
+        "T1": "2N2222",
+        "U1": "9"
+    }
+}

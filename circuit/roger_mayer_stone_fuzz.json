@@ -1,0 +1,29 @@
+{
+    "name": "Stone Fuzz",
+    "author": "Roger Mayer",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/03/roger-mayer-stone-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "2u2",
+        "C2": "100n",
+        "C3": "1n",
+        "C4": "22u",
+        "PT1": "50k",
+        "P1_Drive": "2k",
+        "P2_Volume": "50k",
+        "R1": "4k7",
+        "R2": "1M",
+        "R3": "10k",
+        "R4": "10k",
+        "R5": "100k",
+        "T1": ["BC559", "PNP"],
+        "T2": ["BC559", "PNP"],
+        "U1": "9"
+    }
+}

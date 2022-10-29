@@ -1,0 +1,33 @@
+{
+    "name": "Fuzz Factory",
+    "author": "ZVex",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/zvex-fuzz-factory.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "100n",
+        "C3": "10u",
+        "C4": "10u",
+        "P1_Stab": "5k",
+        "P2_Drive": "10k",
+        "P3_Comp": "10k",
+        "P4_Gate": "10k",
+        "P5_Vol": "5k",
+        "R1": "220k",
+        "R2": "10k",
+        "R3": "47k",
+        "R4": "470",
+        "R5": "5k1",
+        "R6": "220k",
+        "T1": "2N3904",
+        "T2": "AC128",
+        "T3": "AC128",
+        "U1": "9"
+    }
+}

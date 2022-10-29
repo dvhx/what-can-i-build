@@ -1,0 +1,30 @@
+{
+    "name": "Zwiss Army Knife Drive",
+    "author": "Allesz",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/02/zwiss-army-knife-drive.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "47n",
+        "C3": "15n",
+        "C4": "100p",
+        "C5": "100n",
+        "D1": "1N4148",
+        "P1_Gain": "10k",
+        "P2_Volume": "100k",
+        "R1": "1M",
+        "R2": "2M2",
+        "R3": "100k",
+        "S1": "SPDT",
+        "S2": "SPDT",
+        "S3": "SPDT",
+        "T1": "BC319",
+        "U1": "9"
+    }
+}

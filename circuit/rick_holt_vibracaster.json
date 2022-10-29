@@ -1,0 +1,38 @@
+{
+    "name": "Vibracaster",
+    "author": "Rick Holt",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/01/rick-holt-vibracaster.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "470n",
+        "C2": "47n",
+        "C3": "470n",
+        "C4": "470n",
+        "C5": "47n",
+        "C6": "1u",
+        "D1": "1N4148",
+        "P1_Depth": "100k",
+        "P2_Speed": "100k",
+        "R1": "4k7",
+        "R2": "1M",
+        "R3": "220k",
+        "R4": "3M3",
+        "R5": "100k",
+        "R6": "47k",
+        "R7": "470k",
+        "R8": "10k",
+        "R9": "4k7",
+        "R10": "220k",
+        "R11": "22k",
+        "T1": "BC547",
+        "T2": "BC547",
+        "V1": "12AU7",
+        "U1": "12"
+    }
+}

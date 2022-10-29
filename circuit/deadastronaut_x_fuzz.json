@@ -1,0 +1,32 @@
+{
+    "name": "X Fuzz",
+    "author": "deadastronaut",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/05/x-fuzz-by-deadastronaut.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "10n",
+        "C3": "100p",
+        "C4": "470n",
+        "C5": "1u",
+        "C6": "100u",
+        "D1": "LED",
+        "D2": "LED",
+        "P1_PreGain": "1M",
+        "P2_Volume": "500k",
+        "R1": "1M",
+        "R2": "1M",
+        "R3": "10k",
+        "R4": "10k",
+        "R5": "220k",
+        "T1": "2N5088",
+        "T2": "2N5088",
+        "U1": "9"
+    }
+}

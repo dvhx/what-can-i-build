@@ -1,0 +1,39 @@
+{
+    "name": "Bone Machine",
+    "author": "Paul Trombetta",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2016/09/paul-trombetta-designs-bone-machine.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "22n",
+        "C4": "100u",
+        "C5": "100n",
+        "C6": "2n2",
+        "C7": "47p",
+        "C8": "1n",
+        "D1": "1N5817",
+        "D2": "1N4148",
+        "D3": "1N4148",
+        "P1_Bore": "50k",
+        "P2_Mood": "50k",
+        "P3_Gain": "100k",
+        "R1": "39k",
+        "R2": "2k",
+        "R3": "150k",
+        "R4": "560k",
+        "R5": "18k",
+        "R6": "560k",
+        "S1": "SPDT",
+        "S2": "SPDT",
+        "T1": "2N5088",
+        "T2": ["2N2097A", "Ge PNP"],
+        "U1": "9"
+    }
+}

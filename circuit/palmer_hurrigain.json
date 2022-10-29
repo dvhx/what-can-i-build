@@ -1,0 +1,41 @@
+{
+    "name": "Hurrigain",
+    "author": "Palmer",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/04/palmer-hurrigain.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100u",
+        "C2": "2u2",
+        "C3": "22u",
+        "C4": "100p",
+        "C5": "15n",
+        "C6": "47n",
+        "C7": "22n",
+        "C8": "47n",
+        "C9": "470p",
+        "D1": "1N5817",
+        "P1_Gain": "2k",
+        "P2_Tone": "50k",
+        "P3_Volume": "250k",
+        "R1": "47",
+        "R2": "100k",
+        "R3": ["5.6", "100"],
+        "R4": "10M",
+        "R5": "33k",
+        "R6": "5k6",
+        "R7": "2k2",
+        "R8": "3k3",
+        "R9": "1k",
+        "R10": "33k",
+        "R11": "1k5",
+        "T1": "BC550",
+        "T2": "BC550",
+        "U1": "9"
+    }
+}

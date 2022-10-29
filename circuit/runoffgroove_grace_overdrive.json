@@ -1,0 +1,27 @@
+{
+    "name": "Grace Overdrive",
+    "author": "Runoffgroove",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/runoffgroove-grace-overdrive.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100u",
+        "C2": "6n8",
+        "C3": "100n",
+        "D1": "LED",
+        "D2": "1N5817",
+        "P1_Drive": "1k",
+        "P2_Volume": "100k",
+        "Q1": "LM386",
+        "R1": "4M7",
+        "R2": "15k",
+        "R3": "3k3",
+        "T1": "J201",
+        "U1": "9"
+    }
+}

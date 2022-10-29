@@ -1,0 +1,33 @@
+{
+    "name": "RVIII Distortion",
+    "author": "Claudio Dias",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/09/rviii-distortion.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "100n",
+        "C3": "1n",
+        "C4": "10u",
+        "C5": "3n3",
+        "D1": "1N914",
+        "D2": "1N914",
+        "P1_Volume": "15k",
+        "R1": "3M3",
+        "R2": "1M",
+        "R3": "1M",
+        "R4": "2k7",
+        "R5": "4k7",
+        "R6": "22k",
+        "R7": "1k5",
+        "S1": "DPDT",
+        "T1": "BC109C",
+        "T2": "BC109C",
+        "U1": "9"
+    }
+}

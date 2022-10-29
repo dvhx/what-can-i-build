@@ -1,0 +1,26 @@
+{
+    "name": "Buzz Box",
+    "author": "Runoffgroove",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/09/runoffgroove-buzz-box.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "10u",
+        "C3": "100u",
+        "C4": "10u",
+        "D1": "1N4148",
+        "D2": "1N34A",
+        "P1_Volume": "100k",
+        "R1": "100k",
+        "R2": "100k",
+        "T1": "2N3904",
+        "T2": "2N3904",
+        "U1": "9"
+    }
+}

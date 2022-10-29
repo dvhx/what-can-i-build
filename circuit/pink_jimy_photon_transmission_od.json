@@ -1,0 +1,39 @@
+{
+    "name": "Transmission OD",
+    "author": "Pink Jimi Photon",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/06/pink-jimi-photons-transmission-od.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22n",
+        "C2": "100n",
+        "C3": "22n",
+        "C4": "22n",
+        "C5": "220p",
+        "C6": "47u",
+        "C7": "100u",
+        "C8": "470p",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "D3": "1N4001",
+        "D4": "1N4001",
+        "D5": "1N4001",
+        "PT1": "500k",
+        "P1_Balls": "1M",
+        "P2_Shift": "10k",
+        "P3_Tone": "1M",
+        "P4_Level": "1M",
+        "R1": "470",
+        "R2": "1M",
+        "R3": "10k",
+        "R4": "39k",
+        "R5": "22k",
+        "T1": "BC547",
+        "U1": "9"
+    }
+}

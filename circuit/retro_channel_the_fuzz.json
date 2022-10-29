@@ -1,0 +1,43 @@
+{
+    "name": "The Fuzz",
+    "author": "Retro Channel",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/08/retro-channel-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "1u",
+        "C2": "100n",
+        "C3": "10n",
+        "C4": "4u7",
+        "C5": "100n",
+        "C6": "100p",
+        "C7": "10n",
+        "C8": "47u",
+        "C9": "4u7",
+        "D1": "1N914",
+        "D2": "1N914",
+        "P1_Attack": "2k",
+        "P2_Level": "100k",
+        "Q1": "CA3046",
+        "R1": "1k",
+        "R2": "100k",
+        "R3": "1M",
+        "R4": "5k6",
+        "R5": "100k",
+        "R6": "5k6",
+        "R7": "5k6",
+        "R8": "18k",
+        "R9": "100k",
+        "R10": "10k",
+        "R11": "1k2",
+        "R12": "100k",
+        "R13": "680",
+        "R14": "620",
+        "U1": "9"
+    }
+}

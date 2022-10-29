@@ -1,0 +1,37 @@
+{
+    "name": "Dirty Sanchez",
+    "author": "Ultralord",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/02/ultralord-dirty-sanchez.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "1n",
+        "C4": "100n",
+        "C5": "10u",
+        "P1_Sag": "25k",
+        "P2_Contour": "100k",
+        "P3_Shape": "50k",
+        "P4_Volume": "100k",
+        "R1": "1k",
+        "R2": "1M",
+        "R3": "10k",
+        "R4": "47k",
+        "R5": "6k8",
+        "R6": "100",
+        "R7": "390",
+        "R8": "39k",
+        "R9": "10k",
+        "R10": "18k",
+        "T1": "MPSA13",
+        "T2": "2N5088",
+        "T3": "2N5088",
+        "U1": "9"
+    }
+}

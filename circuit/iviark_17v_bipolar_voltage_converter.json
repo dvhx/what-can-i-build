@@ -1,0 +1,27 @@
+{
+    "name": "17V bipolar voltage converter",
+    "author": "IvIark",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/01/providence-stampede-od-sov-2.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "10u",
+        "C3": "10u",
+        "C4": "100u",
+        "C5": "100u",
+        "C6": "100u",
+        "D1": "1N5817",
+        "D2": "1N5817",
+        "D3": "1N5817",
+        "D4": "1N5817",
+        "D5": "1N5817",
+        "Q1": "LT1054",
+        "U1": "9"
+    }
+}

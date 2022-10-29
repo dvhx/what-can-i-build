@@ -1,0 +1,31 @@
+{
+    "name": "Heavy Darling Fuzz",
+    "author": "Soulkitchen",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/10/soulkitchen-heavy-darling-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47u",
+        "C2": "10u",
+        "C3": "47n",
+        "C4": "47n",
+        "C5": "47n",
+        "D1": "1N5817",
+        "P1_Volume": "100k",
+        "R1": "1M",
+        "R2": "1k",
+        "R3": "1k5",
+        "R4": "10k",
+        "R5": "1M",
+        "R6": "220k",
+        "R7": "470k",
+        "T1": "MPSA13",
+        "T2": "2N3904",
+        "U1": "9"
+    }
+}

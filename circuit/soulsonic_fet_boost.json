@@ -1,0 +1,26 @@
+{
+    "name": "FET Boost",
+    "author": "Soulsonic",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/02/soulsonic-jfet-boost.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "1u",
+        "C2": "100n",
+        "C3": "22u",
+        "PT1": "5k",
+        "P1_Gain": "5k",
+        "R1": "330k",
+        "R2": "10k",
+        "R3": "1k",
+        "R4": "1M",
+        "R5": "100",
+        "T1": "2SK117",
+        "U1": "9"
+    }
+}

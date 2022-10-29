@@ -1,0 +1,27 @@
+{
+    "name": "Zonk II",
+    "author": "Sola Sound",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2017/05/sola-sound-zonk-ii.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "5u",
+        "C2": "10n",
+        "C3": "25u",
+        "C4": "25u",
+        "P1_Fuzz": "1k",
+        "P2_Swell": "100k",
+        "R1": "680k",
+        "R2": "47k",
+        "R3": "8k2",
+        "R4": "470k",
+        "T1": ["OC75", "Ge PNP"],
+        "T2": ["OC75", "Ge PNP"],
+        "U1": "9"
+    }
+}

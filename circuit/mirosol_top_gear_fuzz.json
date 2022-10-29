@@ -1,0 +1,28 @@
+{
+    "name": "Top Gear Fuzz",
+    "author": "mirosol",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/04/top-gear-fuzz-guild-grizzly.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10u",
+        "C2": "100n",
+        "C3": "10u",
+        "C4": "100n",
+        "P1_Boost": "220",
+        "P2_Volume": "22k",
+        "R1": "68k",
+        "R2": "2k2",
+        "R3": "10k",
+        "R4": "18k",
+        "R5": "220",
+        "T1": ["BC109", "BC184C"],
+        "T2": ["BC109", "BC184C"],
+        "U1": "9"
+    }
+}

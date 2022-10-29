@@ -1,0 +1,32 @@
+{
+    "name": "Stupid Box V1",
+    "author": "Subdecay",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/05/subdecay-stupid-box-v1.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "500p",
+        "C2": "2u2",
+        "C3": "22n",
+        "C4": "22n",
+        "C5": "100n",
+        "C6": "100u",
+        "D1": "1N914",
+        "D2": "1N914",
+        "P1_Gain": "100k",
+        "P2_Tone": "10k",
+        "P3_Volume": "50k",
+        "Q1": "TL071",
+        "R1": "100k",
+        "R2": "100k",
+        "R3": "470",
+        "R4": "1M",
+        "R5": "100k",
+        "U1": "9"
+    }
+}

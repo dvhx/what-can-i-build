@@ -1,0 +1,31 @@
+{
+    "name": "Sucker Punch",
+    "author": "Nick Greer",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/02/nick-greer-sucker-punch.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "22p",
+        "C2": "47u",
+        "C3": "10n",
+        "C4": "100n",
+        "C5": "22u",
+        "C6": "10n",
+        "C7": "22u",
+        "PT1": "100k",
+        "P1_Gain": "1M",
+        "P2_Tone": "100k",
+        "P3_Volume": "250k",
+        "Q1": "LM386",
+        "R1": "10k",
+        "R2": "1k5",
+        "R3": "2M2",
+        "T1": "J201",
+        "U1": "9"
+    }
+}

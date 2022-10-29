@@ -1,0 +1,40 @@
+{
+    "name": "Funk Machine V2",
+    "author": "Seamoon",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/07/seamoon-funk-machine-v2.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "4n7",
+        "C2": "4n7",
+        "C3": "4n7",
+        "C4": "1n",
+        "C5": "10u",
+        "C6": "100u",
+        "C7": "10u",
+        "C8": "47n",
+        "D1": "1N4001",
+        "D2": "1N4001",
+        "P1_Filter": "50k",
+        "P2_Depth": "50k",
+        "P3_Range": "50k",
+        "P4_Frequency Shift": "5M",
+        "Q1": "LM1458",
+        "R1": "47k",
+        "R2": "47k",
+        "R3": "470k",
+        "R4": "470k",
+        "R5": "10k",
+        "R6": "33k",
+        "R7": "2M2",
+        "R8": "100",
+        "R9": "47k",
+        "T1": "2N5088",
+        "U1": "9"
+    }
+}

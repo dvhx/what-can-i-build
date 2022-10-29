@@ -1,0 +1,27 @@
+{
+    "name": "Cream Pie",
+    "author": "Tone Factor",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2016/08/tone-factor-cream-pie.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47u",
+        "C2": "10n",
+        "C3": "100n",
+        "C4": "68n",
+        "D1": "1N4001",
+        "PT1": "50k",
+        "P1_Volume": "100k",
+        "P2_Gain": "5k",
+        "P3_Tone": "500k",
+        "R1": "2M2",
+        "R2": "3M3",
+        "T1": ["OC140", "AC187", "MP38A", "Ge NPN"],
+        "U1": "9"
+    }
+}

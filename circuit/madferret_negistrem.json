@@ -1,0 +1,27 @@
+{
+    "name": "Negistrem",
+    "author": "Madferret",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/negistremnegistron.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "47n",
+        "C4": "10n",
+        "C5": "1u",
+        "PT1": "1M",
+        "P1_Rate": "1M",
+        "PT2": "1M",
+        "R1": "100k",
+        "S1": "DPDT",
+        "T1": ["2N5457", "JFET_N"],
+        "T2": "2N2222",
+        "U1": "9"
+    }
+}

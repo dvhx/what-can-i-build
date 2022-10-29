@@ -1,0 +1,29 @@
+{
+    "name": "Hatchet Harry",
+    "author": "Rogue Sound",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/05/rogue-sound-hatchet-harry.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100p",
+        "C2": "1u",
+        "C3": "100n",
+        "C4": "22u",
+        "C5": "47u",
+        "P1_Attack": "1k",
+        "P2_Furry": "100k",
+        "R1": "1M",
+        "R2": "680k",
+        "R3": "47k",
+        "R4": "3k9",
+        "R5": "470k",
+        "T1": "BC337",
+        "T2": "BC337",
+        "U1": "9"
+    }
+}

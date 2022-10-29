@@ -1,0 +1,37 @@
+{
+    "name": "Mockman",
+    "author": "Runoffgroove",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/runoffgroove-mockman.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "10n",
+        "C2": "100u",
+        "C3": "47p",
+        "C4": "470p",
+        "C5": "10n",
+        "C6": "6n8",
+        "C7": "47n",
+        "C8": "47p",
+        "C9": "10u",
+        "P1_Volume": "50k",
+        "Q1": ["TL072", "JRC4558", "NE5532", "TLC2272"],
+        "R1": "1M",
+        "R2": "1M",
+        "R3": "10k",
+        "R4": "22k",
+        "R5": "22k",
+        "R6": "1M",
+        "R7": "10k",
+        "R8": "100k",
+        "R9": "100",
+        "R10": "1M",
+        "S1": "SPST",
+        "U1": "9"
+    }
+}

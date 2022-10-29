@@ -1,0 +1,24 @@
+{
+    "name": "PNP germanium buffer",
+    "author": "AMZ",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2010/02/pnp-germanium-buffer.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47u",
+        "C2": "1u",
+        "C3": "1u",
+        "R1": "470k",
+        "R2": "470k",
+        "R3": "1M",
+        "R4": "10k",
+        "R5": "1M",
+        "T1": "AC128",
+        "U1": "9"
+    }
+}

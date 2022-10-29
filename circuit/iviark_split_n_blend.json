@@ -1,0 +1,25 @@
+{
+    "name": "Split 'n' Blend",
+    "author": "IvIark",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/02/split-n-blend.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "100n",
+        "C4": "100u",
+        "P1_Blend": "100k",
+        "R1": "4k7",
+        "R2": "2M2",
+        "R3": "4k7",
+        "T1": ["BF245", "2N5457", "J201", "JFET_N"],
+        "T2": ["BF245", "2N5457", "J201", "JFET_N"],
+        "U1": "9"
+    }
+}

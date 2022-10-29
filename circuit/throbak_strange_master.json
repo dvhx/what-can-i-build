@@ -1,0 +1,30 @@
+{
+    "name": "Strange Master",
+    "author": "ThroBak",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2019/03/throbak-strange-master.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47u",
+        "C2": "220p",
+        "C3": "47u",
+        "C4": "4n7",
+        "C5": "10n",
+        "C6": "10n",
+        "P1_Boost": "10k",
+        "P2_Bias": "250k",
+        "R1": "470k",
+        "R2": "2M2",
+        "R3": "3k9",
+        "S1": "DPDT",
+        "S2": "SPDT",
+        "T1": ["2SD30", "Ge NPN"],
+        "T2": "2N2222",
+        "U1": "9"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Classic Fuzz",
+    "author": "Roger Mayer",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/roger-mayer-classic-fuzz.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "220p",
+        "C2": "2u2",
+        "C3": "10n",
+        "P1_Bias": "47k",
+        "P2_Drive": "2k",
+        "P3_Volume": "470k",
+        "R1": "100k",
+        "R2": "18k",
+        "R3": "1k",
+        "T1": "AC128",
+        "T2": "AC128",
+        "U1": "9"
+    }
+}

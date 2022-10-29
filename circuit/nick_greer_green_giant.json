@@ -1,0 +1,26 @@
+{
+    "name": "Green Giant",
+    "author": "Nick Greer",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/09/nick-greer-green-giant.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "P1_Clean mix": "25k",
+        "P2_Volume": "100k",
+        "R1": "2M2",
+        "R2": "47k",
+        "R3": "1M",
+        "R4": "680",
+        "T1": "2N3904",
+        "U1": "9"
+    }
+}

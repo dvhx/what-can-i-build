@@ -1,0 +1,26 @@
+{
+    "name": "Finish Line",
+    "author": "The Tone God",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/01/the-tone-god-finish-line.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "D1": "1N5817",
+        "P1_Drive": "10k",
+        "P2_Symmetry": "10k",
+        "P3_Level": "100k",
+        "Q1": "LM386",
+        "R1": "10k",
+        "R2": "10k",
+        "R3": "10u",
+        "R4": "1u",
+        "T1": "2N5088",
+        "T2": "2N5087",
+        "U1": "9"
+    }
+}

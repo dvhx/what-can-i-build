@@ -1,0 +1,30 @@
+{
+    "name": "Fuzz",
+    "author": "Orpheum",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/12/orpheum-fuzz.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "15u",
+        "C3": "5n",
+        "C4": "5n",
+        "C5": "100n",
+        "P1_Tone": "200k",
+        "P2_Volume": "250k",
+        "R1": "22k",
+        "R2": "10M",
+        "R3": "47k",
+        "R4": "47k",
+        "R5": "22k",
+        "R6": "1M",
+        "T1": ["AC128", "Ge PNP"],
+        "T2": ["AC128", "Ge PNP"],
+        "U1": "9"
+    }
+}

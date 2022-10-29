@@ -1,0 +1,36 @@
+{
+    "name": "Opamp 3 channel splitter",
+    "author": "Paul in the lab",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/05/opamp-3-channel-splittermixer.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "10u",
+        "C3": "10u",
+        "C4": "10u",
+        "C5": "47u",
+        "C6": "10u",
+        "C7": "10u",
+        "C8": "10u",
+        "C9": "10u",
+        "P1_Master": "100k",
+        "P2_Channel_1": "10k",
+        "P3_Channel_2": "10k",
+        "P4_Channel_3": "10k",
+        "Q1": "TL074",
+        "R1": "1M",
+        "R2": "10k",
+        "R3": "10k",
+        "R4": "10k",
+        "R5": "10k",
+        "R6": "10k",
+        "R7": "10k",
+        "U1": "9"
+    }
+}

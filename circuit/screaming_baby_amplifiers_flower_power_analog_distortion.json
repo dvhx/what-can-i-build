@@ -1,0 +1,28 @@
+{
+    "name": "Flower Power Analog Distortion",
+    "author": "Screaming Baby Amplifiers",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/02/screaming-baby-amplifiers-flower-power.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "1u",
+        "C2": "10u",
+        "C3": "100n",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "P1_Fuzz": "1k",
+        "P2_Level": "10k",
+        "R1": "1M",
+        "R2": "82k",
+        "R3": "10k",
+        "R4": "10k",
+        "T1": "2N3906",
+        "T2": "2N3906",
+        "U1": "9"
+    }
+}

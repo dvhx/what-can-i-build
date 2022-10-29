@@ -1,0 +1,26 @@
+{
+    "name": "Drive",
+    "author": "Trotsky",
+    "url": {
+        "schematic": "",
+        "stripboard": "",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "https://tagboardeffects.blogspot.com/2010/02/trotsky-drive.html",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "47n",
+        "C2": "100n",
+        "C3": "100n",
+        "D1": "1N34A",
+        "D2": "1N34A",
+        "P1_Pot1": "50k",
+        "P2_Pot2": "100k",
+        "R1": "2M2",
+        "R2": "680",
+        "R3": "3k3",
+        "T1": ["KT312", "2N3906", "2N2222"],
+        "U1": "9"
+    }
+}

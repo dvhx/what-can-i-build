@@ -1,0 +1,32 @@
+{
+    "name": "Omega",
+    "author": "Runoffgroove",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2013/01/runoffgroove-omega.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "3n3",
+        "C2": "220p",
+        "C3": "4u7",
+        "C4": "4u7",
+        "D1": "LED",
+        "PT1": "100k",
+        "P1_Range": "500k",
+        "P2_Master": "10k",
+        "R1": "1M",
+        "R2": "22k",
+        "R3": "33k",
+        "R4": "68k",
+        "R5": "33k",
+        "R6": "1M",
+        "R7": "3k3",
+        "T1": "J201",
+        "T2": "2N7000",
+        "U1": "9"
+    }
+}

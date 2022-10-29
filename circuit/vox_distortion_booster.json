@@ -1,0 +1,27 @@
+{
+    "name": "Distortion Booster",
+    "author": "VOX",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2018/01/vox-distortion-booster-v2.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "100n",
+        "C3": "10u",
+        "P1_Volume": "50k",
+        "P2_Distortion": "5k",
+        "R1": "18k",
+        "R2": "68k",
+        "R3": "2k7",
+        "R4": "10k",
+        "R5": "270",
+        "T1": "BC108A",
+        "T2": "BC108A",
+        "U1": "9"
+    }
+}

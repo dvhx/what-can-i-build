@@ -1,0 +1,43 @@
+{
+    "name": "Mr. Squishy Compressor",
+    "author": "Toadworks",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/05/toadworks-mr-squishy-compressor.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "4u7",
+        "C2": "100n",
+        "C3": "220p",
+        "C4": "4u7",
+        "C5": "100n",
+        "C6": "4u7",
+        "C7": "100u",
+        "C8": "4u7",
+        "C9": "560p",
+        "D1": "1N914",
+        "P1_Input": "500k",
+        "P2_Squish": "10k",
+        "P3_Level": "10k",
+        "Q1": "JRC4558",
+        "R1": "220k",
+        "R2": "4M7",
+        "R3": "10k",
+        "R4": "2k1",
+        "R5": "470k",
+        "R6": "20k",
+        "R7": "470k",
+        "R8": "100k",
+        "R9": "470k",
+        "R10": "470k",
+        "R11": "22k",
+        "R12": "6k2",
+        "T1": "2N5457",
+        "T2": "2N5457",
+        "U1": "9"
+    }
+}

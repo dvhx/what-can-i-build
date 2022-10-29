@@ -1,0 +1,33 @@
+{
+    "name": "Noisy Cricket MkII",
+    "author": "Runoffgroove",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/04/noisy-cricket-mkii.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "220u",
+        "C3": "47n",
+        "C4": "220u",
+        "C5": "100n",
+        "C6": "100n",
+        "C7": "100n",
+        "P1_Gain": "1k",
+        "P2_Tone": "100k",
+        "P3_Volume": "10k",
+        "Q1": "LM386",
+        "R1": "1M",
+        "R2": "3k3",
+        "R3": "4k7",
+        "R4": "10",
+        "S1": "SPST",
+        "S2": "DPDT",
+        "T1": "MPF102",
+        "U1": "9"
+    }
+}

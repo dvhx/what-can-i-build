@@ -1,0 +1,38 @@
+{
+    "name": "WTF Fuzz",
+    "author": "J. Rocket",
+    "url": {
+        "schematic": "https://4.bp.blogspot.com/-Oh8xK-qlGU8/VIbgu7Dux7I/AAAAAAAAIsU/UL0pLCyxA3Y/s1600/Rockett%2BWTF.png",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/12/rockett-wtf.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "100n",
+        "C2": "470p",
+        "C3": "47p",
+        "C4": "100n",
+        "C5": "22n",
+        "C6": "47u",
+        "C7": "4n7",
+        "C8": "18n",
+        "D1": "1N4148",
+        "D2": "1N4148",
+        "P1_Gain": "100k",
+        "P2_Volume": "100k",
+        "P3_Boost": "100k",
+        "P4_Log": "100k",
+        "R1": "560k",
+        "R2": "1k",
+        "R3": "560k",
+        "R4": "18k",
+        "R5": "150k",
+        "R6": "1k",
+        "S1": "DPDT",
+        "T1": ["2N2222", "2N5088"],
+        "T2": ["2N3906", "2N2907"],
+        "U1": "9"
+    }
+}

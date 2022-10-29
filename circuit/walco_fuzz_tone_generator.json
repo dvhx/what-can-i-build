@@ -1,0 +1,31 @@
+{
+    "name": "Fuzz Tone Generator",
+    "author": "Walco",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2014/03/walco-fuzz-tone-generator.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "4n7",
+        "C2": "4n7",
+        "C3": "100n",
+        "C4": "10n",
+        "C5": "470p",
+        "D1": "1N5817",
+        "P1_Fuzz": "50k",
+        "R1": "18k",
+        "R2": "1M",
+        "R3": "12k",
+        "R4": "820k",
+        "R5": "330k",
+        "R6": "4k7",
+        "R7": "470k",
+        "T1": ["2SC828", "2N3904", "2N5088"],
+        "T2": ["2SC828", "2N3904", "2N5088"],
+        "U1": "9"
+    }
+}

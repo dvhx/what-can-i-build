@@ -1,0 +1,41 @@
+{
+    "name": "Odie",
+    "author": "Runoffgroove",
+    "url": {
+        "schematic": "",
+        "stripboard": "https://tagboardeffects.blogspot.com/2012/09/runoffgroove-odie.html",
+        "perfboard": "",
+        "pcb": "",
+        "tagboard": "",
+        "pedal": ""
+    },
+    "parts": {
+        "C1": "1n",
+        "C2": "4u7",
+        "C3": "2u2",
+        "C4": "3n3",
+        "C5": "100u",
+        "C6": "3n3",
+        "C7": "6n8",
+        "C8": "22n",
+        "C9": "1n",
+        "PT1": "100k",
+        "P1_Drive": "250k",
+        "PT2": "100k",
+        "P2_Tone": "100k",
+        "P3_Volume": "100k",
+        "R1": "22k",
+        "R2": "1M",
+        "R3": "1k",
+        "R4": "1M",
+        "R5": "1k",
+        "R6": "1M",
+        "R7": "3k",
+        "R8": "10k",
+        "R9": "1M5",
+        "T1": ["J201", "MPF102", "2N5457"],
+        "T2": ["J201", "MPF102", "2N5457"],
+        "T3": ["J201", "MPF102", "2N5457"],
+        "U1": "9"
+    }
+}
