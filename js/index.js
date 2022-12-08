@@ -263,6 +263,10 @@ window.addEventListener('DOMContentLoaded', function () {
     SC.e.filter_show_done.onclick = SC.refresh;
     SC.e.plus_10_resistor.onclick = SC.plusTenAll;
     SC.e.plus_10_capacitor.onclick = SC.plusTenAll;
+    SC.e.plus_10_pot.onclick = SC.plusTenAll;
+    SC.e.plus_10_pot_trimmer.onclick = SC.plusTenAll;
+    SC.e.plus_10_diode.onclick = SC.plusTenAll;
+    SC.e.plus_10_switch.onclick = SC.plusTenAll;
     SC.showParts();
     SC.refresh();
     SC.checkNewCircuits();

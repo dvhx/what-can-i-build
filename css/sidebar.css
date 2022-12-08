@@ -60,7 +60,7 @@ input[type=number]::-webkit-outer-spin-button {
     opacity: 1;
 }
 
-#plus_10_resistor, #plus_10_capacitor {
+#plus_10_resistor, #plus_10_capacitor, .plus10all {
     float: right;
     color: blue;
     cursor: pointer;
