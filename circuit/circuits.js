@@ -1852,7 +1852,7 @@ window.SC.circuit['burns_buzzaround'] = {
         "C4": "4u7",
         "C5": "4u7",
         "C6": "100u",
-        "D1": "Ge DIODE",
+        "D1": "Ge Diode",
         "P1_Sustain": "100k",
         "P2_Balance": "5k",
         "P3_Timbre": "100k",
