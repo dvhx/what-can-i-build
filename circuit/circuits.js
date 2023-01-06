@@ -375,7 +375,7 @@ window.SC.circuit['amz_pnp_germanium_buffer'] = {
         "R3": "1M",
         "R4": "10k",
         "R5": "1M",
-        "T1": "AC128",
+        "T1": ["AC128", "Ge PNP"],
         "U1": "9"
     }
 };
@@ -650,9 +650,9 @@ window.SC.circuit['arc_effects_b3'] = {
         "R6": "10k",
         "R7": "3k3",
         "R8": "15k",
-        "T1": "NKT213",
-        "T2": "NKT213",
-        "T3": "NKT213",
+        "T1": ["NKT213", "Ge PNP"],
+        "T2": ["NKT213", "Ge PNP"],
+        "T3": ["NKT213", "Ge PNP"],
         "U1": "9"
     }
 };
@@ -1864,9 +1864,9 @@ window.SC.circuit['burns_buzzaround'] = {
         "R6": "10k",
         "R7": "15k",
         "R8": "27k",
-        "T1": "NKT213",
-        "T2": "NKT213",
-        "T3": "NKT213",
+        "T1": ["NKT213", "Ge PNP"],
+        "T2": ["NKT213", "Ge PNP"],
+        "T3": ["NKT213", "Ge PNP"],
         "U1": "9"
     }
 };
@@ -4039,7 +4039,7 @@ window.SC.circuit['ehx_germanium_fuzz'] = {
         "R7": "100k",
         "R8": "10k",
         "R9": "62k",
-        "T1": "NKT275",
+        "T1": ["NKT275", "Ge PNP"],
         "T2": "2N5087",
         "T3": "2N5087",
         "U1": "9"
@@ -5333,7 +5333,7 @@ window.SC.circuit['harmonic_percolator'] = {
         "R4": "750k",
         "R5": "91k",
         "S1": "SPST",
-        "T1": "2N404A",
+        "T1": ["2N404A", "Ge PNP"],
         "T2": "2N3565",
         "U1": "9"
     }
@@ -8836,8 +8836,8 @@ window.SC.circuit['roger_mayer_classic_fuzz'] = {
         "R1": "100k",
         "R2": "18k",
         "R3": "1k",
-        "T1": "AC128",
-        "T2": "AC128",
+        "T1": ["AC128", "Ge PNP"],
+        "T2": ["AC128", "Ge PNP"],
         "U1": "9"
     }
 };
@@ -10061,8 +10061,8 @@ window.SC.circuit['zvex_fuzz_factory'] = {
         "R5": "5k1",
         "R6": "220k",
         "T1": "2N3904",
-        "T2": "AC128",
-        "T3": "AC128",
+        "T2": ["AC128", "Ge PNP"],
+        "T3": ["AC128", "Ge PNP"],
         "U1": "9"
     }
 };
