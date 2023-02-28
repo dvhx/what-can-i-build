@@ -1,4 +1,4 @@
-// Canvas (custom build 2022-10-16--15-56-07)
+// Canvas (custom build 2023-02-19--14-58-04)
 "use strict";
 // globals: document, window
 
@@ -669,6 +669,117 @@ CA.storage = (function () {
     return self;
 }());
 
+
+// file: table.js
+// Render html table from data
+// globals: document, window
+
+
+CA.table = function (aParent, aData, aTrCallbackECR, aThCallbackECR, aTdCallbackECR) {
+    // Create HTML table from data
+    var self = {}, k, th, tr, td, i, j, every = [];
+    self.parent = aParent === 'string' ? document.getElementById(aParent) : aParent;
+    self.table = document.createElement('table');
+    self.onclicktr = null;
+    self.onclickth = null;
+    self.onclicktd = null;
+    self.tr = [];
+
+    function handleClick(event, aNodeName, aCallbackElementColumnRow) {
+        if (!aCallbackElementColumnRow) {
+            return;
+        }
+        var e = event.target, element, column, row;
+        do {
+            column = column || e.dataColumn;
+            row = row || e.dataRow;
+            if (!element && e.nodeName === aNodeName) {
+                element = e;
+            }
+            e = e.parentElement;
+        } while (e && !element);
+        //console.log(aNodeName, element, column, row);
+        aCallbackElementColumnRow(element, column, row);
+    }
+
+    function handleClickTR(event) {
+        handleClick(event, 'TR', self.onclicktr);
+    }
+
+    function handleClickTH(event) {
+        handleClick(event, 'TH', self.onclickth);
+    }
+
+    function handleClickTD(event) {
+        handleClick(event, 'TD', self.onclicktd);
+    }
+
+    // header
+    self.header = document.createElement('tr');
+    self.header.dataRow = -1;
+    self.header.onclick = handleClickTR;
+    for (k in aData[0]) {
+        if (aData[0].hasOwnProperty(k)) {
+            th = document.createElement('th');
+            th.textContent = k;
+            th.dataColumn = k;
+            th.onclick = handleClickTH;
+            if (aThCallbackECR) {
+                aThCallbackECR(th, k, -1);
+            }
+            self.header.appendChild(th);
+        }
+    }
+    if (aTrCallbackECR) {
+        aTrCallbackECR(self.header, '', -1);
+    }
+    self.table.appendChild(self.header);
+
+    // in case attributes are different in each row
+    every = {};
+    for (i = 0; i < aData.length; i++) {
+        for (k in aData[i]) {
+            if (aData[i].hasOwnProperty(k)) {
+                every[k] = 1;
+            }
+        }
+    }
+    every = Object.keys(every);
+    // console.log(every);
+
+    // rows
+    for (i = 0; i < aData.length; i++) {
+        tr = document.createElement('tr');
+        tr.dataRow = i;
+        tr.onclick = handleClickTR;
+        self.tr.push(tr);
+        for (j = 0; j < every.length; j++) {
+            k = every[j];
+        //for (k in aData[i]) {
+          //  if (aData[i].hasOwnProperty(k)) {
+            td = document.createElement('td');
+            if (aData[i][k] instanceof HTMLElement) {
+                td.appendChild(aData[i][k]);
+            } else {
+                td.textContent = aData[i][k];
+            }
+            td.dataColumn = k;
+            td.dataRow = i;
+            td.onclick = handleClickTD;
+            if (aTdCallbackECR) {
+                aTdCallbackECR(td, k, i);
+            }
+            tr.appendChild(td);
+            //}
+        }
+        if (aTrCallbackECR) {
+            aTrCallbackECR(tr, '', i);
+        }
+        self.table.appendChild(tr);
+    }
+    self.parent.appendChild(self.table);
+    return self;
+};
 
 // file: utils/elementsWithId.js
 CA.elementsWithId = function () {

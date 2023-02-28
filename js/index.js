@@ -4,15 +4,6 @@
 
 var SC = window.SC || {};
 
-SC.nameToType = function (aName, aCircuit) {
-    // Converts PT7 to "pot_trimmer"
-    var n = aName.match(/^[A-Z]+/)[0];
-    if (SC.types[n]) {
-        return SC.types[n];
-    }
-    alert("Unknown part type " + aName + ' in ' + aCircuit);
-};
-
 SC.refresh = function () {
     // Refresh view of possible circuits after counts update or checkbox change
     var f = SC.filter(SC.circuit, SC.counts),
