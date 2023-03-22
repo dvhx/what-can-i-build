@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>What can I build - Stats</title>
+    <title>What can I build - Search</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
@@ -14,6 +14,9 @@
     <style>
     tr:hover { background-color: transparent !important; }
     td > div { white-space: nowrap; }
+    output a {
+        display: block;
+    }
     </style>
 
     <script type="text/javascript" src="depend/canvas/canvas.src.js?version=270"></script>
@@ -23,14 +26,16 @@
     <script type="text/javascript" src="js/global.js?version=270"></script>
     <script type="text/javascript" src="js/utils.js?version=270"></script>
     <script type="text/javascript" src="js/engineering.js?version=270"></script>
-    <script type="text/javascript" src="js/stats.js?version=270"></script>
+    <script type="text/javascript" src="js/search.js?version=270"></script>
 
   </head>
   <body>
-     <h3>Most commonly used parts in
-     <b><script>document.write(Object.keys(SC.circuit).length)</script></b> pedal circuits.
+     <h3>Single part search from <b id="count"></b> pedal circuits.
      <a href="https://github.com/dvhx/what-can-i-build">Source.</a></h3>
 
+     <p>Part name <select id="name" autofocus><option selected disable>Choose part</option></select></p>
+
+     <output id="output"></output>
 
 
   </body>
