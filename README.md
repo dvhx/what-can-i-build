@@ -5,4 +5,6 @@ Try it online: [what-can-i-build](https://dvhx.github.io/what-can-i-build/)
 
 Statistics of most commonly used parts: [stats](https://dvhx.github.io/what-can-i-build/stats.html)
 
+Single part search: [search](https://dvhx.github.io/what-can-i-build/search.html)
+
 You can support development on [Patreon](https://www.patreon.com/DusanHalicky)
