@@ -215,38 +215,6 @@ SC.exact = function (aPartsCounts) {
     console.log(ret.join('\n'));
 };
 
-SC.singlePartSearch = function (aPart) {
-    // Search circuits with this part
-    var c, p, i, a, u = {}, r, url, name;
-    for (c in SC.circuit) {
-        if (SC.circuit.hasOwnProperty(c)) {
-            for (p in SC.circuit[c].parts) {
-                if (SC.circuit[c].parts.hasOwnProperty(p)) {
-                    a = SC.circuit[c].parts[p];
-                    if (!Array.isArray(a)) {
-                        a = [a];
-                    }
-                    for (i = 0; i < a.length; i++) {
-                        if (a[i] === aPart) {
-                            url = '';
-                            for (r in SC.circuit[c].url) {
-                                if (SC.circuit[c].url.hasOwnProperty(r)) {
-                                    url = url || SC.circuit[c].url[r];
-                                }
-                            }
-                            name = SC.circuit[c].name + ' by ' + SC.circuit[c].author;
-                            u[c] = '- [' + name + '](' + url + ')';
-                        }
-                    }
-                }
-            }
-        }
-    }
-    r = Object.values(u).sort().join('\n');
-    console.log(r);
-    return u;
-};
-
 window.addEventListener('DOMContentLoaded', function () {
     SC.e = CA.elementsWithId();
     SC.e.filter_show_possible.onclick = SC.refresh;
