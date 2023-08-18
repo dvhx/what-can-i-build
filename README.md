@@ -7,4 +7,6 @@ Statistics of most commonly used parts: [stats](https://dvhx.github.io/what-can-
 
 Single part search: [search](https://dvhx.github.io/what-can-i-build/search.html)
 
+Sorted by simplest first: [simplest](https://dvhx.github.io/what-can-i-build/simplest.html)
+
 You can support development on [Patreon](https://www.patreon.com/DusanHalicky)
