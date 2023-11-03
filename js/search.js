@@ -56,7 +56,7 @@ window.addEventListener('DOMContentLoaded', function () {
         }
         console.log('r', r);
     };
-    var c, p, u = {}, a, i, f, o, url_part = document.location.search.replace('?part=', '');
+    var c, p, u = {}, a, i, f, o, url_part = decodeURIComponent(document.location.search.replace('?part=', ''));
     for (c in SC.circuit) {
         if (SC.circuit.hasOwnProperty(c)) {
             for (p in SC.circuit[c].parts) {
